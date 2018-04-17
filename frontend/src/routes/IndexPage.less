@@ -1,0 +1,170 @@
+.banner {
+  width: 100%;
+  text-align: center;
+  background: url(../assets/roseBg.jpg) no-repeat;
+  background-size: 100%;
+  z-index: 1;
+
+  img {
+    width: 22%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+  }
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+
+  .prefer {
+    width: 100%;
+    &>img {
+      margin-top: 10px;
+    }
+  }
+
+  .face {
+    margin:10px 0 30px;
+
+    .preTitImg {
+      width: 100%;
+    }
+
+    .goods {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .clothing {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+
+    .image {
+     width: 44%;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .subject {
+      width: 56%;
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 4px;
+    }
+  }
+
+  .brand {
+    margin: 40px;
+
+    hr {
+      width: 108%;
+      position: relative;
+      left: -4%;
+      border: none;
+      border-top: 2px solid #ef2751;
+      top: -35px;
+      z-index: -1;
+    }
+
+    .container {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin: 20px auto;
+    }
+  }
+
+  .side {
+    z-index: -1;
+    position: fixed;
+    top:18%;
+    left: 3%;
+
+    ul {
+      width: 60px;
+      border-bottom: 2px solid #ef2751;
+
+      li {
+        height: 60px;
+        border-bottom: 1px dotted #ef2751;
+        color: #ef2751;
+
+        a {
+          display: inline-block;
+          width: 100%;
+          height: 100%;
+          padding-top: 20px;
+        }
+
+        &:nth-child(1) {
+          font-size: 14px;
+          padding-top: 14px;
+          border-bottom: 1px solid #fff;
+        }
+
+        &:hover, &:active, &:nth-child(1) {
+          background-color: #ef2751;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    width: 100%;
+
+    .face {
+      margin: 0;
+    }
+
+    .prefer, .brand {
+      margin-top: 0;
+
+      &>img {
+        width: 160px;
+        margin: 2px auto;
+      }
+    }
+
+    .clothing {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 10px;
+
+      .image {
+        width: 100%;
+        margin-bottom: 2px;
+      }
+
+      .subject {
+        width: 97%;
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+
+    .brand {
+      margin: 10px;
+
+      hr {
+        width: 98%;
+        left: 1%;
+        top: -18px;
+      }
+    }
+
+    .side {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,5 @@
+[0412/200815.908:ERROR:process_info.cc(329)] VirtualQueryEx: 拒绝访问。 (0x5)
+[0412/200816.002:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0412/200816.002:ERROR:process_reader_win.cc(242)] ReadMemory at 0x663dd060 of 12 bytes failed: 仅完成部分的 ReadProcessMemory 或 WriteProcessMemory 请求。 (0x12B)
+[0412/200816.002:WARNING:process_snapshot_win.cc(69)] ReadMemory ExceptionInformation failed
+[0412/200816.002:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed

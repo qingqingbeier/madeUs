@@ -1,0 +1,39 @@
+*, html, body, li, a, input, textarea {
+  font-size: 12px;
+  font-family: Arial, "Microsoft Yahei", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+html, body, :global(#root) {
+  height: 100%;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background: url(./assets/buy.png);
+}
+
+button:focus {
+  outline: none;
+}
+
+button, input, textarea, th, td { margin: 0; padding: 0; }
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+body{font-size: 14px; color: #333;}
+*::before,*::after{ box-sizing: border-box;}
+.f-left{float: left; }
+.f-right{float: right; }
+.hide{display: none;}
+li{list-style: none;}
+a{text-decoration: none; color: #000}
+.clear-f{clear: both;}
+img{border: 0 none;}
+.hr-10{background-color: #f4f4f4;height: 10px;}
+p,ol,ul,dl {
+  margin-bottom: 0 !important;
+}
+h1,h2,h3,h4 {
+  margin-bottom: 0 !important;
+}
+
