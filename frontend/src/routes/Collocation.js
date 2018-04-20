@@ -49,7 +49,7 @@ class Collocation extends Component{
   render () {
     return (
       <div>
-        <Header/>
+        <Header nowActiveKey="key3"/>
         <div className={styles.banner}>
           <div className={styles.swiper_container} ref="swiperContainer">
             <div className="swiper-wrapper">

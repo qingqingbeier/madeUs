@@ -17,7 +17,7 @@ function Cosmetics() {
 
   return (
     <div>
-      <Header/>
+      <Header nowActiveKey="key5"/>
       <div className={styles.banner}>
         <img src={cosBanner}/>
       </div>

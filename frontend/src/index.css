@@ -26,7 +26,9 @@ body{font-size: 14px; color: #333;}
 .f-right{float: right; }
 .hide{display: none;}
 li{list-style: none;}
-a{text-decoration: none; color: #000}
+a{text-decoration: none;
+  color: #000;
+  cursor: pointer;  }
 .clear-f{clear: both;}
 img{border: 0 none;}
 .hr-10{background-color: #f4f4f4;height: 10px;}

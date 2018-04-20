@@ -1,24 +1,30 @@
 .wrap {
   //border: 1px solid #ccc;
-  flex: 1 1 auto;
+  flex: 1 1 26%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin: 10px;
-  padding: 20px;
+  padding: 20px 20px 15px;
   text-align: left;
+  background-color: #fff;
 
   .image {
     width: 100%;
+    padding-bottom: 15px;
 
     img {
       width: 100%;
     }
   }
 
+  .description {
+    width: 100%;
+  }
+
   .button {
     display: flex;
-    flex-wrap: wrap;
+    align-items: flex-start;
     margin-top: 10px;
 
     .price {
@@ -36,17 +42,24 @@
     .buy {
       width: 90px;
       height: 28px;
-      vertical-align: bottom;
+      color: #fff;
     }
   }
 }
 
 @media screen and (max-width: 768px) {
   .wrap {
-    margin: 0 10px 10px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
     .image {
-      width: 100%;
+      text-align: center;
+      padding-bottom: 5px;
+
+      img {
+        width: 90%;
+      }
       //border: 1px solid #ccc;
     }
 

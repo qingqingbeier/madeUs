@@ -1,16 +1,26 @@
 .wrap {
   background-color: #e6f3df;
+  position: relative;
 }
 
-.banner {
+.top {
   width: 100%;
 
-  img {
+ .topImage {
     width: 100%;
   }
 }
 
+.banner {
+  z-index: 3;
+}
+
+.man {
+  margin: 0 auto;
+}
+
 .classify {
+  overflow: hidden;
   ul {
     width: 70%;
     margin: 0 auto;
@@ -19,7 +29,7 @@
     justify-content: space-around;
 
     li {
-      border: 2px solid #335a0b;
+      border: 2px solid #52ad6a;
       border-radius: 5%;
       text-align: center;
       background-color: #fff;
@@ -32,7 +42,7 @@
       }
 
       h2 {
-        color: #335a0b;
+        color: #52ad6a;
         font-size: 18px;
         font-weight: bold;
       }
@@ -46,19 +56,20 @@
   text-align: center;
 
   .title {
-    margin: 25px auto 20px;
+    margin: 35px auto 42px;
+    max-width: 80%;
   }
 
   .star {
     display: flex;
     justify-content: space-around;
-    padding-top: 20px;
     padding-bottom: 20px;
   }
 
   .items {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: -20px;
   }
 
@@ -66,6 +77,37 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    width: 94%;
+
+    .title {
+      margin: 20px auto 20px;
+    }
+
+    .star {
+      width: 90%;
+      margin: 0 auto;
+
+      div {
+        img {
+          width: 80%;
+        }
+      }
+    }
+
+    .classify {
+      ul {
+        width: 80%;
+      }
+    }
+
+    .items {
+      margin-top: 0;
+    }
   }
 }

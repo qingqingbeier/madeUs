@@ -1,6 +1,6 @@
 import buy from './buy.png'
 import eyes from './eyes.png'
-import face from './face.png'
+import face from './face_2.png'
 import float from './float.jpg'
 import lips from './lips.png'
 import logo from './logo.png'
@@ -10,7 +10,7 @@ import logo_3 from './logo_3.png'
 import other from './other.png'
 import roseBg from './roseBg.jpg'
 import collocationBanner from './collocBanner_01.png'
-import titleBrand from './title_pinpai_03.png'
+import titleBrand from './title_pinpai.png'
 import titlePreferred from './title_youxuan.png'
 import redManWears from './redManWears.png'
 import cosBanner from './cosmeticsImg/banner.png'
@@ -20,7 +20,10 @@ import pony_3 from './cosmeticsImg/pony_3.png'
 import title_1 from './cosmeticsImg/title_1.png'
 import title_2 from './cosmeticsImg/title_2.png'
 import title_3 from './cosmeticsImg/title_3.png'
-import clothBanner from './clothMaImg/banner.png'
+import clothBanner from './clothMaImg/banner_3.png'
+import clothMan_1 from './clothMaImg/man_1.png'
+import clothMan_2 from './clothMaImg/man_2.png'
+import clothFloat from './clothMaImg/float_04.png'
 import star_1 from './clothMaImg/star_1.png'
 import star_2 from './clothMaImg/star_2.png'
 import star_3 from './clothMaImg/star_3.png'
@@ -64,6 +67,9 @@ export {
   title_2,
   title_3,
   clothBanner,
+  clothMan_1,
+  clothMan_2,
+  clothFloat,
   star_1,
   star_2,
   star_3,

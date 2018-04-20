@@ -19,6 +19,42 @@ import cloth_03 from './clothImg/优雅气质装_01.jpg'
 import cloth_04 from './clothImg/懒人出街装_01.jpg'
 import cloth_05 from './clothImg/懒人出街装_02.jpg'
 import cloth_06 from './clothImg/踏青赏花装_01.jpg'
+import clothMall_01 from './clothImg/01.jpg'
+import clothMall_02 from './clothImg/02.jpg'
+import clothMall_03 from './clothImg/03.jpg'
+import clothMall_04 from './clothImg/04.jpg'
+import clothMall_05 from './clothImg/05.jpg'
+import clothMall_06 from './clothImg/06.jpg'
+import clothMall_07 from './clothImg/07.jpg'
+import clothMall_08 from './clothImg/08.jpg'
+import clothMall_09 from './clothImg/09.jpg'
+import clothMall_10 from './clothImg/10.jpg'
+import clothMall_11 from './clothImg/11.jpg'
+import clothMall_12 from './clothImg/12.jpg'
+import clothMall_13 from './clothImg/13.jpg'
+import clothMall_14 from './clothImg/14.jpg'
+import clothMall_15 from './clothImg/15.jpg'
+import clothMall_16 from './clothImg/16.jpg'
+import clothMall_17 from './clothImg/17.jpg'
+import clothMall_18 from './clothImg/18.jpg'
+import clothMall_19 from './clothImg/19.jpg'
+import clothMall_20 from './clothImg/20.jpg'
+import clothMall_21 from './clothImg/21.jpg'
+import clothMall_22 from './clothImg/22.jpg'
+import clothMall_23 from './clothImg/23.jpg'
+import clothMall_24 from './clothImg/24.jpg'
+import clothMall_25 from './clothImg/25.jpg'
+import clothMall_26 from './clothImg/26.jpg'
+import clothMall_27 from './clothImg/27.jpg'
+import clothMall_28 from './clothImg/28.jpg'
+import clothMall_29 from './clothImg/29.jpg'
+import clothMall_30 from './clothImg/30.jpg'
+import clothMall_31 from './clothImg/31.jpg'
+import clothMall_32 from './clothImg/32.jpg'
+import clothMall_33 from './clothImg/33.jpg'
+import clothMall_34 from './clothImg/34.jpg'
+import clothMall_35 from './clothImg/35.jpg'
+import clothMall_36 from './clothImg/36.jpg'
 import alafortanfoni from './brand/alafortanfoni.jpg'
 import c_section from './brand/c-section.jpg'
 import gen3 from './brand/gen3.jpg'
@@ -31,8 +67,8 @@ import videoBg_01 from './makeUpKit/bg_01.png'
 import videoBg_02 from './makeUpKit/bg_02.png'
 import videoBg_03 from './makeUpKit/bg_03.png'
 import cover_01 from './makeUpKit/少女系樱桃妆容.png'
-import cover_02 from './makeUpKit/bg_02.png'
-import cover_03 from './makeUpKit/bg_03.png'
+import cover_02 from './makeUpKit/春日赤茶妆.jpg'
+import cover_03 from './makeUpKit/圣诞桃花妆容.jpg'
 import video_01 from './makeUpKit/少女系樱桃妆容.mp4'
 import video_02 from './makeUpKit/春日赤茶妆.mp4'
 import video_03 from './makeUpKit/明艳圣诞妆容.mp4'
@@ -95,15 +131,15 @@ const faceData = [
   },
   {
     image: face_02,
-    description: "玛丽黛佳元气橙花素颜霜50g",
-    price: "99",
-    originalPrice: "129"
+    description: "艾医生樱花水光气垫",
+    price: "169",
+    originalPrice: "199"
   },
   {
     image: face_03,
-    description: "玛丽黛佳 中国•玛丽黛佳(Marie Dalgar)光影戏法立体粉7g",
-    price: "118",
-    originalPrice: "118"
+    description: "LANEIGE兰芝雪纱丝柔防晒隔离霜#40 30ml",
+    price: "158",
+    originalPrice: "158"
   },
 ];
 
@@ -197,6 +233,226 @@ const clothData = [
   },
 ];
 
+const clothMallData = [
+  {
+    image: clothMall_01,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+
+  },
+  {
+    image: clothMall_02,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_03,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_04,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_05,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_06,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_07,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_08,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_09,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_10,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_11,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_12,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_13,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_14,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_15,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_16,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_17,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_18,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_19,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_20,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_21,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_22,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_23,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_24,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_25,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_26,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_27,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_28,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_29,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_30,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_31,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_32,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_33,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_34,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_35,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  },
+  {
+    image: clothMall_36,
+    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: "49",
+    originalPrice: "169"
+  }
+];
+
 const brandData = [
   {
     image: alafortanfoni,
@@ -268,6 +524,7 @@ const videoData = [
   },
   {
     bgImg: videoBg_02,
+    cover: cover_02,
     video: video_02,
     pro_01:{
       description: "仇大哥 泰国RAY蚕丝面膜金银色补水保湿收缩毛孔抗皱去痘印",
@@ -292,6 +549,7 @@ const videoData = [
   },
   {
     bgImg: videoBg_03,
+    cover: cover_03,
     video: video_03,
     pro_01:{
       description: "方恰拉推荐英国W7眼影盘9色大地系南瓜色珠光哑光不飞粉持久显色",
@@ -441,4 +699,5 @@ const brandShopData = [
 
 
 
-export { faceData, eyesData, lipsData, otherData, clothData, brandData, videoData, suitData, brandShopData };
+export { faceData, eyesData, lipsData, otherData, clothData, brandData,
+  videoData, suitData, brandShopData, clothMallData,};

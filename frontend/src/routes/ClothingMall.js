@@ -6,29 +6,32 @@ import React from 'react';
 import { connect } from 'dva';
 import styles from './ClothingMall.less';
 import  Header from '../components/Header';
-import {clothBanner, star_1, star_2, star_3, clothTitle_1, clothTitle_2, clothTitle_3, clothTitle_4, clothPng_1, clothPng_2,
+import {clothBanner, clothMan, clothFloat, star_1, star_2, star_3, clothTitle_1, clothTitle_2, clothTitle_3, clothTitle_4, clothPng_1, clothPng_2,
   clothPng_3,clothPng_4,clothPng_5,clothPng_6,clothPng_7,clothPng_8,clothPng_9,clothPng_10} from '../assets/index';
 import Goods from '../components/Goods';
 import Footer from '../components/Footer';
-import CosCategory from '../components/CosCategory/CosCategory';
 import BrandShop from '../components/BrandShop';
-import { faceData, eyesData, lipsData, otherData, brandShopData } from '../mock/data';
+import ClothBanner from '../components/clothBanner/ClothBanner';
+import { clothMallData, brandShopData } from '../mock/data';
 
 function ClothingMall() {
 
   return (
     <div className={styles.wrap}>
-      <Header/>
+      <Header nowActiveKey="key6"/>
+      <div className={styles.top}>
+        <img className={styles.topImage} src = { clothBanner }/>
+      </div>
       <div className={styles.banner}>
-        <img src={clothBanner}/>
+        <ClothBanner/>
       </div>
       <div className={styles.content}>
-        <img src={clothTitle_4} className={styles.title}/>
-        <div className={styles.star}>
-          <div><img src={star_1}/></div>
-          <div><img src={star_2}/></div>
-          <div><img src={star_3}/></div>
-        </div>
+        {/*<img src={clothTitle_4} className={styles.title}/>*/}
+        {/*<div className={styles.star}>*/}
+          {/*<div><img src={star_1}/></div>*/}
+          {/*<div><img src={star_2}/></div>*/}
+          {/*<div><img src={star_3}/></div>*/}
+        {/*</div>*/}
         <img src={clothTitle_1} className={styles.title}/>
         <div className={styles.classify}>
           <ul>
@@ -77,36 +80,9 @@ function ClothingMall() {
         <img src={clothTitle_2} className={styles.title}/>
         <div className={styles.items}>
           {
-            otherData.map((elem,index)=>{
+            clothMallData.map((elem,index)=>{
               return (
-                <Goods goodsData={otherData[index]}/>
-              )
-            })
-          }
-        </div>
-        <div className={styles.items}>
-          {
-            faceData.map((elem,index)=>{
-              return (
-                <Goods goodsData={faceData[index]}/>
-              )
-            })
-          }
-        </div>
-        <div className={styles.items}>
-          {
-            lipsData.map((elem,index)=>{
-              return (
-                <Goods goodsData={lipsData[index]}/>
-              )
-            })
-          }
-        </div>
-        <div className={styles.items}>
-          {
-            eyesData.map((elem,index)=>{
-              return (
-                <Goods goodsData={eyesData[index]}/>
+                <Goods goodsData={clothMallData[index]}/>
               )
             })
           }

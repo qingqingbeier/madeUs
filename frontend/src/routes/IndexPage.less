@@ -4,6 +4,7 @@
   background: url(../assets/roseBg.jpg) no-repeat;
   background-size: 100%;
   z-index: 1;
+  margin-bottom: 5px;
 
   img {
     width: 22%;
@@ -17,11 +18,14 @@
   margin: 0 auto;
   text-align: center;
 
+  .title {
+    max-width: 80%;
+    padding-top: 30px;
+    padding-bottom: 26px;
+  }
+
   .prefer {
     width: 100%;
-    &>img {
-      margin-top: 10px;
-    }
   }
 
   .face {
@@ -62,57 +66,111 @@
   }
 
   .brand {
-    margin: 40px;
+    margin: 10px 40px 40px;
 
-    hr {
-      width: 108%;
-      position: relative;
-      left: -4%;
-      border: none;
-      border-top: 2px solid #ef2751;
-      top: -35px;
-      z-index: -1;
-    }
+    //hr {
+    //  width: 108%;
+    //  position: relative;
+    //  left: -4%;
+    //  border: none;
+    //  border-top: 2px solid #ef2751;
+    //  top: -35px;
+    //  z-index: -1;
+    //}
 
     .container {
       width: 100%;
       display: flex;
       justify-content: space-between;
-      margin: 20px auto;
+      margin: 5px auto 20px;
     }
   }
 
-  .side {
-    z-index: -1;
+  .sideL {
     position: fixed;
     top:18%;
     left: 3%;
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
 
     ul {
       width: 60px;
-      border-bottom: 2px solid #ef2751;
 
       li {
-        height: 60px;
-        border-bottom: 1px dotted #ef2751;
-        color: #ef2751;
+        height: 50px;
+        border-bottom: 1px solid #DEE2E5;
+        border-left: 1px solid #DEE2E5;
+        border-right: 1px solid #DEE2E5;
+        background: rgba(255,255,255,1);
 
         a {
           display: inline-block;
           width: 100%;
           height: 100%;
-          padding-top: 20px;
+          font-size: 12px;
+          padding-top: 7px;
+          color: #8F8F8F;
         }
 
-        &:nth-child(1) {
-          font-size: 14px;
-          padding-top: 14px;
-          border-bottom: 1px solid #fff;
-        }
-
-        &:hover, &:active, &:nth-child(1) {
+        &:first-child,
+        &.activeLi,
+        &:hover, &:active {
           background-color: #ef2751;
-          color: #fff;
+
+          a,i::before {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  :global(.ant-tooltip-placement-left) {
+    height: 100%;
+  }
+
+  .sideR {
+    width: 30px;
+    height: 100vh;
+    position: fixed;
+    z-index: 2;
+    top:0;
+    right: 0;
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4px;
+
+    .goTop {
+      color: #DEE2E5;
+    }
+
+    ul {
+      height: 50%;
+
+      li {
+        padding: 42% 0;
+        text-align: center;
+
+        &:nth-child(1),
+        &:nth-child(2) {
+          border-bottom: 1px solid #111;
+        }
+
+        a {
+          width: 100%;
+          height: 100%;
+          display: inline-block;
+          color: #DEE2E5;
+
+          i {
+            width: 100%;
+            line-height: 100%;
+            display: inline-block;
+            font-size: 16px;
+            color: #DEE2E5;
+          }
         }
       }
     }
@@ -123,17 +181,17 @@
   .content {
     width: 100%;
 
+    .title {
+      padding-top: 0;
+      padding-bottom: 10px;
+    }
+
     .face {
       margin: 0;
     }
 
     .prefer, .brand {
       margin-top: 0;
-
-      &>img {
-        width: 160px;
-        margin: 2px auto;
-      }
     }
 
     .clothing {
@@ -156,13 +214,12 @@
     .brand {
       margin: 10px;
 
-      hr {
-        width: 98%;
-        left: 1%;
-        top: -18px;
-      }
+      //hr {
+      //  width: 98%;
+      //  left: 1%;
+      //  top: -18px;
+      //}
     }
-
     .side {
       display: none;
     }
