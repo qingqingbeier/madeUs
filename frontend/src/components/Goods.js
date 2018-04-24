@@ -3,14 +3,23 @@
  */
 import React from 'react';
 import styles from './Goods.less';
+import  {Link} from "dva/router"
 
 const Goods = ({goodsData}) => {
+
   return (
     <div className={styles.wrap}>
-      <div className={styles.image}>
-        <img src={goodsData.image}/>
-      </div>
-      <p className={styles.description}>{goodsData.description}</p>
+      <Link to={{
+        pathname: '/detail',
+        state: {
+          goodId: goodsData.id,
+        }
+      }}>
+        <div className={styles.image}>
+          <img src={goodsData.image}/>
+        </div>
+      </Link>
+      <p className={styles.name}>{goodsData.name}</p>
       <div className={styles.button}>
         <span className={styles.price}><label>¥</label>{goodsData.price}</span>
         <button className={styles.buy}>加入购物车</button>

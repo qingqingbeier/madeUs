@@ -5,51 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8914fd7a-2ca0-4162-b742-1061453db193" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/src/components/clothBanner/ClothBanner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/src/components/clothBanner/ClothBanner.less" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/assets/title_pinpai_03.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/clothMaImg/title_1.png" afterPath="$PROJECT_DIR$/frontend/src/assets/clothMaImg/title_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/clothMaImg/title_2.png" afterPath="$PROJECT_DIR$/frontend/src/assets/clothMaImg/title_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/clothMaImg/title_3.png" afterPath="$PROJECT_DIR$/frontend/src/assets/clothMaImg/title_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/clothMaImg/title_4.png" afterPath="$PROJECT_DIR$/frontend/src/assets/clothMaImg/title_4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/title_pinpai.png" afterPath="$PROJECT_DIR$/frontend/src/assets/title_pinpai.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/title_youxuan.png" afterPath="$PROJECT_DIR$/frontend/src/assets/title_youxuan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/mock/clothImg/01.jpg" afterPath="$PROJECT_DIR$/frontend/src/mock/clothImg/01.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/mock/clothImg/02.jpg" afterPath="$PROJECT_DIR$/frontend/src/mock/clothImg/02.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/mock/clothImg/03.jpg" afterPath="$PROJECT_DIR$/frontend/src/mock/clothImg/03.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/mock/clothImg/05.jpg" afterPath="$PROJECT_DIR$/frontend/src/mock/clothImg/05.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/mock/clothImg/06.jpg" afterPath="$PROJECT_DIR$/frontend/src/mock/clothImg/06.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/mock/clothImg/07.jpg" afterPath="$PROJECT_DIR$/frontend/src/mock/clothImg/07.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/mock/clothImg/08.jpg" afterPath="$PROJECT_DIR$/frontend/src/mock/clothImg/08.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/mock/clothImg/09.jpg" afterPath="$PROJECT_DIR$/frontend/src/mock/clothImg/09.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/mock/clothImg/10.jpg" afterPath="$PROJECT_DIR$/frontend/src/mock/clothImg/10.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/mock/clothImg/11.jpg" afterPath="$PROJECT_DIR$/frontend/src/mock/clothImg/11.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/mock/clothImg/12.jpg" afterPath="$PROJECT_DIR$/frontend/src/mock/clothImg/12.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/mock/clothImg/13.jpg" afterPath="$PROJECT_DIR$/frontend/src/mock/clothImg/13.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/mock/clothImg/14.jpg" afterPath="$PROJECT_DIR$/frontend/src/mock/clothImg/14.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/mock/clothImg/15.jpg" afterPath="$PROJECT_DIR$/frontend/src/mock/clothImg/15.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/mock/clothImg/19.jpg" afterPath="$PROJECT_DIR$/frontend/src/mock/clothImg/19.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/mock/clothImg/20.jpg" afterPath="$PROJECT_DIR$/frontend/src/mock/clothImg/20.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/mock/clothImg/24.jpg" afterPath="$PROJECT_DIR$/frontend/src/mock/clothImg/24.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/mock/clothImg/31.jpg" afterPath="$PROJECT_DIR$/frontend/src/mock/clothImg/31.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/mock/images/face_02.jpg" afterPath="$PROJECT_DIR$/frontend/src/mock/images/face_02.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/mock/images/face_03.jpg" afterPath="$PROJECT_DIR$/frontend/src/mock/images/face_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/src/components/clothBanner/antdign.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/src/routes/Detail/Detail.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/src/routes/Detail/Detail.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/clothMaImg/man_1.png" afterPath="$PROJECT_DIR$/frontend/src/assets/clothMaImg/man_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/clothMaImg/man_2.png" afterPath="$PROJECT_DIR$/frontend/src/assets/clothMaImg/man_2.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/assets/index.js" afterPath="$PROJECT_DIR$/frontend/src/assets/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/components/BrandShop.less" afterPath="$PROJECT_DIR$/frontend/src/components/BrandShop.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/components/Goods.js" afterPath="$PROJECT_DIR$/frontend/src/components/Goods.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/components/Goods.less" afterPath="$PROJECT_DIR$/frontend/src/components/Goods.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/components/Header.js" afterPath="$PROJECT_DIR$/frontend/src/components/Header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/components/Header.less" afterPath="$PROJECT_DIR$/frontend/src/components/Header.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/components/clothBanner/ClothBanner.js" afterPath="$PROJECT_DIR$/frontend/src/components/clothBanner/ClothBanner.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/components/clothBanner/ClothBanner.less" afterPath="$PROJECT_DIR$/frontend/src/components/clothBanner/ClothBanner.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/index.css" afterPath="$PROJECT_DIR$/frontend/src/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/index.js" afterPath="$PROJECT_DIR$/frontend/src/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/mock/data.js" afterPath="$PROJECT_DIR$/frontend/src/mock/data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/routes/ClothingMall.js" afterPath="$PROJECT_DIR$/frontend/src/routes/ClothingMall.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/routes/ClothingMall.less" afterPath="$PROJECT_DIR$/frontend/src/routes/ClothingMall.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/routes/Collocation.js" afterPath="$PROJECT_DIR$/frontend/src/routes/Collocation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/routes/Cosmetics.js" afterPath="$PROJECT_DIR$/frontend/src/routes/Cosmetics.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/router.js" afterPath="$PROJECT_DIR$/frontend/src/router.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/routes/IndexPage.js" afterPath="$PROJECT_DIR$/frontend/src/routes/IndexPage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/routes/IndexPage.less" afterPath="$PROJECT_DIR$/frontend/src/routes/IndexPage.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/routes/MakeUpKit.js" afterPath="$PROJECT_DIR$/frontend/src/routes/MakeUpKit.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/src/mock/clothImg/1.jpg" afterPath="$PROJECT_DIR$/frontend/src/mock/clothImg/04.jpg" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -67,75 +38,10 @@
       <file leaf-file-name="IndexPage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/routes/IndexPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="1" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="7" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Header.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/components/Header.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Clothing.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/components/Clothing.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="285">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
               <folding>
-                <element signature="e#42#68#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Collocation.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/routes/Collocation.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-38">
-              <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-              <folding>
-                <element signature="e#42#81#0" expanded="true" />
-                <element signature="e#1822#2156#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MakeUpKit.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/routes/MakeUpKit.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="39" column="14" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="39" selection-end-column="14" />
-              <folding>
-                <element signature="e#41#80#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -144,8 +50,194 @@
       <file leaf-file-name="Cosmetics.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/routes/Cosmetics.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+            <state relative-caret-position="57">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/mock/data.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-40">
+              <caret line="131" column="12" lean-forward="true" selection-start-line="131" selection-start-column="12" selection-end-line="131" selection-end-column="12" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#41#84#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/assets/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="47" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Detail.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/src/routes/Detail/Detail.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="55" column="68" lean-forward="false" selection-start-line="55" selection-start-column="68" selection-end-line="55" selection-end-column="68" />
+              <folding>
+                <element signature="e#42#83#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Footer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/components/Footer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Header.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/components/Header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="router.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/router.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="57" lean-forward="true" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Goods.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/components/Goods.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="35">
+              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <folding>
+                <element signature="e#41#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Detail.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/routes/Detail/Detail.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="136" column="19" lean-forward="false" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexPage.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/routes/IndexPage.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1767">
+              <caret line="93" column="38" lean-forward="false" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Footer.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/components/Footer.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Goods.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/components/Goods.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MakeUpKit.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/routes/MakeUpKit.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="27" column="3" lean-forward="false" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Collocation.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/routes/Collocation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="39" column="15" lean-forward="false" selection-start-line="38" selection-start-column="6" selection-end-line="39" selection-end-column="15" />
+              <folding>
+                <element signature="e#496#551#0" expanded="true" />
+                <element signature="e#1822#2156#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClothingMall.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/routes/ClothingMall.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
               <folding>
                 <element signature="e#42#68#0" expanded="true" />
               </folding>
@@ -158,130 +250,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
               <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/mock/data.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="551" column="20" lean-forward="false" selection-start-line="551" selection-start-column="20" selection-end-line="551" selection-end-column="20" />
-              <folding>
-                <element signature="e#41#83#0" expanded="true" />
-                <element signature="e#5481#5814#0" expanded="false" />
-                <element signature="e#5834#6156#0" expanded="false" />
-                <element signature="e#6176#6495#0" expanded="false" />
-                <element signature="e#6516#6844#0" expanded="false" />
-                <element signature="e#6865#7156#0" expanded="false" />
-                <element signature="e#7181#11468#0" expanded="false" />
-                <element signature="e#11489#11921#0" expanded="false" />
-                <element signature="e#13719#14447#0" expanded="false" />
-                <element signature="e#14472#15255#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cosmetics.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/routes/Cosmetics.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/assets/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="70" column="12" lean-forward="false" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#27#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClothingMall.less" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/frontend/src/routes/ClothingMall.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClothingMall.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/routes/ClothingMall.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-              <folding>
-                <element signature="e#42#68#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClothBanner.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/components/clothBanner/ClothBanner.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="37" column="42" lean-forward="true" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
-              <folding>
-                <element signature="e#42#83#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClothBanner.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/components/clothBanner/ClothBanner.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="face.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/assets/face.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Goods.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/components/Goods.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexPage.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/routes/IndexPage.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="93" column="38" lean-forward="false" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Collocation.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/routes/Collocation.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1007">
-              <caret line="53" column="34" lean-forward="false" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -310,10 +278,17 @@
       <find>profer</find>
       <find>active</find>
       <find>cover_01</find>
+      <find>lineShade</find>
+      <find>textShade</find>
+      <find>image</find>
+      <find>description</find>
+      <find>face_01_detail</find>
+      <find>callback</find>
     </findStrings>
     <replaceStrings>
       <replace>colsH</replace>
       <replace>文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙</replace>
+      <replace>name</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -322,13 +297,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/frontend/src/components/Example.css" />
-        <option value="$PROJECT_DIR$/frontend/src/models/example.js" />
-        <option value="$PROJECT_DIR$/frontend/src/components/Example.js" />
         <option value="$PROJECT_DIR$/frontend/src/routes/IndexPage.css" />
         <option value="$PROJECT_DIR$/frontend/src/components/Header.css" />
         <option value="$PROJECT_DIR$/frontend/src/components/Goods.css" />
-        <option value="$PROJECT_DIR$/frontend/src/components/Goods.js" />
         <option value="$PROJECT_DIR$/frontend/src/components/clothing.js" />
         <option value="$PROJECT_DIR$/frontend/src/components/Clothing.less.css" />
         <option value="$PROJECT_DIR$/frontend/src/components/Clothing.js" />
@@ -351,24 +322,32 @@
         <option value="$PROJECT_DIR$/frontend/src/components/CosCategory/CosCategory.js" />
         <option value="$PROJECT_DIR$/frontend/src/components/BrandShop.js" />
         <option value="$PROJECT_DIR$/frontend/src/routes/Cosmetics.less" />
-        <option value="$PROJECT_DIR$/frontend/src/router.js" />
         <option value="$PROJECT_DIR$/frontend/src/components/BrandShop.less" />
-        <option value="$PROJECT_DIR$/frontend/src/components/Goods.less" />
         <option value="$PROJECT_DIR$/frontend/src/components/Header.less" />
         <option value="$PROJECT_DIR$/frontend/src/routes/Collocation.js" />
         <option value="$PROJECT_DIR$/frontend/src/routes/MakeUpKit.js" />
         <option value="$PROJECT_DIR$/frontend/src/routes/Cosmetics.js" />
         <option value="$PROJECT_DIR$/frontend/src/components/Header.js" />
-        <option value="$PROJECT_DIR$/frontend/src/index.css" />
-        <option value="$PROJECT_DIR$/frontend/src/index.js" />
-        <option value="$PROJECT_DIR$/frontend/src/routes/IndexPage.js" />
         <option value="$PROJECT_DIR$/frontend/src/routes/IndexPage.less" />
-        <option value="$PROJECT_DIR$/frontend/src/mock/data.js" />
-        <option value="$PROJECT_DIR$/frontend/src/assets/index.js" />
-        <option value="$PROJECT_DIR$/frontend/src/components/clothBanner/ClothBanner.js" />
         <option value="$PROJECT_DIR$/frontend/src/routes/ClothingMall.js" />
-        <option value="$PROJECT_DIR$/frontend/src/components/clothBanner/ClothBanner.less" />
         <option value="$PROJECT_DIR$/frontend/src/routes/ClothingMall.less" />
+        <option value="$PROJECT_DIR$/frontend/src/assets/index.js" />
+        <option value="$PROJECT_DIR$/frontend/src/components/clothBanner/antd.less" />
+        <option value="$PROJECT_DIR$/frontend/src/components/clothBanner/antdign.css" />
+        <option value="$PROJECT_DIR$/frontend/src/components/clothBanner/ClothBanner.js" />
+        <option value="$PROJECT_DIR$/frontend/src/components/clothBanner/antdign.less" />
+        <option value="$PROJECT_DIR$/frontend/src/components/clothBanner/ClothBanner.less" />
+        <option value="$PROJECT_DIR$/frontend/src/components/Detail/Detail.less" />
+        <option value="$PROJECT_DIR$/frontend/src/components/Detail/Detail.js" />
+        <option value="$PROJECT_DIR$/frontend/src/router.js" />
+        <option value="$PROJECT_DIR$/frontend/src/index.css" />
+        <option value="$PROJECT_DIR$/frontend/src/routes/Detail/Detail.less" />
+        <option value="$PROJECT_DIR$/frontend/src/components/Goods.less" />
+        <option value="$PROJECT_DIR$/frontend/src/index.js" />
+        <option value="$PROJECT_DIR$/frontend/src/mock/data.js" />
+        <option value="$PROJECT_DIR$/frontend/src/routes/IndexPage.js" />
+        <option value="$PROJECT_DIR$/frontend/src/components/Goods.js" />
+        <option value="$PROJECT_DIR$/frontend/src/routes/Detail/Detail.js" />
       </list>
     </option>
   </component>
@@ -405,20 +384,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="madeUs">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -503,6 +468,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Detail" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madeUs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="madeUs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="mock" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -526,32 +517,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="madeUs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="madeUs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clothBanner" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -597,6 +562,20 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="madeUs">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -607,15 +586,16 @@
     <property name="list.type.of.created.stylesheet" value="Less" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\毕业设计\madeUs\frontend\public\plugin\jquery" />
-      <recent name="G:\毕业设计\madeUs\frontend\src\components" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\毕业设计\madeUs\frontend\src\routes" />
       <recent name="G:\毕业设计\madeUs\frontend\src\components\CosCategory\image" />
       <recent name="G:\毕业设计\madeUs\frontend\src\components\CosCategory" />
       <recent name="G:\毕业设计\madeUs\frontend\public" />
       <recent name="G:\毕业设计\madeUs\frontend\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\毕业设计\madeUs\frontend\public\plugin\jquery" />
+      <recent name="G:\毕业设计\madeUs\frontend\src\components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -720,12 +700,15 @@
       <workItem from="1523689712108" duration="33741000" />
       <workItem from="1523950490240" duration="29260000" />
       <workItem from="1524123173953" duration="26332000" />
-      <workItem from="1524208268732" duration="15379000" />
+      <workItem from="1524208268732" duration="16822000" />
+      <workItem from="1524307492815" duration="18112000" />
+      <workItem from="1524415506656" duration="5140000" />
+      <workItem from="1524539252258" duration="38301000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237882000" />
+    <option name="totallyTimeSpent" value="300878000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -743,12 +726,12 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25297618" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42716858" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -766,33 +749,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend/src/mock/images/face_01.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/components/Example.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/mock/brand/c-section.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/mock/brand/gen3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/mock/brand/kollektif.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -807,25 +768,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/components/Footer.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/components/Footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <element signature="e#42#68#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -861,7 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="69" column="19" lean-forward="false" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -884,7 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
           <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -892,7 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1311">
           <caret line="69" column="20" lean-forward="false" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -928,21 +867,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/components/Goods.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="38" />
-          <folding>
-            <element signature="e#41#67#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/components/BrandShop.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -950,7 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="874">
           <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -958,9 +885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="17" column="66" lean-forward="false" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
-          <folding>
-            <element signature="e#42#68#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -972,31 +896,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/routes/Collocation.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="53" column="34" lean-forward="false" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/routes/Cosmetics.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/assets/face.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/Clothing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <element signature="e#42#68#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/routes/ClothingMall.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/clothBanner/ClothBanner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/clothBanner/antdign.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/clothBanner/ClothBanner.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/routes/Collocation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="39" column="15" lean-forward="false" selection-start-line="38" selection-start-column="6" selection-end-line="39" selection-end-column="15" />
+          <folding>
+            <element signature="e#496#551#0" expanded="true" />
+            <element signature="e#1822#2156#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/routes/Cosmetics.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-          <folding>
-            <element signature="e#42#68#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="57">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1008,168 +990,156 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/routes/Collocation.less">
+    <entry file="file://$PROJECT_DIR$/frontend/src/routes/MakeUpKit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1007">
-          <caret line="53" column="34" lean-forward="false" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+        <state relative-caret-position="342">
+          <caret line="27" column="3" lean-forward="false" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/index.js">
+    <entry file="file://$PROJECT_DIR$/frontend/src/routes/ClothingMall.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        <state relative-caret-position="263">
+          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="e#42#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/routes/IndexPage.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1767">
+          <caret line="93" column="38" lean-forward="false" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/routes/Cosmetics.less">
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/Footer.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/components/Goods.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        <state relative-caret-position="114">
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="1" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="95">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/routes/IndexPage.less">
+    <entry file="file://$PROJECT_DIR$/frontend/src/routes/Detail/Detail.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="93" column="38" lean-forward="false" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
+        <state relative-caret-position="178">
+          <caret line="136" column="19" lean-forward="false" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/routes/IndexPage.js">
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/Goods.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="213">
+          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/mock/data.js">
+    <entry file="file://$PROJECT_DIR$/frontend/src/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="551" column="20" lean-forward="false" selection-start-line="551" selection-start-column="20" selection-end-line="551" selection-end-column="20" />
+        <state relative-caret-position="342">
+          <caret line="18" column="57" lean-forward="true" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
           <folding>
-            <element signature="e#41#83#0" expanded="true" />
-            <element signature="e#5481#5814#0" expanded="false" />
-            <element signature="e#5834#6156#0" expanded="false" />
-            <element signature="e#6176#6495#0" expanded="false" />
-            <element signature="e#6516#6844#0" expanded="false" />
-            <element signature="e#6865#7156#0" expanded="false" />
-            <element signature="e#7181#11468#0" expanded="false" />
-            <element signature="e#11489#11921#0" expanded="false" />
-            <element signature="e#13719#14447#0" expanded="false" />
-            <element signature="e#14472#15255#0" expanded="false" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/assets/face.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/frontend/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/components/Header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        <state relative-caret-position="57">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="32" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/components/Clothing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="21" selection-end-column="24" />
-          <folding>
-            <element signature="e#42#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/routes/Collocation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-          <folding>
-            <element signature="e#42#81#0" expanded="true" />
-            <element signature="e#1822#2156#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/routes/MakeUpKit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="39" column="14" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="39" selection-end-column="14" />
-          <folding>
-            <element signature="e#41#80#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/assets/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="70" column="12" lean-forward="false" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
+        <state relative-caret-position="339">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="47" selection-end-column="6" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/routes/ClothingMall.js">
+    <entry file="file://$PROJECT_DIR$/frontend/src/mock/data.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        <state relative-caret-position="-40">
+          <caret line="131" column="12" lean-forward="true" selection-start-line="131" selection-start-column="12" selection-end-line="131" selection-end-column="12" />
           <folding>
-            <element signature="e#42#68#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#41#84#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/components/clothBanner/ClothBanner.js">
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/Footer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="37" column="42" lean-forward="true" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+        <state relative-caret-position="361">
+          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/routes/IndexPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/Goods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="e#41#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/routes/Detail/Detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="55" column="68" lean-forward="false" selection-start-line="55" selection-start-column="68" selection-end-line="55" selection-end-column="68" />
           <folding>
             <element signature="e#42#83#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/components/clothBanner/ClothBanner.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/routes/ClothingMall.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>

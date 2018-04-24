@@ -3,13 +3,91 @@
   text-align: center;
   z-index:3;
 
-  .man {
-    width: 22%;
+  .girl {
+    width: 30%;
   }
-  .float {
+
+  //新增/////////////////////////////////
+  .float{
     position: absolute;
-    width: 20%;
-    height: 20%;
+    z-index: 2;
+    text-align: left;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 100%;
+    background-color: #ef2751;
+    border: 1px solid #ef2751;
+    top: 50%;
+    left: 53%;
+
+    &:hover{
+      .lineShade{
+        width: 24vw;
+      }
+      .boxShade{
+        height: auto;
+      }
+
+      width: 3vw;
+      height: 3vw;
+      transition: width 0.2s linear, height 0.2s linear;
+    }
+
+    .lineShade{
+      position: absolute;
+      left: -5px;
+      bottom: -5px;
+      width: 0;
+      overflow-x: hidden;
+      transition: width 0.3s linear;
+
+      img {
+        width: 24vw;
+      }
+    }
+
+    .boxShade{
+      position: absolute;
+      bottom: 7.8vw;
+      left: 7.8vw;
+      width: 15.4vw;
+      height: 0;
+      overflow-y: hidden;
+      transition: height 0.2s linear 0.3s;
+
+      .box{
+        width: 100%;
+        color: #63AF77;
+        font-size: 14px;
+        background-color: #fff;
+
+        .price {
+          display: block;
+          background-color: #63AF77;
+          color: #fff;
+          font-size: 14px;
+          padding-left: 5px;
+          padding-right: 5px;
+
+          label {
+            font-size: 15px;
+            float: right;
+          }
+        }
+        .des {
+          padding: 5px;
+        }
+      }
+    }
+  }
+
+  ///////////////////////////////////////////
+
+  .floatp {
+    position: absolute;
+    text-align: left;
+    width: 24%;
+    height: 24%;
     top: 30%;
     left: 53%;
 
@@ -44,5 +122,11 @@
         padding: 5px;
       }
     }
+  }
+}
+
+.swiper_pagination {
+  .pagination-bullet-active {
+    background-color: #52ad6a;
   }
 }

@@ -23,6 +23,7 @@ import title_3 from './cosmeticsImg/title_3.png'
 import clothBanner from './clothMaImg/banner_3.png'
 import clothMan_1 from './clothMaImg/man_1.png'
 import clothMan_2 from './clothMaImg/man_2.png'
+import clothMan_3 from './clothMaImg/man_3.png'
 import clothFloat from './clothMaImg/float_04.png'
 import star_1 from './clothMaImg/star_1.png'
 import star_2 from './clothMaImg/star_2.png'
@@ -69,6 +70,7 @@ export {
   clothBanner,
   clothMan_1,
   clothMan_2,
+  clothMan_3,
   clothFloat,
   star_1,
   star_2,

@@ -69,6 +69,7 @@ class IndexPage extends Component{
           <div className={styles.banner}>
             <img src={float}/>
           </div>
+
           <div className={styles.content}>
             <div className={styles.prefer} id="prefer">
               <img src={titlePreferred} className={styles.title}/>

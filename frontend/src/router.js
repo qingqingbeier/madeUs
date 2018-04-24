@@ -5,6 +5,7 @@ import MakeUpKit from './routes/MakeUpKit';
 import Collocation from './routes/Collocation';
 import Cosmetics from './routes/Cosmetics';
 import ClothingMall from './routes/ClothingMall';
+import Detail from './routes/Detail/Detail';
 
 function RouterConfig({ history }) {
   return (
@@ -15,6 +16,7 @@ function RouterConfig({ history }) {
         <Route path="/collocation" exact component={Collocation} />
         <Route path="/cosmetics" exact component={Cosmetics} />
         <Route path="/clothingmall" exact component={ClothingMall} />
+        <Route path="/detail" exact component={Detail} />
       </Switch>
     </Router>
   );
