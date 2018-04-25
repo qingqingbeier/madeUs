@@ -13,16 +13,10 @@ import Footer from '../components/Footer';
 import SideRight from '../components/SideRight';
 import banner_01 from "../assets/collocBanner_01.png";
 import banner_02 from "../assets/collocBanner_02.png";
-// import banner_03 from "../assets/collocBanner_03.png";
-import {cloth_01} from "../mock/clothImg/休闲气质装_01.jpg";
 import { suitData } from '../mock/data';
 import Swiper from 'swiper';
 
 const TabPane = Tabs.TabPane;
-
-function callback(key) {
-  console.log(key);
-}
 
 class Collocation extends Component{
 
@@ -55,9 +49,9 @@ class Collocation extends Component{
         <div className={styles.banner}>
           <div className={styles.swiper_container} ref="swiperContainer">
             <div className="swiper-wrapper">
-              <div className="swiper-slide"><img src={banner_01}/></div>
-              <div className="swiper-slide"><img src={banner_02}/></div>
-              {/*<div className="swiper-slide"><img src={banner_03}/></div>*/}
+              <div className="swiper-slide"><img alt="" src={banner_01}/></div>
+              <div className="swiper-slide"><img alt="" src={banner_02}/></div>
+              {/*<div className="swiper-slide"><img alt="" src={banner_03}/></div>*/}
             </div>
           </div>
         </div>
@@ -69,7 +63,7 @@ class Collocation extends Component{
                   suitData.map((elem,index)=>{
                     return (
                       <div className={styles.item}>
-                        <img src={elem.image}/>
+                        <img alt="" src={elem.image}/>
                       </div>
                     )
                   })
@@ -85,7 +79,7 @@ class Collocation extends Component{
                   suitData.map((elem,index)=>{
                     return (
                       <div className={styles.item}>
-                        <img src={elem.image}/>
+                        <img alt="" src={elem.image}/>
                       </div>
                     )
                   })

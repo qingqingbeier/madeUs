@@ -27,17 +27,17 @@ class VideoMdl extends Component{
     const videoData = this.props.videoData;
     return (
       <div className={styles.wrap}>
-        <img className={styles.bgImg+ " ani"} src={videoData.bgImg}/>
+        <img alt="" className={styles.bgImg+ " ani"} src={videoData.bgImg}/>
         <div className={styles.subject} ref="swiperContainer">
           <ul className={styles.product}>
             <li>
-              <img src={videoData.pro_01.img}/>
+              <img alt="" src={videoData.pro_01.img}/>
               <p>{videoData.pro_01.description}</p>
               <label><i>¥</i> {videoData.pro_01.price}</label>
               <button>加入购物车</button>
             </li>
             <li>
-              <img src={videoData.pro_02.img}/>
+              <img alt="" src={videoData.pro_02.img}/>
               <p>{videoData.pro_02.description}</p>
               <label><i>¥</i> {videoData.pro_02.price}</label>
               <button>加入购物车</button>
@@ -48,13 +48,13 @@ class VideoMdl extends Component{
           </div>
           <ul className={styles.product}>
             <li>
-              <img src={videoData.pro_03.img}/>
+              <img alt="" src={videoData.pro_03.img}/>
               <p>{videoData.pro_03.description}</p>
               <label><i>¥</i> {videoData.pro_03.price}</label>
               <button>加入购物车</button>
             </li>
             <li>
-              <img src={videoData.pro_04.img}/>
+              <img alt="" src={videoData.pro_04.img}/>
               <p>{videoData.pro_04.description}</p>
               <label><i>¥</i> {videoData.pro_04.price}</label>
               <button>加入购物车</button>

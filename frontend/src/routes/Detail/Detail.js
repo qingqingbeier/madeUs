@@ -4,14 +4,12 @@
 
 import React, { Component } from 'react';
 import { withRouter } from 'react-router';
-import { connect } from 'dva';
 import styles from './Detail.less';
 import {face_01, face_01_specs_01, face_01_specs_02, face_01_detail} from "../../mock/data";
 import  Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SideRight from '../../components/SideRight';
 import { InputNumber, Tabs } from 'antd';
-import {brandData, clothData, eyesData, faceData, lipsData, otherData} from "../../mock/data";
 
 const TabPane = Tabs.TabPane;
 
@@ -38,10 +36,10 @@ class Detail extends Component{
     })
   }
 
-  componentWillMount(){
+  componentDidMount(){
 
-    console.log(this)
   }
+
   render() {
     return (
       <div>
@@ -50,7 +48,7 @@ class Detail extends Component{
         <div className={styles.content}>
           <div className={styles.top}>
             <div className={styles.left}>
-              <img src={face_01}/>
+              <img alt="" src={face_01}/>
             </div>
             <div className={styles.right}>
               <h1>玛丽黛佳气垫BB霜 持久保湿遮瑕提亮肤色裸妆学生粉底液cc霜正品</h1>
@@ -71,11 +69,11 @@ class Detail extends Component{
                 <li className={styles.colour}>
                   <h3>颜色</h3>
                   <div className={this.state.colour===1?styles.item + " " + styles.active:styles.item} onClick={()=>this.colourCheck(1)}>
-                    <img src={face_01_specs_01}/>
+                    <img alt="" src={face_01_specs_01}/>
                     <span>01亮肤色</span>
                   </div>
                   <div className={this.state.colour===2?styles.item + " " + styles.active:styles.item} onClick={()=>this.colourCheck(2)} >
-                    <img src={face_01_specs_02}/>
+                    <img alt="" src={face_01_specs_02}/>
                     <span>02自然色</span>
                   </div>
                 </li>
@@ -88,7 +86,7 @@ class Detail extends Component{
                   <InputNumber min={1} max={10} defaultValue={3} onChange={onChange}/>
                 </li>
                 <li className={styles.button}>
-                  <h3></h3>
+                  <h3> </h3>
                   <button>立即购买</button>
                   <button>加入购物车</button>
                 </li>
@@ -140,7 +138,7 @@ class Detail extends Component{
                     </tbody>
                   </table>
                 </div>
-                <img src={face_01_detail}/>
+                <img alt="" src={face_01_detail}/>
               </TabPane>
               <TabPane tab="累计评价" key="2">Content of Tab Pane 2</TabPane>
             </Tabs>

@@ -5,7 +5,7 @@
 import React from 'react';
 import styles from './Footer.less';
 
-const Footer = ({}) => {
+const Footer = () => {
   return (
     <div className={styles.wrap}>
       <footer>

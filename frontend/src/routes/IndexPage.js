@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import {connect} from "dva";
 import styles from "./IndexPage.less";
 import Header from "../components/Header";
-import {eyes, face, float, headPort, lips, other, redManWears, titleBrand, titlePreferred} from "../assets/index";
+import {eyes, face, float, lips, other, redManWears, titleBrand, titlePreferred} from "../assets/index";
 import Goods from "../components/Goods";
 import Clothing from "../components/Clothing";
 import Brand from "../components/Brand";
@@ -67,14 +67,14 @@ class IndexPage extends Component {
       <div className={styles.wrap} id="top">
         <Header nowActiveKey="key1"/>
         <div className={styles.banner}>
-          <img src={float}/>
+          <img alt="" src={float}/>
         </div>
 
         <div className={styles.content}>
           <div className={styles.prefer} id="prefer">
-            <img src={titlePreferred} className={styles.title}/>
+            <img alt="" src={titlePreferred} className={styles.title}/>
             <div className={styles.face}>
-              <img src={face} className={styles.preTitImg}/>
+              <img alt="" src={face} className={styles.preTitImg}/>
               <div className={styles.goods}>
                 <Goods goodsData={faceData[0]}/>
                 <Goods goodsData={faceData[1]}/>
@@ -82,7 +82,7 @@ class IndexPage extends Component {
               </div>
             </div>
             <div className={styles.face}>
-              <img src={eyes} className={styles.preTitImg}/>
+              <img alt="" src={eyes} className={styles.preTitImg}/>
               <div className={styles.goods}>
                 <Goods goodsData={eyesData[0]}/>
                 <Goods goodsData={eyesData[1]}/>
@@ -90,7 +90,7 @@ class IndexPage extends Component {
               </div>
             </div>
             <div className={styles.face}>
-              <img src={lips} className={styles.preTitImg}/>
+              <img alt="" src={lips} className={styles.preTitImg}/>
               <div className={styles.goods}>
                 <Goods goodsData={lipsData[0]}/>
                 <Goods goodsData={lipsData[1]}/>
@@ -98,7 +98,7 @@ class IndexPage extends Component {
               </div>
             </div>
             <div className={styles.face}>
-              <img src={other} className={styles.preTitImg}/>
+              <img alt="" src={other} className={styles.preTitImg}/>
               <div className={styles.goods}>
                 <Goods goodsData={otherData[0]}/>
                 <Goods goodsData={otherData[1]}/>
@@ -108,7 +108,7 @@ class IndexPage extends Component {
           </div>
           <div className={styles.clothing} id="clothing">
             <div className={styles.image}>
-              <img src={redManWears}/>
+              <img alt="" src={redManWears}/>
             </div>
             <div className={styles.subject}>
               <Clothing clothData={clothData[0]}/>
@@ -120,7 +120,7 @@ class IndexPage extends Component {
             </div>
           </div>
           <div className={styles.brand} id="brand">
-            <img src={titleBrand} className={styles.title}/>
+            <img alt="" src={titleBrand} className={styles.title}/>
             <div className={styles.container}>
               <Brand brandData={brandData[0]}/>
               <Brand brandData={brandData[1]}/>

@@ -25,7 +25,7 @@ class Goods extends Component {
           }
         }}>
           <div className={styles.image}>
-            <img src={goodsData.image}/>
+            <img alt="" src={goodsData.image}/>
           </div>
         </Link>
         <p className={styles.name}>{goodsData.name}</p>
