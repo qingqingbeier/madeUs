@@ -19,7 +19,7 @@ class Goods extends Component {
     return (
       <div className={styles.wrap}>
         <Link to={{
-          pathname: '/detail/'+goodsData.id,
+          pathname: '/detail/id='+goodsData.id,
           state:{
             data:goodsData
           }
