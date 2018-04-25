@@ -2,8 +2,7 @@
  * Created by 黄晶晶 on 2018-04-09.
  */
 import React, {Component} from "react";
-import {Link} from "dva/router";
-
+import { Link } from "dva/router";
 import styles from "./Goods.less";
 
 class Goods extends Component {
@@ -15,21 +14,15 @@ class Goods extends Component {
     }
   }
 
-  componentWillMount(){
-    // console.log(browserHistory)
-  }
-
-  goDetail() {
-    console.log(this.props);
-    // this.props.router.push('/detail',{ query: { id: 1 }})
-  }
-
   render() {
     const {goodsData} = this.props;
     return (
       <div className={styles.wrap}>
         <Link to={{
-          pathname: '/detail/'+goodsData.belongTo+'/'+goodsData.id
+          pathname: '/detail',
+          state:{
+            data:goodsData
+          }
         }}>
           <div className={styles.image}>
             <img src={goodsData.image}/>
@@ -44,6 +37,7 @@ class Goods extends Component {
     );
   }
 }
+;
 
 Goods.propTypes = {};
 

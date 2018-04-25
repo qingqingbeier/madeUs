@@ -13,6 +13,7 @@ import SideRight from '../../components/SideRight';
 import { InputNumber, Tabs } from 'antd';
 import {brandData, clothData, eyesData, faceData, lipsData, otherData} from "../../mock/data";
 
+const TabPane = Tabs.TabPane;
 
 function onChange(value) {
   console.log('changed', value);
@@ -39,27 +40,9 @@ class Detail extends Component{
 
   componentWillMount(){
 
+    console.log(this)
   }
   render() {
-    const TabPane = Tabs.TabPane;
-    const arr = this.props.location.pathname.split("/");
-    const belongTo = arr[2];
-    const id = arr[3];
-    const datas = [brandData, clothData, eyesData, faceData, lipsData, otherData];
-    let data = [];
-    let nowPro = {};
-    for(let i =0;i<datas.length;i++){
-      if(datas[i][0].belongTo === belongTo){
-        data = datas[i];
-      }
-    }
-
-    for(let i =0;i<data.length;i++){
-      if(data[i].id === id){
-        nowPro = data[i];
-      }
-    }
-
     return (
       <div>
         <Header/>
@@ -70,10 +53,10 @@ class Detail extends Component{
               <img src={face_01}/>
             </div>
             <div className={styles.right}>
-              <h1>玛丽黛佳气垫BB霜 持久保湿遮瑕提亮肤色裸妆学生粉底液cc霜正品{nowPro.title}</h1>
+              <h1>玛丽黛佳气垫BB霜 持久保湿遮瑕提亮肤色裸妆学生粉底液cc霜正品</h1>
               <h2>买就送唇釉3支装 领券立减20</h2>
               <div className={styles.price}>
-                <p><strong></strong>
+                <p><strong>199</strong>
                   <del>¥299</del>
                 </p>
                 <p><label>满减</label><span>满298元减80元,上不封顶</span></p>

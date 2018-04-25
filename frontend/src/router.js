@@ -16,7 +16,7 @@ function RouterConfig({ history }) {
         <Route path="/collocation" exact component={Collocation} />
         <Route path="/cosmetics" exact component={Cosmetics} />
         <Route path="/clothingmall" exact component={ClothingMall} />
-        <Route path="/detail/:belongTo/:id" exact component={Detail} />
+        <Route path="/detail" exact component={Detail} />
       </Switch>
     </Router>
   );
