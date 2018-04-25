@@ -128,6 +128,7 @@ import bandShopLogo_6 from "./bandShop/一叶子_logo.jpg";
 const faceData = [
   {
     id: "0001",
+    belongTo: "faceData",
     image: face_01,
     name: "玛丽黛佳水域亮肤气垫霜20g*2",
     price: "198",

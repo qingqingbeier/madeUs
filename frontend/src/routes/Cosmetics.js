@@ -9,6 +9,7 @@ import  Header from '../components/Header';
 import {cosBanner, pony_1, pony_2, pony_3, title_1, title_2, title_3, } from '../assets/index';
 import Goods from '../components/Goods';
 import Footer from '../components/Footer';
+import SideRight from '../components/SideRight';
 import CosCategory from '../components/CosCategory/CosCategory';
 import BrandShop from '../components/BrandShop';
 import { faceData, eyesData, lipsData, otherData, brandShopData } from '../mock/data';
@@ -18,6 +19,7 @@ function Cosmetics() {
   return (
     <div>
       <Header nowActiveKey="key5"/>
+      <SideRight/>
       <div className={styles.banner}>
         <img src={cosBanner}/>
       </div>

@@ -3,14 +3,16 @@
  */
 
 import React, { Component } from 'react';
+import { withRouter } from 'react-router';
 import { connect } from 'dva';
 import styles from './Detail.less';
 import {face_01, face_01_specs_01, face_01_specs_02, face_01_detail} from "../../mock/data";
 import  Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import SideRight from '../../components/SideRight';
 import { InputNumber, Tabs } from 'antd';
+import {brandData, clothData, eyesData, faceData, lipsData, otherData} from "../../mock/data";
 
-const TabPane = Tabs.TabPane;
 
 function onChange(value) {
   console.log('changed', value);
@@ -22,24 +24,56 @@ function callback(key) {
 
 class Detail extends Component{
 
-  componentWillMount(){
-    // console.log(this.props.location.state.goodId);
+  constructor(props){
+    super(props);
+    this.state = {
+      colour: 2,
+    }
   }
 
+  colourCheck(value){
+    this.setState({
+      colour: value,
+    })
+  }
+
+  componentWillMount(){
+
+  }
   render() {
+    const TabPane = Tabs.TabPane;
+    const arr = this.props.location.pathname.split("/");
+    const belongTo = arr[2];
+    const id = arr[3];
+    const datas = [brandData, clothData, eyesData, faceData, lipsData, otherData];
+    let data = [];
+    let nowPro = {};
+    for(let i =0;i<datas.length;i++){
+      if(datas[i][0].belongTo === belongTo){
+        data = datas[i];
+      }
+    }
+
+    for(let i =0;i<data.length;i++){
+      if(data[i].id === id){
+        nowPro = data[i];
+      }
+    }
+
     return (
       <div>
         <Header/>
+        <SideRight/>
         <div className={styles.content}>
           <div className={styles.top}>
             <div className={styles.left}>
               <img src={face_01}/>
             </div>
             <div className={styles.right}>
-              <h1>玛丽黛佳气垫BB霜 持久保湿遮瑕提亮肤色裸妆学生粉底液cc霜正品</h1>
+              <h1>玛丽黛佳气垫BB霜 持久保湿遮瑕提亮肤色裸妆学生粉底液cc霜正品{nowPro.title}</h1>
               <h2>买就送唇釉3支装 领券立减20</h2>
               <div className={styles.price}>
-                <p><strong>199</strong>
+                <p><strong></strong>
                   <del>¥299</del>
                 </p>
                 <p><label>满减</label><span>满298元减80元,上不封顶</span></p>
@@ -53,11 +87,11 @@ class Detail extends Component{
                 </li>
                 <li className={styles.colour}>
                   <h3>颜色</h3>
-                  <div className={styles.item + " " + styles.active}>
+                  <div className={this.state.colour===1?styles.item + " " + styles.active:styles.item} onClick={()=>this.colourCheck(1)}>
                     <img src={face_01_specs_01}/>
                     <span>01亮肤色</span>
                   </div>
-                  <div className={styles.item} onClick = {()=>colourCheck()}>
+                  <div className={this.state.colour===2?styles.item + " " + styles.active:styles.item} onClick={()=>this.colourCheck(2)} >
                     <img src={face_01_specs_02}/>
                     <span>02自然色</span>
                   </div>
@@ -138,4 +172,4 @@ class Detail extends Component{
 Detail.propTypes = {
 };
 
-export default connect()(Detail)
+export default withRouter(Detail);

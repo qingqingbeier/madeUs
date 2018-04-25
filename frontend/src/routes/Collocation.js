@@ -10,6 +10,7 @@ import styles from './Collocation.less';
 import './Collocation.less';
 import  Header from '../components/Header';
 import Footer from '../components/Footer';
+import SideRight from '../components/SideRight';
 import banner_01 from "../assets/collocBanner_01.png";
 import banner_02 from "../assets/collocBanner_02.png";
 // import banner_03 from "../assets/collocBanner_03.png";
@@ -50,6 +51,7 @@ class Collocation extends Component{
     return (
       <div>
         <Header nowActiveKey="key3"/>
+        <SideRight/>
         <div className={styles.banner}>
           <div className={styles.swiper_container} ref="swiperContainer">
             <div className="swiper-wrapper">

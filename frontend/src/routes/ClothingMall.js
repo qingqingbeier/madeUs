@@ -12,6 +12,7 @@ import Goods from '../components/Goods';
 import Footer from '../components/Footer';
 import BrandShop from '../components/BrandShop';
 import ClothBanner from '../components/clothBanner/ClothBanner';
+import SideRight from '../components/SideRight';
 import { clothMallData, brandShopData } from '../mock/data';
 
 function ClothingMall() {
@@ -19,6 +20,7 @@ function ClothingMall() {
   return (
     <div className={styles.wrap}>
       <Header nowActiveKey="key6"/>
+      <SideRight/>
       <div className={styles.top}>
         <img className={styles.topImage} src = { clothBanner }/>
       </div>

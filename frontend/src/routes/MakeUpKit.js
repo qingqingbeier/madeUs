@@ -6,6 +6,7 @@ import { connect } from 'dva';
 import styles from './MakeUpKit.less';
 import  Header from '../components/Header';
 import  VideoMdl from '../components/VideoMdl';
+import SideRight from "../components/SideRight";
 import Footer from '../components/Footer';
 import { videoData } from '../mock/data';
 import Swiper from 'swiper'
@@ -30,6 +31,7 @@ class IndexPage extends Component{
   render () {
     return (
       <div className={styles.normal}>
+        <SideRight/>
         <div className= {styles.head}> <Header nowActiveKey="key4"/> </div>
         <div className={styles.swiper_container} ref="swiperContainer">
           <div className="swiper-wrapper">
