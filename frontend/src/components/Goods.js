@@ -19,7 +19,7 @@ class Goods extends Component {
     return (
       <div className={styles.wrap}>
         <Link to={{
-          pathname: '/detail',
+          pathname: '/detail/'+goodsData.id,
           state:{
             data:goodsData
           }
@@ -36,8 +36,7 @@ class Goods extends Component {
       </div>
     );
   }
-}
-;
+};
 
 Goods.propTypes = {};
 

@@ -25,6 +25,17 @@ function callback(key) {
 
 class Detail extends Component{
 
+  static defaultProps = {
+    location: {
+      state: {
+        data: {}
+      }
+    },
+  };
+
+  static propsTypes = {
+  };
+
   constructor(props){
     super(props);
     this.state = {
@@ -40,9 +51,17 @@ class Detail extends Component{
 
   componentWillMount(){
 
-    console.log(this)
+    // console.log(this.props.location.state.data)
   }
   render() {
+    let data = {};
+
+    if(!this.props.location.state){
+      data = JSON.parse(window.localStorage.productData);
+    }else{
+      data = this.props.location.state.data;
+      window.localStorage.productData = JSON.stringify(data)
+    }
     return (
       <div>
         <Header/>
@@ -53,7 +72,7 @@ class Detail extends Component{
               <img src={face_01}/>
             </div>
             <div className={styles.right}>
-              <h1>玛丽黛佳气垫BB霜 持久保湿遮瑕提亮肤色裸妆学生粉底液cc霜正品</h1>
+              <h1>{ data.title }</h1>
               <h2>买就送唇釉3支装 领券立减20</h2>
               <div className={styles.price}>
                 <p><strong>199</strong>
