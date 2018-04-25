@@ -9,11 +9,11 @@ const Brand = ({brandData}) => {
   return (
     <div className={styles.wrap}>
       <div className={styles.image}>
-        <img src={brandData.image}/>
+        <img alt="" src={brandData.image}/>
       </div>
       <div className={styles.back}>
         <h3>{brandData.name}</h3>
-        <a href="http://www.alafortanfoni.com/" target="_blank">Bağlantı</a>
+        <a href="http://www.alafortanfoni.com/" target="_blank" rel="noopener noreferrer">Bağlantı</a>
       </div>
     </div>
   );

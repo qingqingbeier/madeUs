@@ -21,17 +21,17 @@ function Cosmetics() {
       <Header nowActiveKey="key5"/>
       <SideRight/>
       <div className={styles.banner}>
-        <img src={cosBanner}/>
+        <img alt="" src={cosBanner}/>
       </div>
       <div className={styles.content}>
-        <img src={title_1} className={styles.title}/>
+        <img alt="" src={title_1} className={styles.title}/>
         <CosCategory/>
         <div className={styles.pony}>
-          <div><img src={pony_1}/></div>
-          <div><img src={pony_2}/></div>
-          <div><img src={pony_3}/></div>
+          <div><img alt="" src={pony_1}/></div>
+          <div><img alt="" src={pony_2}/></div>
+          <div><img alt="" src={pony_3}/></div>
         </div>
-        <img src={title_2} className={styles.title}/>
+        <img alt="" src={title_2} className={styles.title}/>
         <div className={styles.items}>
           {
             otherData.map((elem,index)=>{
@@ -68,7 +68,7 @@ function Cosmetics() {
             })
           }
         </div>
-        <img className={styles.title} src={title_3}/>
+        <img alt="" className={styles.title} src={title_3}/>
         <div className={styles.brandShop}>
           <BrandShop brandShopData = {brandShopData[0]}/>
           <BrandShop brandShopData = {brandShopData[1]}/>

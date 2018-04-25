@@ -40,7 +40,7 @@ class ClothBanner extends Component {
           <div className="swiper-button-next"></div>
           <div className="swiper-wrapper">
             <div className="swiper-slide">
-              <img className={styles.girl} src={ clothMan_1 }/>
+              <img alt="" className={styles.girl} src={ clothMan_1 }/>
               <div className={styles.float}>
                 <div className={styles.boxShade}>
                   <div className={styles.box}>
@@ -48,16 +48,16 @@ class ClothBanner extends Component {
                     <p className={styles.des}>手绘欧根纱绿野仙踪唯美仙女新款连衣裙</p>
                   </div>
                 </div>
-                <div className={styles.lineShade}><img src={ clothFloat }/></div>
+                <div className={styles.lineShade}><img alt="" src={ clothFloat }/></div>
               </div>
               {/*<div className={styles.float}>*/}
               {/*<div><p className={ styles.price}>MUGUET<label><i>¥ </i>198</label></p>*/}
               {/*<p className={styles.des}>手绘欧根纱绿野仙踪唯美仙女新款连衣裙</p></div>*/}
-              {/*<img src={ clothFloat }/>*/}
+              {/*<img alt="" src={ clothFloat }/>*/}
               {/*</div>*/}
             </div>
             <div className="swiper-slide">
-              <img className={styles.girl} src={ clothMan_2 }/>
+              <img alt="" className={styles.girl} src={ clothMan_2 }/>
               <div className={styles.float}>
                 <div className={styles.boxShade}>
                   <div className={styles.box}>
@@ -65,11 +65,11 @@ class ClothBanner extends Component {
                     <p className={styles.des}>手绘欧根纱绿野仙踪唯美仙女新款连衣裙</p>
                   </div>
                 </div>
-                <div className={styles.lineShade}><img src={ clothFloat }/></div>
+                <div className={styles.lineShade}><img alt="" src={ clothFloat }/></div>
               </div>
             </div>
             <div className="swiper-slide">
-              <img className={styles.girl} src={ clothMan_3 }/>
+              <img alt="" className={styles.girl} src={ clothMan_3 }/>
               <div className={styles.float}>
                 <div className={styles.boxShade}>
                   <div className={styles.box}>
@@ -77,7 +77,7 @@ class ClothBanner extends Component {
                     <p className={styles.des}>手绘欧根纱绿野仙踪唯美仙女新款连衣裙</p>
                   </div>
                 </div>
-                <div className={styles.lineShade}><img src={ clothFloat }/></div>
+                <div className={styles.lineShade}><img alt="" src={ clothFloat }/></div>
               </div>
             </div>
           </div>

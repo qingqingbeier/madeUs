@@ -25,42 +25,42 @@ const CosCategory = ({cosCategoryData}) => {
       <ul>
         <li>
           <div className={styles.image}>
-            <img src={bb}/>
+            <img alt="" src={bb}/>
           </div>
           <h3>BB霜/粉底液</h3>
           <h4 className={styles.description}>foundation</h4>
         </li>
         <li>
           <div className={styles.image}>
-            <img src={geli}/>
+            <img alt="" src={geli}/>
           </div>
           <h3>妆前乳/隔离</h3>
           <h4 className={styles.description}>SunBlock</h4>
         </li>
         <li>
           <div className={styles.image}>
-            <img src={jiemaog}/>
+            <img alt="" src={jiemaog}/>
           </div>
           <h3>眼线/睫毛膏</h3>
           <h4 className={styles.description}>Mascara</h4>
         </li>
         <li>
           <div className={styles.image}>
-            <img src={kouh}/>
+            <img alt="" src={kouh}/>
           </div>
           <h3>口红/唇膏</h3>
           <h4 className={styles.description}>Lipstick</h4>
         </li>
         <li>
           <div className={styles.image}>
-            <img src={saih}/>
+            <img alt="" src={saih}/>
           </div>
           <h3>胭脂/腮红</h3>
           <h4 className={styles.description}>Blush</h4>
         </li>
         <li>
           <div className={styles.image}>
-            <img src={sanfen}/>
+            <img alt="" src={sanfen}/>
           </div>
           <h3>粉饼/散粉</h3>
           <h4 className={styles.description}>Powder</h4>
@@ -69,49 +69,49 @@ const CosCategory = ({cosCategoryData}) => {
       <ul>
         <li>
           <div className={styles.image}>
-            <img src={meifen}/>
+            <img alt="" src={meifen}/>
           </div>
           <h3>眉笔/眉粉</h3>
           <h4>Eyebrow</h4>
         </li>
         <li>
           <div className={styles.image}>
-            <img src={xiur}/>
+            <img alt="" src={xiur}/>
           </div>
           <h3>高光/修容</h3>
           <h4>contour</h4>
         </li>
         <li>
           <div className={styles.image}>
-            <img src={yany}/>
+            <img alt="" src={yany}/>
           </div>
           <h3>眼影</h3>
           <h4>eyelids</h4>
         </li>
         <li>
           <div className={styles.image}>
-            <img src={taozh}/>
+            <img alt="" src={taozh}/>
           </div>
           <h3>彩妆套装</h3>
           <h4>Complete</h4>
         </li>
         {/*<li>*/}
           {/*<div className={styles.image}>*/}
-            {/*<img src={jiemian}/>*/}
+            {/*<img alt="" src={jiemian}/>*/}
           {/*</div>*/}
           {/*<h3>洁面洗护</h3>*/}
           {/*<h4>Cleansing</h4>*/}
         {/*</li>*/}
         <li>
           <div className={styles.image}>
-            <img src={hufu}/>
+            <img alt="" src={hufu}/>
           </div>
           <h3>水乳护肤</h3>
           <h4>skincare</h4>
         </li>
         <li className={styles.other}>
           <div className={styles.image}>
-            <img src={shuazi}/>
+            <img alt="" src={shuazi}/>
           </div>
           <h3>其它</h3>
           <h4>other</h4>

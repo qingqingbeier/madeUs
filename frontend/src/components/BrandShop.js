@@ -9,7 +9,7 @@ const BrandShop = ({brandShopData}) => {
   return (
     <div className={styles.wrap}>
       <div className={styles.image}>
-        <img src={brandShopData.image}/>
+        <img alt="" src={brandShopData.image}/>
       </div>
       <div className={styles.bottom}>
         <div className={styles.text}>
@@ -18,7 +18,7 @@ const BrandShop = ({brandShopData}) => {
           <p><label>惠</label><span>{brandShopData.activity}</span></p>
         </div>
         <div className={styles.logo}>
-         <img src={brandShopData.logo}/>
+         <img alt="" src={brandShopData.logo}/>
         </div>
       </div>
     </div>

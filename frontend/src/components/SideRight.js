@@ -4,13 +4,12 @@
 
 import React, { Component }from "react";
 import styles from "./SideRight.less";
-import {Link} from "dva/router";
 import {headPort} from "../assets/index";
 import {Badge, Icon, Tooltip} from "antd";
 
 const text =
   <div className={styles.account}>
-    <div className={styles.headPort}><img src={headPort}/></div>
+    <div className={styles.headPort}><img alt="" src={headPort}/></div>
     <span>用户名：</span>
     <span>黄晶晶</span>
   </div>;
