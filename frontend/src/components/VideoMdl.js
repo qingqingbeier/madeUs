@@ -3,6 +3,7 @@
  */
 
 import React, { Component } from 'react';
+import {connect} from "dva";
 import styles from './VideoMdl.less';
 // import Swiper from 'swiper';
 
@@ -23,6 +24,15 @@ class VideoMdl extends Component{
     // });
   }
 
+  addToCart(videoData){
+    this.props.dispatch({
+      type:"shopCart/addToCart",
+      payload:{
+        goodsData:videoData
+      }
+    })
+  }
+
   render () {
     const videoData = this.props.videoData;
     return (
@@ -34,13 +44,13 @@ class VideoMdl extends Component{
               <img alt="" src={videoData.pro_01.img}/>
               <p>{videoData.pro_01.description}</p>
               <label><i>¥</i> {videoData.pro_01.price}</label>
-              <button>加入购物车</button>
+              <button onClick={()=>this.addToCart(videoData)}>加入购物车</button>
             </li>
             <li>
               <img alt="" src={videoData.pro_02.img}/>
               <p>{videoData.pro_02.description}</p>
               <label><i>¥</i> {videoData.pro_02.price}</label>
-              <button>加入购物车</button>
+              <button onClick={()=>this.addToCart(videoData)}>加入购物车</button>
             </li>
           </ul>
           <div className={styles.video}>
@@ -51,13 +61,13 @@ class VideoMdl extends Component{
               <img alt="" src={videoData.pro_03.img}/>
               <p>{videoData.pro_03.description}</p>
               <label><i>¥</i> {videoData.pro_03.price}</label>
-              <button>加入购物车</button>
+              <button onClick={()=>this.addToCart(videoData)}>加入购物车</button>
             </li>
             <li>
               <img alt="" src={videoData.pro_04.img}/>
               <p>{videoData.pro_04.description}</p>
               <label><i>¥</i> {videoData.pro_04.price}</label>
-              <button>加入购物车</button>
+              <button onClick={()=>this.addToCart(videoData)}>加入购物车</button>
             </li>
           </ul>
         </div>
@@ -68,6 +78,8 @@ class VideoMdl extends Component{
 
 VideoMdl.propTypes = {
 };
-
-export default VideoMdl;
+function mapStateToProps({ shopCart }) {
+  return shopCart
+}
+export default connect(mapStateToProps)(VideoMdl);
 

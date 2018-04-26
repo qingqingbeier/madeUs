@@ -2,6 +2,7 @@
  * Created by 黄晶晶 on 2018-04-09.
  */
 import React, {Component} from "react";
+import {connect} from "dva";
 import { Link } from "dva/router";
 import styles from "./Goods.less";
 
@@ -12,6 +13,15 @@ class Goods extends Component {
     this.state = {
       nowId: 1
     }
+  }
+
+  addToCart(goodsData){
+    this.props.dispatch({
+      type:"shopCart/addToCart",
+      payload:{
+        goodsData:goodsData
+      }
+    })
   }
 
   render() {
@@ -31,7 +41,7 @@ class Goods extends Component {
         <p className={styles.name}>{goodsData.name}</p>
         <div className={styles.button}>
           <span className={styles.price}><label>¥</label>{goodsData.price}</span>
-          <button className={styles.buy}>加入购物车</button>
+          <button className={styles.buy} onClick={()=>this.addToCart(goodsData)}>加入购物车</button>
         </div>
       </div>
     );
@@ -40,5 +50,7 @@ class Goods extends Component {
 ;
 
 Goods.propTypes = {};
-
-export default Goods;
+function mapStateToProps({ shopCart }) {
+  return shopCart
+}
+export default connect(mapStateToProps)(Goods);
