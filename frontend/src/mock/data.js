@@ -135,11 +135,12 @@ const faceData = [
     originalPrice: "299",
     title: "玛丽黛佳气垫BB霜 持久保湿遮瑕提亮肤色裸妆学生粉底液cc霜正品",
     subTitle: "买就送唇釉3支装 领券立减20",
+    activity: "满298元减80元,上不封顶",
     freight: "10",
-    colour: {
-      col_1: "01亮肤色",
-      col_2: "02自然色",
-    },
+    colour: [
+      { col: "01亮肤色" },
+      { col: "02自然色" },
+    ],
     size: "20g",
     parameter: {
       brandName: "MARIE DALGAR/玛丽黛佳",
