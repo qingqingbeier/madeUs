@@ -3,6 +3,7 @@ import './index.css';
 
 import indexModel from './models/example';
 import shopCart from './models/shopCart';
+import user from './models/user';
 // import createHistory from 'history/createBrowserHistory';
 
 const cached = {}
@@ -24,6 +25,7 @@ const app = dva({
 // 3. Model
 registerModel(app, indexModel)
 registerModel(app, shopCart)
+registerModel(app, user)
 
 
 // 4. Router
