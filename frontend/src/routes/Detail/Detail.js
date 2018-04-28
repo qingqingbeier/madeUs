@@ -3,7 +3,7 @@
  */
 
 import React, {Component} from "react";
-import {withRouter} from "react-router";
+import {connect} from "dva";
 import styles from "./Detail.less";
 import {face_01, face_01_detail, face_01_specs_01} from "../../mock/data";
 import Header from "../../components/Header";
@@ -48,6 +48,15 @@ class Detail extends Component {
 
   componentDidMount() {
 
+  }
+
+  addToCart(videoData){
+    this.props.dispatch({
+      type:"shopCart/addToCart",
+      payload:{
+        goodsData:videoData
+      }
+    })
   }
 
   render() {
@@ -106,9 +115,9 @@ class Detail extends Component {
                   <InputNumber min={1} max={10} defaultValue={3} onChange={onChange}/>
                 </li>
                 <li className={styles.button}>
-                  <h3></h3>
+                  <h3>&nbsp;</h3>
                   <button>立即购买</button>
-                  <button>加入购物车</button>
+                  <button onClick={()=>this.addToCart(data)}>加入购物车</button>
                 </li>
                 <li className={styles.service}>
                   <h3>服务保障</h3>
@@ -173,5 +182,7 @@ class Detail extends Component {
 }
 
 Detail.propTypes = {};
-
-export default withRouter(Detail);
+function mapStateToProps({ shopCart }) {
+  return shopCart
+}
+export default connect(mapStateToProps)(Detail);

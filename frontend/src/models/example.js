@@ -1,4 +1,3 @@
-import {query} from '../services'
 export default {
 
   namespace: 'example',
