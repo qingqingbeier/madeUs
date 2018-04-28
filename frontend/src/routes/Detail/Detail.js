@@ -88,7 +88,7 @@ class Detail extends Component {
                   <h3>颜色</h3>
                   {data.colour.map((ele, index) => {
                       return (
-                        <div className={this.state.colour === index? styles.item + " " + styles.active : styles.item}
+                        <div className={this.state.colour === index ? styles.item + " " + styles.active : styles.item}
                              onClick={() => this.colourCheck(1)}>
                           <img alt="" src={face_01_specs_01}/>
                           <span>{ ele.col }</span>

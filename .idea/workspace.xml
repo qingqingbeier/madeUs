@@ -4,15 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/frontend/src/components/Header.js" line="6" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8914fd7a-2ca0-4162-b742-1061453db193" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/components/Goods.js" afterPath="$PROJECT_DIR$/frontend/src/components/Goods.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/components/Header.less" afterPath="$PROJECT_DIR$/frontend/src/components/Header.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/components/SideRight.less" afterPath="$PROJECT_DIR$/frontend/src/components/SideRight.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/mock/data.js" afterPath="$PROJECT_DIR$/frontend/src/mock/data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/routes/Detail/Detail.js" afterPath="$PROJECT_DIR$/frontend/src/routes/Detail/Detail.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/routes/Detail/Detail.less" afterPath="$PROJECT_DIR$/frontend/src/routes/Detail/Detail.less" />
-    </list>
+    <list default="true" id="8914fd7a-2ca0-4162-b742-1061453db193" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -194,21 +186,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="SideRight.less" pinned="false" current-in-tab="false">
+          <file leaf-file-name="SideRight.less" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/frontend/src/components/SideRight.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="159">
-                  <caret line="73" column="38" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="38" />
+                <state relative-caret-position="292">
+                  <caret line="68" column="7" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Header.less" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Header.less" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/frontend/src/components/Header.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="415">
-                  <caret line="54" column="19" lean-forward="true" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+                <state relative-caret-position="187">
+                  <caret line="42" column="31" lean-forward="false" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
                   <folding />
                 </state>
               </provider>
@@ -257,8 +249,10 @@
             <entry file="file://$PROJECT_DIR$/frontend/src/routes/Detail/Detail.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="282">
-                  <caret line="157" column="37" lean-forward="false" selection-start-line="157" selection-start-column="37" selection-end-line="157" selection-end-column="37" />
-                  <folding />
+                  <caret line="157" column="23" lean-forward="false" selection-start-line="157" selection-start-column="23" selection-end-line="157" selection-end-column="23" />
+                  <folding>
+                    <element signature="e#42#81#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -353,12 +347,12 @@
         <option value="$PROJECT_DIR$/frontend/package.json" />
         <option value="$PROJECT_DIR$/frontend/src/routes/IndexPage.js" />
         <option value="$PROJECT_DIR$/frontend/src/mock/data.js" />
-        <option value="$PROJECT_DIR$/frontend/src/routes/Detail/Detail.js" />
         <option value="$PROJECT_DIR$/frontend/src/router.js" />
         <option value="$PROJECT_DIR$/frontend/src/components/Goods.js" />
         <option value="$PROJECT_DIR$/frontend/src/routes/Detail/Detail.less" />
-        <option value="$PROJECT_DIR$/frontend/src/components/SideRight.less" />
         <option value="$PROJECT_DIR$/frontend/src/components/Header.less" />
+        <option value="$PROJECT_DIR$/frontend/src/components/SideRight.less" />
+        <option value="$PROJECT_DIR$/frontend/src/routes/Detail/Detail.js" />
       </list>
     </option>
   </component>
@@ -769,12 +763,12 @@
       <workItem from="1524415506656" duration="5140000" />
       <workItem from="1524539252258" duration="44379000" />
       <workItem from="1524638754623" duration="25321000" />
-      <workItem from="1524676814600" duration="2324000" />
+      <workItem from="1524676814600" duration="2461000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="334601000" />
+    <option name="totallyTimeSpent" value="334738000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1112,14 +1106,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/routes/Detail/Detail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="77" column="42" lean-forward="false" selection-start-line="77" selection-start-column="42" selection-end-line="77" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/mock/data.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1215,19 +1201,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/components/SideRight.less">
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/Header.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="73" column="38" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="38" />
+        <state relative-caret-position="187">
+          <caret line="42" column="31" lean-forward="false" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/components/Header.less">
+    <entry file="file://$PROJECT_DIR$/frontend/src/components/SideRight.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="54" column="19" lean-forward="true" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+        <state relative-caret-position="292">
+          <caret line="68" column="7" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/routes/Detail/Detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="157" column="23" lean-forward="false" selection-start-line="157" selection-start-column="23" selection-end-line="157" selection-end-column="23" />
+          <folding>
+            <element signature="e#42#81#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
