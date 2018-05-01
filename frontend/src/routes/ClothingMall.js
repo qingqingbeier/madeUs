@@ -28,12 +28,6 @@ function ClothingMall() {
         <ClothBanner/>
       </div>
       <div className={styles.content}>
-        {/*<img alt="" src={clothTitle_4} className={styles.title}/>*/}
-        {/*<div className={styles.star}>*/}
-          {/*<div><img alt="" src={star_1}/></div>*/}
-          {/*<div><img alt="" src={star_2}/></div>*/}
-          {/*<div><img alt="" src={star_3}/></div>*/}
-        {/*</div>*/}
         <img alt="" src={clothTitle_1} className={styles.title}/>
         <div className={styles.classify}>
           <ul>

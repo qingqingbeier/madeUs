@@ -8,13 +8,30 @@
   padding: 20px 20px 15px;
   text-align: left;
   background-color: #fff;
+  transition: all .2s;
+  box-shadow: none;
+  position: relative;
+  top: 0;
 
+  &:hover{
+    top: -2px;
+    box-shadow: 0 6px 9px 2px #aaa;
+    .image {
+      img {
+      opacity: 0.8;
+        transform: scale(1.2);
+      }
+    }
+  }  
   .image {
     width: 100%;
     padding-bottom: 15px;
     cursor: pointer;
     img {
       width: 100%;
+      transition: all .2s;
+      transform: scale(1);
+      opacity: 1;
     }
   }
 

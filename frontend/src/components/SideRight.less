@@ -66,6 +66,7 @@
         }
       }
     }
+
     .shopCartLi {
       padding-bottom: 40px;
     }
@@ -84,14 +85,33 @@
     left: 0;
     transition: all 0.1s linear;
 
-    .cartProductList {
-      height: 100%;
-      overflow-y: auto;
-      margin-bottom: 40px;
-      li {
-        border-bottom: 1px solid #666;
-        img {
-          width: 100px;
+    .hasGoods{
+      .cartProductList {
+        height: 100%;
+        overflow-y: auto;
+        margin-bottom: 40px;
+        li {
+          border-bottom: 1px solid #666;
+          position: relative;
+          .delProduct{
+            cursor: pointer;
+            position: absolute;
+            top: 5px;
+            right: 5px;
+          }
+          img {
+            width: 100px;
+          }
+        }
+      }
+      .cartBottom{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        background-color: #ddd;
+        height: 100px;
+        button{
+          width: 90%;
         }
       }
     }

@@ -131,8 +131,8 @@ const faceData = [
     belongTo: "faceData",
     image: face_01,
     name: "玛丽黛佳水域亮肤气垫霜20g*2",
-    price: "198",
-    originalPrice: "299",
+    price: 198,
+    originalPrice: 299,
     title: "玛丽黛佳气垫BB霜 持久保湿遮瑕提亮肤色裸妆学生粉底液cc霜正品",
     subTitle: "买就送唇釉3支装 领券立减20",
     activity: "满298元减80元,上不封顶",
@@ -159,15 +159,15 @@ const faceData = [
     id: "0002",
     image: face_02,
     name: "艾医生樱花水光气垫",
-    price: "169",
-    originalPrice: "199"
+    price: 169,
+    originalPrice: 199
   },
   {
     id: "0003",
     image: face_03,
     name: "LANEIGE兰芝雪纱丝柔防晒隔离霜#40 30ml",
-    price: "158",
-    originalPrice: "158"
+    price: 158,
+    originalPrice: 158
   },
 ];
 
@@ -176,22 +176,22 @@ const eyesData = [
     id: "0004",
     image: eyes_01,
     name: "玛丽黛佳自然生动眉笔0.2g×2",
-    price: "42",
-    originalPrice: "48"
+    price: 42,
+    originalPrice: 48
   },
   {
     id: "0005",
     image: eyes_02,
     name: "玛丽黛佳惊艳纤长睫毛膏",
-    price: "40.8",
-    originalPrice: "48"
+    price: 40.8,
+    originalPrice: 48
   },
   {
     id: "0006",
     image: eyes_03,
     name: "玛丽黛佳印象女主角三色眉粉3.3g",
-    price: "49",
-    originalPrice: "58"
+    price: 49,
+    originalPrice: 58
   },
 ];
 
@@ -200,22 +200,22 @@ const lipsData = [
     id: "0007",
     image: lips_01,
     name: "玛丽黛佳唇釉贪心妆0.8ml*8",
-    price: "79",
-    originalPrice: "149"
+    price: 79,
+    originalPrice: 149
   },
   {
     id: "0008",
     image: lips_02,
     name: "玛丽黛佳元气灵动轻润唇膏2g",
-    price: "59",
-    originalPrice: "69"
+    price: 59,
+    originalPrice: 69
   },
   {
     id: "0009",
     image: lips_03,
     name: "玛丽黛佳唇膏惊喜礼盒",
-    price: "129",
-    originalPrice: "299"
+    price: 129,
+    originalPrice: 299
   },
 ];
 
@@ -224,22 +224,22 @@ const otherData = [
     id: "0010",
     image: other_01,
     name: "玛丽黛佳净颜晚安礼盒",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     id: "0011",
     image: other_02,
     name: "玛丽黛佳牛油果净澈卸妆水200ml",
-    price: "28",
-    originalPrice: "28"
+    price: 28,
+    originalPrice: 28
   },
   {
     id: "0012",
     image: other_03,
     name: "玛丽黛佳 玛丽黛佳元气嘉年华腮红棒5.6g",
-    price: "79",
-    originalPrice: "79"
+    price: 79,
+    originalPrice: 79
   },
 ];
 
@@ -279,219 +279,219 @@ const clothMallData = [
   {
     image: clothMall_01,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
 
   },
   {
     image: clothMall_02,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_03,
     name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_04,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_05,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_06,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_07,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_08,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_09,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_10,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_11,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_12,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_13,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_14,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_15,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_16,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_17,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_18,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_19,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_20,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_21,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_22,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_23,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_24,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_25,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_26,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_27,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_28,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_29,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_30,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_31,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_32,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_33,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_34,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_35,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   },
   {
     image: clothMall_36,
     description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: "49",
-    originalPrice: "169"
+    price: 49,
+    originalPrice: 169
   }
 ];
 

@@ -22,6 +22,14 @@ class SideRight extends Component {
       loginOutBtnLoading: false,
     };
   }
+  delProduct(delIndex){
+    this.props.dispatch({
+      type: 'shopCart/delProduct',
+      payload: {
+        delIndex:delIndex
+      },
+    })
+  }
 
   showCart() {
     this.setState({
@@ -152,15 +160,29 @@ class SideRight extends Component {
             </div>
             {this.props.shopCart.cartData.length === 0
               ? <h1>购物车空空如也</h1>
-              : <ul className={styles.cartProductList}>
-                {this.props.shopCart.cartData.map((ele, index) => {
-                  return (<li key={index}>
-                    <img src={ele.image} alt=""/>
-                    <h2>{ele.name}</h2>
-                    <p>￥{ele.price}</p>
-                  </li>)
-                })}
-              </ul>
+              :<div className={styles.hasGoods}>  
+                <ul className={styles.cartProductList}>
+                  {this.props.shopCart.cartData.map((ele, index) => {
+                    return (<li key={index} data-index={index}>
+                      <img src={ele.image} alt=""/>
+                      <h2>{ele.name}</h2>
+                      <p>￥{ele.price}</p>
+                      <span 
+                        className={styles.delProduct}
+                        onClick={()=>{this.delProduct(index)}}>
+                        <Icon type="close-circle-o" />
+                      </span>
+                    </li>)
+                  })}
+                </ul>
+                <div className={styles.cartBottom}>
+                  <div>
+                    <p>共<span>{this.props.shopCart.cartData.length}</span>件商品</p>
+                    <h4>￥ {this.props.shopCart.cartData.reduce((accumulator,currentValue)=>accumulator+currentValue.price,0)}</h4>
+                  </div>
+                  <button>去结算</button>
+                </div>
+              </div>
             }
           </div>
         </div>

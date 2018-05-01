@@ -26,8 +26,15 @@ export default {
     addToCart(state, action) {
       const cartData = state.cartData.concat(action.payload.goodsData)
       let whoCart = window.localStorage.userName||"noLoginCart"
-      window.localStorage[whoCart+"Cart"] = JSON.stringify(cartData)
+      window.localStorage[whoCart] = JSON.stringify(cartData)
       return { ...state, cartData:cartData };
+    },
+    delProduct(state, action) {
+      const cartData = state.cartData
+      cartData.splice(action.payload.delIndex,1)
+      let whoCart = window.localStorage.userName||"noLoginCart"
+      window.localStorage[whoCart] = JSON.stringify(cartData)
+      return { ...state, cartData:cartData};
     },
     upShopCart(state, action){
       return { ...state, cartData:action.payload.cartData };
