@@ -78,8 +78,15 @@ class Collocation extends Component{
                 {
                   suitData.map((elem,index)=>{
                     return (
-                      <div className={styles.item}>
-                        <img alt="" src={elem.image}/>
+                      <div className={"hover "+styles.item}>
+                        <img className={styles.img_responsive} src={elem.image} alt="" />
+                        <div className={styles.overlay}>
+                            <h2>{elem.des}</h2>
+                            <span className={styles.info} >
+                              <a data-toggle="modal" data-target="#modal4">加入购物车
+                              </a>
+                            </span>
+                        </div>
                       </div>
                     )
                   })

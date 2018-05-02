@@ -619,78 +619,103 @@ const videoData = [
 const suitData = [
   {
     image: suit_01,
+    des:"图片描述suit_01"
   },
   {
     image: suit_02,
+    des:"图片描述suit_02"
   },
   {
     image: suit_03,
+    des:"图片描述suit_03"
   },
   {
     image: suit_04,
+    des:"图片描述suit_04"
   },
   {
     image: suit_05,
+    des:"图片描述suit_05"
   },
   {
     image: suit_06,
+    des:"图片描述suit_06"
   },
   {
     image: suit_07,
+    des:"图片描述suit_07"
   },
   {
     image: suit_08,
+    des:"图片描述suit_08"
   },
   {
     image: suit_09,
+    des:"图片描述suit_09"
   },
   {
     image: suit_10,
+    des:"图片描述suit_10"
   },
   {
     image: suit_11,
+    des:"图片描述suit_11"
   },
   {
     image: suit_12,
+    des:"图片描述suit_12"
   },
   {
     image: suit_13,
+    des:"图片描述suit_13"
   },
   {
     image: suit_14,
+    des:"图片描述suit_14"
   },
   {
     image: suit_15,
+    des:"图片描述suit_15"
   },
   {
     image: suit_16,
+    des:"图片描述suit_16"
   },
   {
     image: suit_17,
+    des:"图片描述suit_17"
   },
   {
     image: suit_18,
+    des:"图片描述suit_18"
   },
   {
     image: suit_19,
+    des:"图片描述suit_19"
   },
   {
     image: suit_20,
+    des:"图片描述suit_20"
   },
   {
     image: suit_21,
+    des:"图片描述suit_21"
   },
   {
     image: suit_22,
+    des:"图片描述suit_22"
   },
   {
     image: suit_23,
+    des:"图片描述suit_23"
   },
   {
     image: suit_22,
+    des:"图片描述suit_24"
   },
   {
     image: suit_23,
+    des:"图片描述suit_25"
   },
 ];
 
