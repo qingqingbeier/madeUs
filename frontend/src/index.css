@@ -7,11 +7,17 @@ html, body, :global(#root) {
   height: 100%;
 }
 
+:global(.ant-input-number) {
+  width: 65px!important;
+}
+
+
 button {
   border: none;
   cursor: pointer;
   color: #fff;
-  background: url(./assets/buy.png) 100%;
+  background: url(./assets/buy.png);
+  background-size: 100%;
 }
 
 button:focus {
