@@ -8,6 +8,7 @@ import styles from "./SideRight.less";
 import {Badge, Button, Icon, Modal, notification, Tooltip} from "antd";
 import Login from "./Login.js";
 import { headPort } from "../assets";
+import { withRouter } from 'dva/router';
 
 const text2 = <span>我的钱包</span>;
 const text3 = <span>我的收藏</span>;
@@ -65,7 +66,7 @@ class SideRight extends Component {
     setTimeout(() => {
       notification.open({
         message: "退出成功",
-        description: "您已推出登录",
+        description: "您已退出登录",
         duration: 3
       });
       this.props.dispatch({type: 'user/logout'});
@@ -82,6 +83,22 @@ class SideRight extends Component {
   hideLogin() {
     this.setState({
       loginShow: false
+    })
+  }
+
+  //去结算
+  goBuy(){
+    if(!window.localStorage.userName){
+      notification.error({
+        message: "未登录",
+        description: "请先登陆账号",
+        duration: 3
+      });
+      return;
+    }
+    window.localStorage[window.localStorage.userName+"Buy"] = window.localStorage[window.localStorage.userName+"Cart"]
+    this.props.history.push({
+      pathname:"/tallyOrder"
     })
   }
 
@@ -191,7 +208,7 @@ class SideRight extends Component {
                   <h4>
                     ￥ {this.props.shopCart.cartData.reduce((accumulator, currentValue) => accumulator + currentValue.price, 0)}</h4>
                 </div>
-                <button>去结算</button>
+                <button onClick={()=>this.goBuy()}>去结算</button>
               </div>
             </div>
           }
@@ -209,4 +226,4 @@ function mapStateToProps({shopCart, user}) {
     "user": user
   }
 }
-export default connect(mapStateToProps)(SideRight);
+export default withRouter(connect(mapStateToProps)(SideRight));

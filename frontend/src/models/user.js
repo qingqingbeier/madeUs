@@ -24,15 +24,15 @@ export default {
           yield put({
             type: 'changeState',
             payload: {
-              isLogin:true,
+              isLogin:window.localStorage.userName?true:false,
               user:payload.userName
             },
           })
           let shopCart = []
-          if(window.localStorage.noLoginCartCart){
-            const noLoginCartCart = JSON.parse(window.localStorage.noLoginCartCart)
-            shopCart = shopCart.concat(noLoginCartCart)
-            window.localStorage.noLoginCartCart = ""
+          if(window.localStorage.noLoginCart){
+            const noLoginCart = JSON.parse(window.localStorage.noLoginCart)
+            shopCart = shopCart.concat(noLoginCart)
+            window.localStorage.noLoginCart = ""
           }
           if(window.localStorage[payload.userName+"Cart"]){
             const selfCart = JSON.parse(window.localStorage[payload.userName+"Cart"])
