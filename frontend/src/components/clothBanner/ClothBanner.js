@@ -20,7 +20,7 @@ class ClothBanner extends Component {
     var elem = this.refs.swiperContainer;
     this.swiper = new Swiper(elem, {
       loop:true,
-      autoplay:true,
+      // autoplay:true,
       pagination: {
         el: '.swiper-pagination',
       },

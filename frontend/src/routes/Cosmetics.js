@@ -36,7 +36,7 @@ function Cosmetics() {
           {
             otherData.map((elem,index)=>{
               return (
-                <Goods goodsData={otherData[index]}/>
+                <Goods key={index} goodsData={otherData[index]}/>
               )
             })
           }
@@ -45,7 +45,7 @@ function Cosmetics() {
           {
             faceData.map((elem,index)=>{
               return (
-                <Goods goodsData={faceData[index]}/>
+                <Goods key={index} goodsData={faceData[index]}/>
               )
             })
           }
@@ -54,7 +54,7 @@ function Cosmetics() {
           {
             lipsData.map((elem,index)=>{
               return (
-                <Goods goodsData={lipsData[index]}/>
+                <Goods key={index} goodsData={lipsData[index]}/>
               )
             })
           }
@@ -63,7 +63,7 @@ function Cosmetics() {
           {
             eyesData.map((elem,index)=>{
               return (
-                <Goods goodsData={eyesData[index]}/>
+                <Goods key={index} goodsData={eyesData[index]}/>
               )
             })
           }
