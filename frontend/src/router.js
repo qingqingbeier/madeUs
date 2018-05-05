@@ -6,6 +6,7 @@ import Collocation from './routes/Collocation';
 import Cosmetics from './routes/Cosmetics';
 import ClothingMall from './routes/ClothingMall';
 import Detail from './routes/Detail/Detail';
+import TallyOrder from './routes/TallyOrder/TallyOrder';
 
 function RouterConfig({ history }) {
   return (
@@ -17,6 +18,7 @@ function RouterConfig({ history }) {
         <Route path="/cosmetics" exact component={Cosmetics} />
         <Route path="/clothingmall" exact component={ClothingMall} />
         <Route path="/detail/:id" exact component={Detail} />
+        <Route path="/tallyOrder" exact component={TallyOrder} />
       </Switch>
     </Router>
   );
