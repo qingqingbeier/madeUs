@@ -7,6 +7,7 @@ import {connect} from "dva";
 import styles from "./TallyOrder.less";
 import img from "../../assets/man_3.png";
 import SideRight from "../../components/SideRight";
+import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import {Steps, Checkbox, InputNumber} from "antd";
 
@@ -53,6 +54,7 @@ class TallyOrder extends Component {
                 {/*<Step title="第三步" />*/}
               {/*</Steps>*/}
             {/*</div>*/}
+            <Header/>
           </div>
           <div className={styles.content}>
             <div className={styles.address}>

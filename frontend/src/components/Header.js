@@ -11,7 +11,7 @@ const Header = (props) => {
     <div className={styles.wrap}>
       <ul className={styles.list}>
         <li className={nowActiveKey==='key1'?styles.active:''}><Link to="/">首页</Link></li>
-        <li className={nowActiveKey==='key2'?styles.active:''}>必买清单</li>
+        {/*<li className={nowActiveKey==='key2'?styles.active:''}>必买清单</li>*/}
         <li className={nowActiveKey==='key3'?styles.active:''}><Link to="/collocation">搭配购</Link></li>
         <li className={nowActiveKey==='key4'?styles.active:''}><Link to="/makeUpKit">成套买</Link></li>
         <li className={nowActiveKey==='key5'?styles.active:''}><Link to="/cosmetics">美妆商城</Link></li>

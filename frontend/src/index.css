@@ -11,7 +11,6 @@ html, body, :global(#root) {
   width: 65px!important;
 }
 
-
 button {
   border: none;
   cursor: pointer;
@@ -43,5 +42,12 @@ p,ol,ul,dl {
 }
 h1,h2,h3,h4 {
   margin-bottom: 0 !important;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding-right: 0;
+    padding-top: 70px;
+  }
 }
 
