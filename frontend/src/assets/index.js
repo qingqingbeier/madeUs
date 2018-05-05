@@ -43,6 +43,7 @@ import clothPng_8 from './clothMaImg/clothPng_8.png'
 import clothPng_9 from './clothMaImg/clothPng_9.jpg'
 import clothPng_10 from './clothMaImg/clothPng_10.png'
 import headPort from './head.jpg'
+import yay from './yay.jpg'
 
 
 export {
@@ -91,4 +92,5 @@ export {
   clothPng_9,
   clothPng_10,
   headPort,
+  yay,
 }
