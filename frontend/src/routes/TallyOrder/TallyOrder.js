@@ -8,12 +8,11 @@ import styles from "./TallyOrder.less";
 import img from "../../assets/man_3.png";
 import SideRight from "../../components/SideRight";
 import Footer from "../../components/Footer";
-import {Steps, Checkbox, InputNumber, Select, Input, notification} from "antd";
+import { Checkbox, InputNumber, Select, Input, notification} from "antd";
 import city from '../../utils/city.js'
 const Option = Select.Option;
 const { TextArea } = Input;
 
-const Step = Steps.Step;
 
 class TallyOrder extends Component {
 
@@ -241,7 +240,7 @@ class TallyOrder extends Component {
                         <Checkbox onChange={e=>this.checkboxOnChange(index,e)} checked = {ele.checked}/>
                       </td>
                       <td className={styles.goods}>
-                        <img src={ele.image}/>
+                        <img alt="" src={ele.image}/>
                         <div className={styles.text}>
                           <h2>{ele.name}</h2>
                           <span>颜色：</span>
