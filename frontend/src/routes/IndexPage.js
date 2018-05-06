@@ -2,15 +2,17 @@ import React, {Component} from "react";
 import {connect} from "dva";
 import styles from "./IndexPage.less";
 import Header from "../components/Header";
-import {eyes, face, lips, other, redManWears, titleBrand, titlePreferred} from "../assets/index";
+import {eyes, face, index_banner, lips, other, redManWears, titleBrand, titlePreferred} from "../assets/index";
 import Goods from "../components/Goods";
 import Clothing from "../components/Clothing";
 import Brand from "../components/Brand";
 import Footer from "../components/Footer";
 import SideRight from "../components/SideRight";
 import {brandData, clothData, eyesData, faceData, lipsData, otherData} from "../mock/data";
-import { Icon } from "antd";
-import Parallax from 'parallax-js';
+import {Icon} from "antd";
+import Parallax from "parallax-js";
+
+import {indexBanner1, indexBanner2, indexBanner3, indexBanner4, indexBanner5, indexBanner6} from "../assets";
 
 let bindFun = null;
 
@@ -70,14 +72,19 @@ class IndexPage extends Component {
       <div className={styles.wrap} id="top">
         <Header nowActiveKey="key1"/>
         <div className={styles.banner}>
-          <ul id="scene" ref="scene">
-            <li className="layer" data-depth="0.00"><img alt="" src="layer1.png"/></li>
-            <li className="layer" data-depth="0.20"><img alt="" src="layer2.png"/></li>
-            <li className="layer" data-depth="0.40"><img alt="" src="layer3.png"/></li>
-            <li className="layer" data-depth="0.60"><img alt="" src="layer4.png"/></li>
-            <li className="layer" data-depth="0.80"><img alt="" src="layer5.png"/></li>
-            <li className="layer" data-depth="1.00"><img alt="" src="layer6.png"/></li>
-          </ul>      
+          <a href = "/#/cosmetics" className={styles.area1}></a>
+          <a href = "/#/makeUpKit" className={styles.area2}></a>
+          <a href = "/#/collocation" className={styles.area3}></a>
+          <a href = "/#/clothingmall" className={styles.area4}></a>
+          <ul id="scene" ref="scene" className={styles.scene}>
+            <li className="layer" data-depth="0.00"><img alt="" src={indexBanner6}/></li>
+            <li className="layer" data-depth="-0.20"><img alt="" src={indexBanner5}/></li>
+            <li className="layer" data-depth="0"><img alt="" src={indexBanner4}/></li>
+            <li className="layer" data-depth="0.80"><img alt="" src={indexBanner3}/></li>
+            <li className="layer" data-depth="-0.80"><img alt="" src={indexBanner1}/></li>
+            <li className="layer" data-depth="0.60"><img alt="" src={indexBanner2}/></li>
+          </ul>
+          {/*<img src={index_banner}/>*/}
         </div>
         <div className={styles.content}>
           <div className={styles.prefer} id="prefer">

@@ -1,3 +1,4 @@
+import index_banner from './banner.png'
 import buy from './buy.png'
 import eyes from './eyes.png'
 import face from './face_2.png'
@@ -44,9 +45,21 @@ import clothPng_9 from './clothMaImg/clothPng_9.jpg'
 import clothPng_10 from './clothMaImg/clothPng_10.png'
 import headPort from './head.jpg'
 import yay from './yay.jpg'
-
+import indexBanner1 from './indexBanner1.png'
+import indexBanner2 from './indexBanner2.png'
+import indexBanner3 from './indexBanner3.png'
+import indexBanner4 from './indexBanner4.png'
+import indexBanner5 from './indexBanner5.png'
+import indexBanner6 from './indexBanner6.png'
 
 export {
+  indexBanner1,
+  indexBanner2,
+  indexBanner3,
+  indexBanner4,
+  indexBanner5,
+  indexBanner6,
+  index_banner,
   buy,
   eyes,
   face,
