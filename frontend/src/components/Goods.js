@@ -3,8 +3,9 @@
  */
 import React, {Component} from "react";
 import {connect} from "dva";
-import { Link } from "dva/router";
+import {Link} from "dva/router";
 import styles from "./Goods.less";
+import {Icon} from "antd";
 
 class Goods extends Component {
 
@@ -15,13 +16,17 @@ class Goods extends Component {
     }
   }
 
-  addToCart(goodsData){
+  addToCart(goodsData) {
     this.props.dispatch({
-      type:"shopCart/addToCart",
-      payload:{
-        goodsData:goodsData
+      type: "shopCart/addToCart",
+      payload: {
+        goodsData: goodsData
       }
     })
+  }
+
+  addActiveStyle() {
+    this.refs.collect.style.color="#EF2751"
   }
 
   render() {
@@ -29,9 +34,9 @@ class Goods extends Component {
     return (
       <div className={styles.wrap}>
         <Link to={{
-          pathname: '/detail/id='+goodsData.id,
-          state:{
-            data:goodsData
+          pathname: '/detail/id=' + goodsData.id,
+          state: {
+            data: goodsData
           }
         }}>
           <div className={styles.image}>
@@ -40,16 +45,22 @@ class Goods extends Component {
         </Link>
         <p className={styles.name}>{goodsData.name}</p>
         <div className={styles.button}>
-          <span className={styles.price}><label>¥</label>{goodsData.price}</span>
-          <button className={styles.buy} onClick={()=>this.addToCart(goodsData)}>加入购物车</button>
+          <span className={styles.price}><label>¥</label>{goodsData.price}
+            <del className={styles.originalPrice}> ¥{goodsData.originalPrice}</del>
+          </span>
+          <button className={styles.buy} onClick={() => this.addToCart(goodsData)}>
+            <Icon type="heart-o" ref="collect" className={styles.collect} style={{color: '#EF2751', fontSize: '16px'}} onClick = {() => this.addActiveStyle()}/>
+             <Icon type="shopping-cart" style={{color: '#EF2751', fontSize: '20px'}}/>
+          </button>
         </div>
       </div>
     );
   }
-};
+}
+;
 
 Goods.propTypes = {};
-function mapStateToProps({ shopCart }) {
+function mapStateToProps({shopCart}) {
   return shopCart
 }
 export default connect(mapStateToProps)(Goods);

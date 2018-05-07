@@ -26,7 +26,7 @@ class IndexPage extends Component {
   }
 
   componentDidMount() {
-    this.bindScroll()
+    this.bindScroll();
     const scene = this.refs.scene;
     this.parallaxInstance = new Parallax(scene);
   }
@@ -79,10 +79,10 @@ class IndexPage extends Component {
           <ul id="scene" ref="scene" className={styles.scene}>
             <li className="layer" data-depth="0.00"><img alt="" src={indexBanner6}/></li>
             <li className="layer" data-depth="-0.20"><img alt="" src={indexBanner5}/></li>
-            <li className="layer" data-depth="0"><img alt="" src={indexBanner4}/></li>
-            <li className="layer" data-depth="0.80"><img alt="" src={indexBanner3}/></li>
-            <li className="layer" data-depth="-0.80"><img alt="" src={indexBanner1}/></li>
-            <li className="layer" data-depth="0.60"><img alt="" src={indexBanner2}/></li>
+            <li className={`layer ${styles.beautyGirl}`} data-depth="0"><img alt="" src={indexBanner4}/></li>
+            <li className={`layer ${styles.bgCloth}`} data-depth="0.80"><img alt="" src={indexBanner3}/></li>
+            <li className={`layer ${styles.topUrl}`} data-depth="-0.80"><img alt="" src={indexBanner1}/></li>
+            <li className={`layer ${styles.topCircle}`} data-depth="0.60"><img alt="" src={indexBanner2}/></li>
           </ul>
           {/*<img src={index_banner}/>*/}
         </div>
@@ -90,15 +90,15 @@ class IndexPage extends Component {
           <div className={styles.prefer} id="prefer">
             <img alt="" src={titlePreferred} className={styles.title}/>
             <div className={styles.face}>
-              <img alt="" src={face} className={styles.preTitImg}/>
+              <img alt="" src={lips} className={styles.preTitImg}/>
               <div className={styles.goods}>
-                <Goods goodsData={faceData[0]}/>
-                <Goods goodsData={faceData[1]}/>
-                <Goods goodsData={faceData[2]}/>
+                <Goods goodsData={lipsData[0]}/>
+                <Goods goodsData={lipsData[1]}/>
+                <Goods goodsData={lipsData[2]}/>
               </div>
             </div>
             <div className={styles.face}>
-              <img alt="" src={eyes} className={styles.preTitImg}/>
+              <div><img alt="" src={eyes} className={styles.preTitImg}/></div>
               <div className={styles.goods}>
                 <Goods goodsData={eyesData[0]}/>
                 <Goods goodsData={eyesData[1]}/>
@@ -106,11 +106,11 @@ class IndexPage extends Component {
               </div>
             </div>
             <div className={styles.face}>
-              <img alt="" src={lips} className={styles.preTitImg}/>
+              <img alt="" src={face} className={styles.preTitImg}/>
               <div className={styles.goods}>
-                <Goods goodsData={lipsData[0]}/>
-                <Goods goodsData={lipsData[1]}/>
-                <Goods goodsData={lipsData[2]}/>
+                <Goods goodsData={faceData[0]}/>
+                <Goods goodsData={faceData[1]}/>
+                <Goods goodsData={faceData[2]}/>
               </div>
             </div>
             <div className={styles.face}>

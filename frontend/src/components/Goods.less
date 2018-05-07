@@ -1,12 +1,12 @@
 .wrap {
   //border: 1px solid #ccc;
-  flex: 1 1 26%;
+  flex: 0 1 31%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 10px;
   padding: 20px 20px 15px;
   text-align: left;
+  margin: 20px 0 5px;
   background-color: #fff;
   transition: all .2s;
   box-shadow: none;
@@ -16,17 +16,19 @@
   &:hover{
     overflow: hidden;
     top: -2px;
-    box-shadow: 0 6px 9px 2px #aaa;
+    box-shadow: 0 4px 7px 2px #aaa;
+
     .image {
       img {
       opacity: 0.8;
-        transform: scale(1.2);
+        transform: scale(1.1);
       }
     }
-  }  
+  }
   .image {
     overflow: hidden;
-    width: 100%;
+    width: 92%;
+    margin: 0 auto;
     padding-bottom: 15px;
     cursor: pointer;
     img {
@@ -39,18 +41,24 @@
 
   .name {
     width: 100%;
+    line-height: 36px;
   }
 
   .button {
     display: flex;
-    align-items: flex-start;
-    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
 
     .price {
-      width: 75px;
-      font-size: 24px;
-      color: #ef2751;
+      width: 85px;
+      font-size: 22px;
+      color: #222;
       vertical-align: bottom;
+
+      .originalPrice {
+        color: #bbb;
+        margin-left: 4px;
+      }
 
       label {
         font-size: 18px;
@@ -59,18 +67,22 @@
     }
 
     .buy {
-      width: 90px;
-      height: 28px;
-      color: #fff;
+      width: 66px;
+      height: 30px;
+      background: none;
+
+      i {
+        margin: 0 4px;
+      }
     }
   }
 }
 
 @media screen and (max-width: 768px) {
   .wrap {
-    margin: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    flex: 1 1 26%;
+    margin: 10px;
+    padding: 12px 10px 8px;
 
     .image {
       text-align: center;
@@ -79,10 +91,9 @@
       img {
         width: 90%;
       }
-      //border: 1px solid #ccc;
     }
 
-    .description {
+    .name {
       display: none;
     }
 

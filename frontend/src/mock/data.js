@@ -11,6 +11,7 @@ import eyes_01 from "./images/eyes_01.jpg";
 import eyes_02 from "./images/eyes_02.jpg";
 import eyes_03 from "./images/eyes_03.jpg";
 import lips_01 from "./images/lips_01.jpg";
+import lips_01_detail from "./images/lips_01_detail.jpg";
 import lips_02 from "./images/lips_02.jpg";
 import lips_03 from "./images/lips_03.jpg";
 import other_01 from "./images/other_01.jpg";
@@ -130,6 +131,7 @@ const faceData = [
     id: "0001",
     belongTo: "faceData",
     image: face_01,
+    detailImg: face_01_detail,
     name: "玛丽黛佳水域亮肤气垫霜20g*2",
     price: 198,
     originalPrice: 299,
@@ -158,9 +160,38 @@ const faceData = [
   {
     id: "0002",
     image: face_02,
+    detailImg: face_01_detail,
     name: "艾医生樱花水光气垫",
     price: 169,
-    originalPrice: 199
+    originalPrice: 199,
+    belongTo: "faceData",
+    title: "Dr.Althea（艾医生）樱花水光气垫，自带“水光肌”，无需滤镜也能随性晒照！Pony大神等美妆博主亲测推荐。",
+    subTitle: "买就送唇釉3支装 领券立减20",
+    activity: "满298元减80元,上不封顶",
+    freight: "10",
+    colour: [
+      {
+        col: "01亮肤色",
+        img: face_01_specs_01,
+      },
+      {
+        col: "02自然色" ,
+        img: face_01_specs_02,
+      },
+    ],
+    size: "20g",
+    parameter: {
+      brandName: "Dr.Althea（艾医生）",
+      proName: "MARIE DALGAR/玛丽黛佳 无感大师底妆水域亮肤气垫霜",
+      effect: "均匀肤色,持久,保湿,美白,补水,抗皱,遮瑕,控油,防晒,净肤,隔离,修容,不易脱妆,改善肤质",
+      colour: "	21，正品15g+替换装15g(702028597) 23，正品15g+替换装15g(702028598)",
+      size: "20g",
+      fitFace: "任何肤质",
+      time: "3年",
+      year: "2017",
+      imported: "否",
+    },
+    detail: face_01_detail,
   },
   {
     id: "0003",
@@ -172,6 +203,13 @@ const faceData = [
 ];
 
 const eyesData = [
+  {
+    id: "0006",
+    image: eyes_03,
+    name: "悦诗风吟悦享随心定制彩妆盘",
+    price: 259,
+    originalPrice: 340
+  },
   {
     id: "0004",
     image: eyes_01,
@@ -186,23 +224,39 @@ const eyesData = [
     price: 40.8,
     originalPrice: 48
   },
-  {
-    id: "0006",
-    image: eyes_03,
-    name: "玛丽黛佳印象女主角三色眉粉3.3g",
-    price: 49,
-    originalPrice: 58
-  },
 ];
 
 const lipsData = [
   {
     id: "0007",
     image: lips_01,
+    detailImg: lips_01_detail,
     name: "玛丽黛佳唇釉贪心妆0.8ml*8",
     price: 79,
-    originalPrice: 149
-  },
+    originalPrice: 149,
+    belongTo: "faceData",
+    title: "中国•玛丽黛佳(Marie Dalgar)唇釉贪心妆（原色印象水酷唇釉）0.8ml*8",
+    subTitle: "买就送唇釉3支装 领券立减20",
+    activity: "满298元减80元,上不封顶",
+    freight: "10",
+    colour: [
+      {
+        col: "8色8只装",
+        img: lips_01,
+      },
+    ],
+    size: "20g",
+    parameter: {
+      brandName: "MARIE DALGAR/玛丽黛佳",
+      proName: "中国•玛丽黛佳(Marie Dalgar)唇釉贪心妆（原色印象水酷唇釉）0.8ml*8",
+      effect: "滋润、润唇",
+      colour: "N-1 裸粉咖、P-2洛丽塔、P-3 烟花粉、O-5亮粉橘、R-6西柚红、R-7绯玫红、R-8胭脂红、R-9小红莓",
+      size: "0.8ml*8",
+      fitFace: "尤其选色障碍人群，适合 年轻 时尚 个性 文艺范 喜欢高显色水亮效果的人群",
+      time: "36个月（具体日期以收到实物为准）",
+      year: "2017",
+      imported: "否",
+  }},
   {
     id: "0008",
     image: lips_02,
@@ -278,218 +332,218 @@ const clothData = [
 const clothMallData = [
   {
     image: clothMall_01,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: 49,
-    originalPrice: 169
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: 99,
+    originalPrice: 229
 
   },
   {
     image: clothMall_02,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: 49,
-    originalPrice: 169
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: 109,
+    originalPrice: 219
   },
   {
     image: clothMall_03,
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: 115,
+    originalPrice: 195
+  },
+  {
+    image: clothMall_04,
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    price: 50,
+    originalPrice: 99
+  },
+  {
+    image: clothMall_05,
     name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
     price: 49,
     originalPrice: 169
   },
   {
-    image: clothMall_04,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: 49,
-    originalPrice: 169
-  },
-  {
-    image: clothMall_05,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
-    price: 49,
-    originalPrice: 169
-  },
-  {
     image: clothMall_06,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
     price: 49,
     originalPrice: 169
   },
   {
     image: clothMall_07,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
     price: 49,
     originalPrice: 169
   },
   {
     image: clothMall_08,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
     price: 49,
     originalPrice: 169
   },
   {
     image: clothMall_09,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
     price: 49,
     originalPrice: 169
   },
   {
     image: clothMall_10,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
     price: 49,
     originalPrice: 169
   },
   {
     image: clothMall_11,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
     price: 49,
     originalPrice: 169
   },
   {
     image: clothMall_12,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
     price: 49,
     originalPrice: 169
   },
   {
     image: clothMall_13,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
     price: 49,
     originalPrice: 169
   },
   {
     image: clothMall_14,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
     price: 49,
     originalPrice: 169
   },
   {
     image: clothMall_15,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
     price: 49,
     originalPrice: 169
   },
   {
     image: clothMall_16,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
     price: 49,
     originalPrice: 169
   },
   {
     image: clothMall_17,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
     price: 49,
     originalPrice: 169
   },
   {
     image: clothMall_18,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
     price: 49,
     originalPrice: 169
   },
   {
     image: clothMall_19,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
     price: 49,
     originalPrice: 169
   },
   {
     image: clothMall_20,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
     price: 49,
     originalPrice: 169
   },
   {
     image: clothMall_21,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
     price: 49,
     originalPrice: 169
   },
   {
     image: clothMall_22,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
     price: 49,
     originalPrice: 169
   },
   {
     image: clothMall_23,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
     price: 49,
     originalPrice: 169
   },
   {
     image: clothMall_24,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
     price: 49,
     originalPrice: 169
   },
   {
     image: clothMall_25,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
     price: 49,
     originalPrice: 169
   },
   {
     image: clothMall_26,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
     price: 49,
     originalPrice: 169
   },
   {
     image: clothMall_27,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
     price: 49,
     originalPrice: 169
   },
   {
     image: clothMall_28,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
     price: 49,
     originalPrice: 169
   },
   {
     image: clothMall_29,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
     price: 49,
     originalPrice: 169
   },
   {
     image: clothMall_30,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
     price: 49,
     originalPrice: 169
   },
   {
     image: clothMall_31,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
     price: 49,
     originalPrice: 169
   },
   {
     image: clothMall_32,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
     price: 49,
     originalPrice: 169
   },
   {
     image: clothMall_33,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
     price: 49,
     originalPrice: 169
   },
   {
     image: clothMall_34,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
     price: 49,
     originalPrice: 169
   },
   {
     image: clothMall_35,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
     price: 49,
     originalPrice: 169
   },
   {
     image: clothMall_36,
-    description: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
+    name: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
     price: 49,
     originalPrice: 169
   }
