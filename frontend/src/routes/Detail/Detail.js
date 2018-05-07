@@ -75,7 +75,7 @@ class Detail extends Component {
         <div className={styles.content}>
           <div className={styles.top}>
             <div className={styles.left}>
-              <img alt="" src={face_01}/>
+              <img alt="" src={data.image}/>
             </div>
             <div className={styles.right}>
               <h1>{ data.title }</h1>
@@ -169,7 +169,7 @@ class Detail extends Component {
                     </tbody>
                   </table>
                 </div>
-                <img alt="" src={face_01_detail}/>
+                <img alt="" src={data.detail}/>
               </TabPane>
               <TabPane tab="累计评价" key="2">Content of Tab Pane 2</TabPane>
             </Tabs>

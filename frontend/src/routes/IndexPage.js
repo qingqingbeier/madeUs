@@ -8,10 +8,11 @@ import Clothing from "../components/Clothing";
 import Brand from "../components/Brand";
 import Footer from "../components/Footer";
 import SideRight from "../components/SideRight";
-import {brandData, clothData, eyesData, faceData, lipsData, otherData} from "../mock/data";
+import { brandData,clothData } from "../mock/data";
 import { Icon } from "antd";
 import Parallax from 'parallax-js';
 
+import { eyesData, faceData, lipsData, otherData} from "../mock/dataList.js";
 let bindFun = null;
 
 class IndexPage extends Component {
