@@ -2,7 +2,6 @@
   height: 100%;
   overflow: hidden;
   position: relative;
-  padding-top: 80px;
 
   .bgImg {
     width: 100%;
@@ -33,7 +32,6 @@
     width: 13.5%;
     height: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
 
     li {
@@ -75,5 +73,48 @@
         margin-right: 8px;
       }
     }
+  }
 }
+@media screen and (min-width: 768px) {
+  .wrap{
+    padding-top: 80px;
+    .subject{
+      .product{
+        flex-direction: column;
+      }
+      .video{
+        
+      }
+    }
+  }
+}
+@media screen and (max-width: 646px) {
+  .wrap{
+    padding-top: 10px;
+    .subject{
+      .video{
+        position: absolute;
+        top: 3vw;
+        width: 90vw;
+      }
+      .product{
+        width: 40%;
+        position: absolute;
+        bottom: 18%;
+        height: auto;
+        &:first-child{
+          left: 10%;
+        };
+        &:last-child{
+          right: 10%;
+        };
+        li{
+          margin: 0 10px;
+        }
+      }
+      .video{
+
+      }
+    }
+  }
 }

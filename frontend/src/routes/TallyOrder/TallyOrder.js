@@ -9,30 +9,34 @@ import img from "../../assets/man_3.png";
 import SideRight from "../../components/SideRight";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import {Steps, Checkbox, InputNumber} from "antd";
-
-const Step = Steps.Step;
-
-function checkboxOnChange(e) {
-  console.log(`checked = ${e.target.checked}`);
-}
-
-function numberOnChange(value) {
-  console.log('changed', value);
-}
+import { Checkbox, InputNumber, Select, Input, notification} from "antd";
+import city from '../../utils/city.js'
+const Option = Select.Option;
+const { TextArea } = Input;
 
 
 class TallyOrder extends Component {
 
   constructor(props) {
     super(props);
+    let chooseProducts = JSON.parse(window.localStorage[window.localStorage.userName+"Buy"]||'[]')
     this.state = {
+      addressIndex:0,
       addAddress: 0,
+      address:JSON.parse(window.localStorage[window.localStorage.userName+"Address"]||'[]'),
+      chooseProducts:chooseProducts.map(function(ele,inde) {
+        ele.checked = true
+        ele.count = 1
+        return ele;
+      }),
+      province:city,
+      city:[],
+      area:[],
     };
-
   }
 
   componentDidMount() {
+
   }
 
   addAddress() {
@@ -40,8 +44,79 @@ class TallyOrder extends Component {
       addAddress: !this.state.addAddress,
     })
   }
+  numberOnChange(index,value) {
+    let newArr = this.state.chooseProducts.slice()
+    newArr[index].count = value
+    this.setState({
+      chooseProducts:newArr
+    })
+  }
+  checkboxOnChange(index,e) {
+    let newArr = this.state.chooseProducts.slice()
+    newArr[index].checked = e.target.checked
+    this.setState({
+      chooseProducts:newArr
+    })
+  }
+  selProvince(value){
+    const city = this.state.province.find(ele=>ele.name===value)
+    this.setState({
+      city:city.children,
+      provinceTxt:value
+    })
+
+  }
+  selCity(value){
+    const area = this.state.city.find(ele=>ele.name===value)
+    this.setState({
+      area:area.children,
+      cityTxt:value
+    })
+  }
+  selArea(value){
+    this.setState({
+      areaTxt:value
+    })
+  }
+  saveAddress(){
+    const userName = this.refs.userName.input.value;
+    const phone = this.refs.phone.input.value;
+    const address = this.state.provinceTxt+this.state.cityTxt+this.state.areaTxt
+    const detailAdd = this.refs.detailAdd.textAreaRef.value;
+
+    let addressArr = this.state.address.slice()
+    addressArr.push({userName,phone,address,detailAdd}) 
+    this.setState({
+      address:addressArr
+    })
+    notification.success({
+      message: "添加成功",
+      duration: 2
+    });
+    window.localStorage[window.localStorage.userName+"Address"] = JSON.stringify(addressArr)
+    this.addAddress()
+  }
+  switchAdd(addressIndex){
+    this.setState({
+      addressIndex:addressIndex
+    })
+  }
 
   render() {
+
+    let balancePro = this.state.chooseProducts.filter(function(ele) {
+      return ele.checked
+    });
+    let sumPrice = balancePro.reduce((accumulator, currentValue) =>{
+      return accumulator + currentValue.price*currentValue.count
+    } , 0)
+
+    const SelectProps = {
+      size:"small",
+      style:{ 
+        width: 120 
+      }
+    }
     return (
       <div className={styles.normal}>
         <SideRight/>
@@ -61,54 +136,90 @@ class TallyOrder extends Component {
               <h1>1、地址选择</h1>
               <div>
                 <div className={styles.myAdr}>
-                  <div className={styles.box + ' ' + styles.active}>
+                  <div className={styles.box + ' ' + (this.state.addressIndex===0?styles.active:"")}  onClick = {()=>this.switchAdd(0)}>
                     <h2>周孟海</h2>
                     <p>中和街道新怡花园A区7栋1单元</p>
                     <p>四川省成都市双流县</p>
-                    <p>18782011247</p>
+                    <p>15687942675</p>
                     <a>编辑</a>
                   </div>
-                  <div className={styles.box}>
-                    <h2>周孟海</h2>
-                    <p>中和街道新怡花园A区7栋1单元</p>
-                    <p>四川省成都市双流县</p>
-                    <p>18782011247</p>
+                  <div className={styles.box + ' ' + (this.state.addressIndex===1?styles.active:"")}  onClick = {()=>this.switchAdd(1)}>
+                    <h2>黄晶晶</h2>
+                    <p>高新软件园C区2栋1206室</p>
+                    <p>福建省厦门市湖里县</p>
+                    <p>15984634875</p>
                     <a>编辑</a>
                   </div>
+                  {
+                    this.state.address.map((elem,index)=>{
+                      return (<div onClick = {()=>this.switchAdd(index+2)}
+                          className={styles.box + ' ' + (this.state.addressIndex===index+2?styles.active:"")}>
+                        <h2>{elem.userName}</h2>
+                        <p>{elem.detailAdd}</p>
+                        <p>{elem.address}</p>
+                        <p>{elem.phone}</p>
+                        <a>编辑</a>
+                      </div>);
+                    })
+                  }
                 </div>
                 <button className={styles.btn} onClick={() => this.addAddress()}>＋使用新地址</button>
-                <table className={styles.formWrap} style={{display: this.state.addAddress ? "table" : "none"}}>
-                  <tr>
-                    <td className={styles.name}>省市区：</td>
-                    <td>地址组件</td>
-                  </tr>
-                  <tr>
-                    <td className={styles.name}>邮政编码：</td>
-                    <td><input></input></td>
-                  </tr>
-                  <tr>
-                    <td className={styles.name}>街道地址：</td>
-                    <td>
-                      <textarea className={styles.street}></textarea>
-                      <p>街道地址最少5个字，最多30个字</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className={styles.name}>收货人姓名：</td>
-                    <td><input></input></td>
-                  </tr>
-                  <tr>
-                    <td className={styles.name}>手机号码：</td>
-                    <td><input></input></td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td>
-                      <button>确认地址</button>
-                      <button className={styles.cancel} onClick={() => this.addAddress()}>取消</button>
-                    </td>
-                  </tr>
-                </table>
+                {
+                  !this.state.addAddress?"":<table className={styles.formWrap}>
+                    <tr>
+                      <td className={styles.name}>省市区：</td>
+                      <td>
+                        <Select {...SelectProps} onChange={(value)=>this.selProvince(value)}>
+                          {
+                            this.state.province.map((elem,index) => {
+                              return <Option value={elem.name}>{elem.name}</Option>;
+                            })
+                          }
+                        </Select>&nbsp;
+                        <Select {...SelectProps} onChange={(value)=>this.selCity(value)}>
+                          {
+                            this.state.city.map((elem,index) => {
+                              return <Option value={elem.name}>{elem.name}</Option>;
+                            })
+                          }
+                        </Select>&nbsp;
+                        <Select {...SelectProps} onChange={(value)=>this.selArea(value)}>
+                          {
+                            this.state.area.map((elem,index) => {
+                              return <Option value={elem.name}>{elem.name}</Option>;
+                            })
+                          }
+                        </Select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className={styles.name}>邮政编码：</td>
+                      <td><Input size="small" style={{width:200}} placeholder="请输入6位数字" /></td>
+                    </tr>
+                    <tr>
+                      <td className={styles.name}>街道地址：</td>
+                      <td>
+                        <TextArea ref="detailAdd" rows={4} />
+                        <p>街道地址最少5个字，最多30个字</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className={styles.name}>收货人姓名：</td>
+                      <td><Input ref="userName" size="small" style={{width:200}} placeholder="请输入您的姓名" /></td>
+                    </tr>
+                    <tr>
+                      <td className={styles.name}>手机号码：</td>
+                      <td><Input ref="phone" size="small" style={{width:200}} placeholder="请输入11位手机号" /></td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>
+                        <button onClick = {()=>this.saveAddress()}>确认地址</button>
+                        <button className={styles.cancel} onClick={() => this.addAddress()}>取消</button>
+                      </td>
+                    </tr>
+                  </table>
+                }
               </div>
             </div>
             <div className={styles.goodsList}>
@@ -124,44 +235,51 @@ class TallyOrder extends Component {
                 </tr>
                 </thead>
                 <tbody>
-                <tr>
-                  <td className={styles.checkbox}>
-                    <Checkbox onChange={checkboxOnChange}/>
-                  </td>
-                  <td className={styles.goods}>
-                    <img src={img}/>
-                    <div className={styles.text}>
-                      <h2>欧诗漫(OSM)小新同学美白寻梦手帐</h2>
-                      <span>颜色：</span><span>自然色</span><span>规格：</span><span>20g</span>
-                    </div>
-                  </td>
-                  <td>
-                    <InputNumber min={1} max={10} defaultValue={1} onChange={numberOnChange} />
-                  </td>
-                  <td>¥226</td>
-                  <td>¥226</td>
-                </tr>
+                {
+                  this.state.chooseProducts.map((ele,index)=>{
+                    return (<tr key={index}>
+                      <td className={styles.checkbox}>
+                        <Checkbox onChange={e=>this.checkboxOnChange(index,e)} checked = {ele.checked}/>
+                      </td>
+                      <td className={styles.goods}>
+                        <img alt="" src={ele.image}/>
+                        <div className={styles.text}>
+                          <h2>{ele.name}</h2>
+                          <span>颜色：</span>
+                          <span>{ele.colour[0].col} </span>
+                          <span> 规格：</span>
+                          <span>{ele.size}</span>
+                        </div>
+                      </td>
+                      <td>
+                        <InputNumber min={1} max={10} defaultValue={1} onChange={(num)=>this.numberOnChange(index,num)} />
+                      </td>
+                      <td>¥{ele.price}</td>
+                      <td>¥{ele.price*ele.count}</td>
+                    </tr>)
+                  })
+                }
                 </tbody>
               </table>
             </div>
             <div className={styles.shopList}>
               <table>
                 <tr>
-                  <td>共<i> 3 </i>件商品，商品总金额：</td>
-                  <td className={styles.price}>¥ 226</td>
+                  <td>共<i> {balancePro.length} </i>件商品，商品总金额：</td>
+                  <td className={styles.price}>¥ {sumPrice}</td>
                 </tr>
                 <tr>
                   <td>总运费：</td>
-                  <td className={styles.price}>¥ 10</td>
+                  <td className={styles.price}>¥ {sumPrice===0?0:10}</td>
                 </tr>
                 <tr>
                   <td>应该付总额：</td>
-                  <td className={styles.price}>¥ 236</td>
+                  <td className={styles.price}>¥ {sumPrice===0?0:sumPrice+10}</td>
                 </tr>
               </table>
             </div>
             <div className={styles.buyButton}>
-              <p>总计: <span> <i>¥ </i>236</span></p>
+              <p>总计: <span> <i>¥ </i>{sumPrice===0?0:sumPrice+10}</span></p>
               <button>立即付款</button>
             </div>
           </div>
