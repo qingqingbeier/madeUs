@@ -1,4 +1,4 @@
-.wrap{
+.wrap {
   width: 100%;
   height: 80px;
   background: url(../assets/logo.png) #fff 10% 1px no-repeat;
@@ -22,16 +22,16 @@
     float: left;
 
     &:hover {
-      a{
+      a {
         color: #ef2751;
         animation: menuHover 0.2s 0s linear infinite;
-        animation-iteration-count:1;
+        animation-iteration-count: 1;
       }
     }
     a {
       position: relative;
       font-size: 14px;
-      color: rgba(0,0,0,0.65);
+      color: rgba(0, 0, 0, 0.65);
     }
 
     &.active {
@@ -61,6 +61,7 @@
     right: 0;
     z-index: 10;
   }
+
   .list {
     width: 100%;
     height: 26px;
@@ -81,25 +82,23 @@
   }
 }
 
-
-@keyframes menuHover
-{
+@keyframes menuHover {
   0% {
     top: 0;
   }
-  25%{
+  25% {
     top: 10%;
   }
-  49%{
+  49% {
     top: 20%;
   }
-  51%{
-    top:-20%;
+  51% {
+    top: -20%;
   }
-  75%{
-    top:-10%;
+  75% {
+    top: -10%;
   }
-  100%{
-    top:0%;
+  100% {
+    top: 0%;
   }
 }

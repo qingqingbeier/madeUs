@@ -7,8 +7,8 @@ import {connect} from "dva";
 import styles from "./SideRight.less";
 import {Badge, Button, Icon, Modal, notification, Tooltip} from "antd";
 import Login from "./Login.js";
-import { withRouter } from 'dva/router';
-import { headPort, yay} from "../assets";
+import {withRouter} from "dva/router";
+import {headPort, yay} from "../assets";
 
 const text2 = <span>我的钱包</span>;
 const text3 = <span>我的收藏</span>;
@@ -89,8 +89,8 @@ class SideRight extends Component {
   }
 
   //去结算
-  goBuy(){
-    if(!window.localStorage.userName){
+  goBuy() {
+    if (!window.localStorage.userName) {
       notification.error({
         message: "未登录",
         description: "请先登陆账号",
@@ -98,9 +98,9 @@ class SideRight extends Component {
       });
       return;
     }
-    window.localStorage[window.localStorage.userName+"Buy"] = window.localStorage[window.localStorage.userName+"Cart"]
+    window.localStorage[window.localStorage.userName + "Buy"] = window.localStorage[window.localStorage.userName + "Cart"]
     this.props.history.push({
-      pathname:"/tallyOrder"
+      pathname: "/tallyOrder"
     })
   }
 
@@ -181,7 +181,9 @@ class SideRight extends Component {
                 <Tooltip placement="left" title={text4}><a><Icon type="clock-circle-o"/></a></Tooltip>
               </li>
             </ul>
-            <div className={styles.goTop} onClick={() => {document.documentElement.scrollTop = document.body.scrollTop = 0 }}>
+            <div className={styles.goTop} onClick={() => {
+              document.documentElement.scrollTop = document.body.scrollTop = 0
+            }}>
               <a src="javascript:;">▲<br/>Top</a>
             </div>
 
@@ -224,7 +226,7 @@ class SideRight extends Component {
                         <i>¥ </i> {this.props.shopCart.cartData.reduce((accumulator, currentValue) => accumulator + currentValue.price, 0)}
                       </span>
                     </div>
-                    <button onClick={()=>this.goBuy()}>去结算</button>
+                    <button onClick={() => this.goBuy()}>去结算</button>
                   </div>
                 </div>
               }
