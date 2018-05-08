@@ -140,7 +140,6 @@ class SideRight extends Component {
   }
 
   showContent() {
-    console.log(1);
     this.setState({
       showContent: !this.state.showContent
     })
@@ -182,8 +181,8 @@ class SideRight extends Component {
                 <Tooltip placement="left" title={text4}><a><Icon type="clock-circle-o"/></a></Tooltip>
               </li>
             </ul>
-            <div className={styles.goTop}>
-              <a onClick={() => document.body.scrollTop = 0 }>▲<br/>Top</a>
+            <div className={styles.goTop} onClick={() => {document.documentElement.scrollTop = document.body.scrollTop = 0 }}>
+              <a src="javascript:;">▲<br/>Top</a>
             </div>
 
             <Modal

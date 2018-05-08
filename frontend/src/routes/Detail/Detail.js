@@ -5,11 +5,10 @@
 import React, {Component} from "react";
 import {connect} from "dva";
 import styles from "./Detail.less";
-import {face_01, face_01_detail, face_01_specs_01} from "../../mock/data";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import SideRight from "../../components/SideRight";
-import {InputNumber, Tabs} from "antd";
+import {InputNumber, Tabs, notification} from "antd";
 
 const TabPane = Tabs.TabPane;
 
@@ -47,7 +46,7 @@ class Detail extends Component {
   }
 
   componentDidMount() {
-
+    document.documentElement.scrollTop = document.body.scrollTop = 0
   }
 
   addToCart(videoData){
@@ -56,6 +55,21 @@ class Detail extends Component {
       payload:{
         goodsData:videoData
       }
+    })
+  }
+
+  goBuy(buyData){
+    if(!window.localStorage.userName){
+      notification.error({
+        message: "未登录",
+        description: "请先登陆账号",
+        duration: 3
+      });
+      return;
+    }
+    window.localStorage[window.localStorage.userName+"Buy"] = JSON.stringify([buyData])
+    this.props.history.push({
+      pathname:"/tallyOrder"
     })
   }
 
@@ -116,7 +130,7 @@ class Detail extends Component {
                 </li>
                 <li className={styles.button}>
                   <h3>&nbsp;</h3>
-                  <button>立即购买</button>
+                  <button onClick={()=>this.goBuy(data)}>立即购买</button>
                   <button onClick={()=>this.addToCart(data)}>加入购物车</button>
                 </li>
                 <li className={styles.service}>

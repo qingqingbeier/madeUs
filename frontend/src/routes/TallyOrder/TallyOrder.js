@@ -24,9 +24,9 @@ class TallyOrder extends Component {
       addressIndex:0,
       addAddress: 0,
       address:JSON.parse(window.localStorage[window.localStorage.userName+"Address"]||'[]'),
-      chooseProducts:chooseProducts.map(function(ele,inde) {
-        ele.checked = true
-        ele.count = 1
+      chooseProducts:chooseProducts.map(function(ele,index) {
+        ele.checked = true;
+        ele.count = 1;
         return ele;
       }),
       province:city,
@@ -36,7 +36,7 @@ class TallyOrder extends Component {
   }
 
   componentDidMount() {
-
+    document.documentElement.scrollTop = document.body.scrollTop = 0
   }
 
   addAddress() {
@@ -85,7 +85,7 @@ class TallyOrder extends Component {
     const detailAdd = this.refs.detailAdd.textAreaRef.value;
 
     let addressArr = this.state.address.slice()
-    addressArr.push({userName,phone,address,detailAdd}) 
+    addressArr.push({userName,phone,address,detailAdd})
     this.setState({
       address:addressArr
     })
@@ -113,8 +113,8 @@ class TallyOrder extends Component {
 
     const SelectProps = {
       size:"small",
-      style:{ 
-        width: 120 
+      style:{
+        width: 120
       }
     }
     return (
