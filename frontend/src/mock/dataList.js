@@ -262,7 +262,7 @@ const createData =(option) => [{
   'detail': function(){
     return AllData[option.dataType].find((element)=>element.name===this.name).image
   }
-}]
+}];
 
 module.exports = mockjs.mock({
   'faceData|10': createData({

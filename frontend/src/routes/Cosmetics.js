@@ -1,7 +1,6 @@
 /**
  * Created by 黄晶晶 on 2018-04-15.
  */
-
 import React from 'react';
 import { connect } from 'dva';
 import styles from './Cosmetics.less';

@@ -51,6 +51,7 @@ import indexBanner3 from './indexBanner3.png'
 import indexBanner4 from './indexBanner4.png'
 import indexBanner5 from './indexBanner5.png'
 import indexBanner6 from './indexBanner6.png'
+import makeUpKitBg from './makeUpKitBg.png'
 
 export {
   indexBanner1,
@@ -106,4 +107,5 @@ export {
   clothPng_10,
   headPort,
   yay,
+  makeUpKitBg,
 }

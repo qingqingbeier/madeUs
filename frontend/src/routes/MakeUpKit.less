@@ -1,12 +1,17 @@
 .head {
   width: 100%;
   position: fixed;
-  top:0;
+  top: 0;
   background-color: #fff;
   z-index: 2;
 }
 
 .swiper_container {
-  width: 100vw;
   height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+  :global(.swiper-slide) {
+    height: auto !important;
+  }
 }

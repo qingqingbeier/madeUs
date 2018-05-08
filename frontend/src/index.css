@@ -44,6 +44,10 @@ h1,h2,h3,h4 {
   margin-bottom: 0 !important;
 }
 
+body {
+  padding-right: 36px;
+}
+
 @media screen and (max-width: 768px) {
   body {
     padding-right: 0;
