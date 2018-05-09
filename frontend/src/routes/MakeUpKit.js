@@ -35,8 +35,8 @@ class IndexPage extends Component{
         <div className= {styles.head}> <Header nowActiveKey="key4"/> </div>
         <div className={styles.swiper_container} ref="swiperContainer">
           <div className="swiper-wrapper">
-            <div className="swiper-slide"><VideoMdl videoData={videoData[2]}/></div>
             <div className="swiper-slide"><VideoMdl videoData={videoData[0]}/></div>
+            <div className="swiper-slide"><VideoMdl videoData={videoData[2]}/></div>
             <div className="swiper-slide"><VideoMdl videoData={videoData[1]}/></div>
           </div>
         </div>
