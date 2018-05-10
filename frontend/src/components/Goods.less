@@ -70,9 +70,16 @@
       width: 66px;
       height: 30px;
       background: none;
+      position: relative;
 
-      i {
-        margin: 0 4px;
+      i[class~="anticon-shopping-cart"]{
+        transition: all 1s linear;
+        position: absolute;
+        right: 4px;
+      }
+      i[class~="anticon-heart-o" ]{
+        position: absolute;
+        left: 4px;
       }
     }
   }

@@ -7,6 +7,7 @@ import {connect} from "dva";
 import styles from "./SideRight.less";
 import {Badge, Button, Icon, Modal, notification, Tooltip} from "antd";
 import Login from "./Login.js";
+import Rigister from './Register.js'
 import {withRouter} from "dva/router";
 import {headPort, yay} from "../assets";
 
@@ -22,6 +23,7 @@ class SideRight extends Component {
     this.state = {
       showCart: false,
       loginShow: false,
+      registerShow:false,
       loginOutBtnLoading: false,
       showContent: innerWidth > 768,
     };
@@ -60,6 +62,18 @@ class SideRight extends Component {
       this.hideLogin()
     })
   }
+  rigister(data, loginLoading, showMessage) {
+    this.props.dispatch({
+      type: 'user/login',
+      payload: {
+        ...data
+      },
+    }).then((data) => {
+      loginLoading();
+      showMessage(data);
+      this.hideLogin()
+    })
+  }
 
   loginOut() {
     this.setState({
@@ -76,6 +90,28 @@ class SideRight extends Component {
     }, 2000)
   }
 
+  showRigister(){
+    this.setState({
+      registerShow: true
+    })
+  }
+  hideRigister(){
+    this.setState({
+      registerShow: false
+    })
+  }
+  goRegister(){
+    this.setState({
+      registerShow: true,
+      loginShow:false
+    })
+  }
+  goLogin(){
+    this.setState({
+      registerShow: false,
+      loginShow:true
+    })
+  }
   showLogin() {
     this.setState({
       loginShow: true
@@ -128,7 +164,7 @@ class SideRight extends Component {
             <img alt="头像" src={headPort}/>
           </div>
           <div className={styles.section}>
-            你好，请<a onClick={() => this.showLogin()}> 登录 </a>或<a> 注册 </a>
+            你好，请<a href="javascript:;" onClick={() => this.showLogin()}> 登录 </a>或<a href="javascript:;" onClick={() => this.showRigister()}> 注册 </a>
           </div>
           <div className={styles.buttonWrap}>
             <Button>我的订单</Button>
@@ -147,7 +183,12 @@ class SideRight extends Component {
 
   render() {
     let LoginPro = {
-      login: this.login.bind(this)
+      login: this.login.bind(this),
+      goRegister: this.goRegister.bind(this),
+    };
+    let RigisterPro = {
+      rigister: this.rigister.bind(this),
+      goLogin: this.goLogin.bind(this),
     };
     return (
       <div>
@@ -193,6 +234,13 @@ class SideRight extends Component {
               onCancel={() => this.hideLogin()}
               visible={this.state.loginShow}>
               <Login  {...LoginPro}/>
+            </Modal>
+            <Modal
+              closable={false}
+              footer={null}
+              onCancel={() => this.hideRigister()}
+              visible={this.state.registerShow}>
+              <Rigister  {...RigisterPro}/>
             </Modal>
             <div
               className={this.state.showCart ? styles.hideShopCart + " " + styles.showShopCart : styles.hideShopCart}>
