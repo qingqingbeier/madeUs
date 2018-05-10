@@ -3,7 +3,7 @@
  */
 const face_01 =require("./images/face_01.jpg");
 const face_02 =require("./images/face_02.jpg");
-const face_01_detail =require("./images/face_01_detail.jpg");
+const face_01_detail =require("./images/detail/face_01_detail.jpg");
 const face_01_specs_01 =require("./images/face_01_specs_01.jpg");
 const face_01_specs_02 =require("./images/face_01_specs_02.jpg");
 const face_03 =require("./images/face_03.jpg");

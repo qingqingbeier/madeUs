@@ -6,6 +6,7 @@ import React, {Component} from "react";
 import styles from "./ClothBanner.less";
 import './antdign.less';
 import {clothFloat, clothMan_1, clothMan_2, clothMan_3} from "../../assets/index";
+import { manShowData } from "../../mock/data" //banner的数据
 import Swiper from "swiper";
 
 class ClothBanner extends Component {

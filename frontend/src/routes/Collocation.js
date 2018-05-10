@@ -57,7 +57,7 @@ class Collocation extends Component{
         </div>
         <div className={styles.content} data-active={this.state.nowActiveKey}>
           <Tabs defaultActiveKey="5" onChange={_=>this.callback(_)}>
-            <TabPane tab="人气T恤装" key="1">
+            <TabPane tab="人气网红T" key="1">
               <div className={styles.wrap}>
                 {
                   suitData.map((elem,index)=>{
@@ -70,10 +70,10 @@ class Collocation extends Component{
                 }
               </div>
             </TabPane>
-            <TabPane tab="超甜荷叶边" key="2">Content of Tab Pane 2</TabPane>
+            <TabPane tab="入夏要显白" key="2">Content of Tab Pane 2</TabPane>
             <TabPane tab="碎花约会裙" key="3">Content of Tab Pane 3</TabPane>
-            <TabPane tab="懒人出门装" key="4">Content of Tab Pane 3</TabPane>
-            <TabPane tab="休闲又显瘦" key="5">
+            <TabPane tab="展示大长腿" key="4">Content of Tab Pane 3</TabPane>
+            <TabPane tab="甜美连衣裙" key="5">
               <div className={styles.wrap}>
                 {
                   suitData.map((elem,index)=>{
@@ -81,7 +81,7 @@ class Collocation extends Component{
                       <div key={index} className={"hover "+styles.item}>
                         <img className={styles.img_responsive} src={elem.image} alt="" />
                         <div className={styles.overlay}>
-                            <h2>{elem.des}</h2>
+                            <h2>{elem.name}</h2>
                             <span className={styles.info} >
                               <a data-toggle="modal" data-target="#modal4">加入购物车
                               </a>
@@ -93,10 +93,10 @@ class Collocation extends Component{
                 }
               </div>
             </TabPane>
-            <TabPane tab="赏花甜美裙装" key="6">Content of Tab Pane 3</TabPane>
-            <TabPane tab="春少女衬衫搭" key="7">Content of Tab Pane 2</TabPane>
+            <TabPane tab="魅力斩男搭" key="6">Content of Tab Pane 3</TabPane>
+            <TabPane tab="夏季少女衬衫" key="7">Content of Tab Pane 2</TabPane>
             <TabPane tab="女神出游搭" key="8">Content of Tab Pane 3</TabPane>
-            <TabPane tab="衬衫牛仔搭" key="9">Content of Tab Pane 3</TabPane>
+            <TabPane tab="小个省心搭" key="9">Content of Tab Pane 3</TabPane>
           </Tabs>
         </div>
         <Footer/>
