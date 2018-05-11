@@ -22,9 +22,19 @@ class Collocation extends Component{
 
   constructor(props) {
     super(props);
+
+    const { activeNum } = this.props.location.state||{}
     this.state = {
-      nowActiveKey:"key5"
+      nowActiveKey:"key5",
+      activeNum: activeNum||"5"
     };
+  }
+
+  scrollToAnchor(anchorName) {
+    if (anchorName) {
+        let anchorElement = document.getElementById(anchorName);
+        if(anchorElement) { anchorElement.scrollIntoView(); }
+    }
   }
 
   componentDidMount(){
@@ -34,6 +44,10 @@ class Collocation extends Component{
       autoplay:true,
       loop:true
     });
+    const { activeNum } = this.props.location.state||{}
+    if(activeNum){
+      this.scrollToAnchor('list')
+    }
   }
   callback(activeKey){
     this.setState({
@@ -55,8 +69,8 @@ class Collocation extends Component{
             </div>
           </div>
         </div>
-        <div className={styles.content} data-active={this.state.nowActiveKey}>
-          <Tabs defaultActiveKey="5" onChange={_=>this.callback(_)}>
+        <div id="list" className={styles.content} data-active={this.state.nowActiveKey}>
+          <Tabs defaultActiveKey={this.state.activeNum} onChange={_=>this.callback(_)}>
             <TabPane tab="人气网红T" key="1">
               <div className={styles.wrap}>
                 {

@@ -6,6 +6,13 @@ export default {
 
   subscriptions: {
     setup({ dispatch, history }) {  // eslint-disable-line
+      window.localStorage.registeredUsers = JSON.stringify([{
+        userName:'admin',
+        password:'admin'
+      },{
+        userName:'test',
+        password:'test'
+      }])
     },
   },
 

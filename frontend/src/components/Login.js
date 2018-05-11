@@ -28,7 +28,9 @@ class NormalLoginForm extends React.Component {
     this.props.form.validateFields((err, values) => {
       if (!err) {
         const hide = message.loading('登录中...', 0);
-        this.props.login(values,hide,this.showMessage);
+        setTimeout(()=>{
+          this.props.login(values,hide,this.showMessage);
+        },1000)
       }
     });
   }
@@ -57,6 +59,9 @@ class NormalLoginForm extends React.Component {
             </FormItem>
             <FormItem>
               <Button type="primary" onClick={()=>this.handleSubmit()} className={styles.submitbtn}>立即登录</Button>
+            </FormItem>
+            <FormItem>
+              <span style={{color:'#EF1245',float:'right',cursor: 'pointer'}} onClick={()=>{this.props.goRegister()}}>去注册</span>
             </FormItem>
           </Form>
         </div>

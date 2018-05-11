@@ -126,12 +126,12 @@ class IndexPage extends Component {
               <img alt="" src={redManWears}/>
             </div>
             <div className={styles.subject}>
-              <Clothing clothData={clothData[0]}/>
-              <Clothing clothData={clothData[1]}/>
-              <Clothing clothData={clothData[2]}/>
-              <Clothing clothData={clothData[3]}/>
-              <Clothing clothData={clothData[4]}/>
-              <Clothing clothData={clothData[5]}/>
+              <Clothing activeNum={"1"} clothData={clothData[0]}/>
+              <Clothing activeNum={"2"} clothData={clothData[1]}/>
+              <Clothing activeNum={"3"} clothData={clothData[2]}/>
+              <Clothing activeNum={"4"} clothData={clothData[3]}/>
+              <Clothing activeNum={"5"} clothData={clothData[4]}/>
+              <Clothing activeNum={"6"} clothData={clothData[5]}/>
             </div>
           </div>
           <div className={styles.brand} id="brand">

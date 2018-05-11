@@ -16,7 +16,10 @@ class Goods extends Component {
     }
   }
 
-  addToCart(goodsData) {
+  addToCart(e,goodsData) {
+    // e.target.style.position="fixed"
+    // e.target.style.left="100%"
+    // e.target.style.top="40%"
     this.props.dispatch({
       type: "shopCart/addToCart",
       payload: {
@@ -48,9 +51,9 @@ class Goods extends Component {
           <span className={styles.price}><label>¥</label>{goodsData.price}
             <del className={styles.originalPrice}> ¥{goodsData.originalPrice}</del>
           </span>
-          <button className={styles.buy} onClick={() => this.addToCart(goodsData)}>
+          <button className={styles.buy}>
             <Icon type="heart-o" ref="collect" className={styles.collect} style={{color: '#EF2751', fontSize: '16px'}} onClick = {() => this.addActiveStyle()}/>
-             <Icon type="shopping-cart" style={{color: '#EF2751', fontSize: '20px'}}/>
+             <Icon type="shopping-cart" style={{color: '#EF2751', fontSize: '20px'}} onClick={(e) => this.addToCart(e,goodsData)}/>
           </button>
         </div>
       </div>
