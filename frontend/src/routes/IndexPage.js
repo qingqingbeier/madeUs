@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import {connect} from "dva";
+import { Link } from "dva/router";
 import styles from "./IndexPage.less";
 import Header from "../components/Header";
 import {eyes, face, index_banner, lips, other, redManWears, titleBrand, titlePreferred} from "../assets/index";
@@ -9,10 +10,9 @@ import Brand from "../components/Brand";
 import Footer from "../components/Footer";
 import SideRight from "../components/SideRight";
 import {indexBanner1, indexBanner2, indexBanner3, indexBanner4, indexBanner5, indexBanner6} from "../assets";
-import { brandData,clothData } from "../mock/data";
+import { brandData,clothData, faceData, lipsData,otherData,eyesData} from "../mock/data";
 import { Icon } from "antd";
 import Parallax from 'parallax-js';
-import { eyesData, faceData, lipsData, otherData} from "../mock/dataList.js";
 let bindFun = null;
 
 class IndexPage extends Component {
@@ -89,7 +89,14 @@ class IndexPage extends Component {
           <div className={styles.prefer} id="prefer">
             <img alt="" src={titlePreferred} className={styles.title}/>
             <div className={styles.face}>
-              <img alt="" src={lips} className={styles.preTitImg}/>
+              <Link to={{
+                pathname: '/goodsList',
+                state: {
+                  source:"homePage",
+                  type:"lips"
+                }
+              }}><img alt="" src={lips} className={styles.preTitImg}/>
+              </Link>
               <div className={styles.goods}>
                 <Goods goodsData={lipsData[0]}/>
                 <Goods goodsData={lipsData[1]}/>
@@ -97,7 +104,14 @@ class IndexPage extends Component {
               </div>
             </div>
             <div className={styles.face}>
-              <div><img alt="" src={eyes} className={styles.preTitImg}/></div>
+              <Link to={{
+                pathname: '/goodsList',
+                state: {
+                  source:"homePage",
+                  type:"eyes"
+                }
+              }}><img alt="" src={eyes} className={styles.preTitImg}/>
+              </Link>
               <div className={styles.goods}>
                 <Goods goodsData={eyesData[0]}/>
                 <Goods goodsData={eyesData[1]}/>
@@ -105,7 +119,14 @@ class IndexPage extends Component {
               </div>
             </div>
             <div className={styles.face}>
-              <img alt="" src={face} className={styles.preTitImg}/>
+              <Link to={{
+                pathname: '/goodsList',
+                state: {
+                  source:"homePage",
+                  type:"face"
+                }
+              }}><img alt="" src={face} className={styles.preTitImg}/>
+              </Link>
               <div className={styles.goods}>
                 <Goods goodsData={faceData[0]}/>
                 <Goods goodsData={faceData[1]}/>
@@ -113,7 +134,14 @@ class IndexPage extends Component {
               </div>
             </div>
             <div className={styles.face}>
-              <img alt="" src={other} className={styles.preTitImg}/>
+              <Link to={{
+                pathname: '/goodsList',
+                state: {
+                  source:"homePage",
+                  type:"other"
+                }
+              }}><img alt="" src={other} className={styles.preTitImg}/>
+              </Link>
               <div className={styles.goods}>
                 <Goods goodsData={otherData[0]}/>
                 <Goods goodsData={otherData[1]}/>

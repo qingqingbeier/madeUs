@@ -9,6 +9,7 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import SideRight from "../../components/SideRight";
 import {InputNumber, Tabs, notification} from "antd";
+import TOOL from '../../utils//tools.js'
 
 const TabPane = Tabs.TabPane;
 
@@ -49,7 +50,8 @@ class Detail extends Component {
     document.documentElement.scrollTop = document.body.scrollTop = 0
   }
 
-  addToCart(videoData){
+  addToCart(e,videoData){
+    TOOL.addCartAni(e)
     this.props.dispatch({
       type:"shopCart/addToCart",
       payload:{
@@ -131,7 +133,7 @@ class Detail extends Component {
                 <li className={styles.button}>
                   <h3>&nbsp;</h3>
                   <button onClick={()=>this.goBuy(data)}>立即购买</button>
-                  <button onClick={()=>this.addToCart(data)}>加入购物车</button>
+                  <button onClick={(e)=>this.addToCart(e,data)}>加入购物车</button>
                 </li>
                 <li className={styles.service}>
                   <h3>服务保障</h3>

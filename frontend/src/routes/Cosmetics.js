@@ -33,47 +33,51 @@ function Cosmetics() {
         <div className={styles.items}>
           {
             otherData.map((elem,index)=>{
-              return (
-                <Goods key={index} goodsData={otherData[index]}/>
-              )
+              if(index>=9){
+                return (
+                  <Goods key={index} goodsData={otherData[index]}/>
+              )}
             })
           }
         </div>
         <div className={styles.items}>
           {
             faceData.map((elem,index)=>{
-              return (
-                <Goods key={index} goodsData={faceData[index]}/>
-              )
+              if(index>=9){
+                return (
+                  <Goods key={index} goodsData={faceData[index]}/>
+              )}
             })
           }
         </div>
         <div className={styles.items}>
           {
             lipsData.map((elem,index)=>{
-              return (
-                <Goods key={index} goodsData={lipsData[index]}/>
-              )
+              if(index>=9){
+                return (
+                  <Goods key={index} goodsData={lipsData[index]}/>
+              )}
             })
           }
         </div>
         <div className={styles.items}>
           {
             eyesData.map((elem,index)=>{
-              return (
-                <Goods key={index} goodsData={eyesData[index]}/>
-              )
+              if(index>=9){
+                return (
+                  <Goods key={index} goodsData={eyesData[index]}/>
+              )}
             })
           }
         </div>
         <img alt="" className={styles.title} src={title_3}/>
         <div className={styles.brandShop}>
-          <BrandShop brandShopData = {brandShopData[0]}/>
-          <BrandShop brandShopData = {brandShopData[1]}/>
-          <BrandShop brandShopData = {brandShopData[2]}/>
-          <BrandShop brandShopData = {brandShopData[3]}/>
-          <BrandShop brandShopData = {brandShopData[4]}/>
-          <BrandShop brandShopData = {brandShopData[5]}/>
+          <BrandShop index={0} brandShopData = {brandShopData[0]}/>
+          <BrandShop index={1} brandShopData = {brandShopData[1]}/>
+          <BrandShop index={2} brandShopData = {brandShopData[2]}/>
+          <BrandShop index={3} brandShopData = {brandShopData[3]}/>
+          <BrandShop index={4} brandShopData = {brandShopData[4]}/>
+          <BrandShop index={5} brandShopData = {brandShopData[5]}/>
         </div>
       </div>
       <Footer/>

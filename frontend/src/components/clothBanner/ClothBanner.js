@@ -3,6 +3,7 @@
  */
 
 import React, {Component} from "react";
+import { Link } from "dva/router"
 import styles from "./ClothBanner.less";
 import './antdign.less';
 import {clothFloat, clothMan_1, clothMan_2, clothMan_3} from "../../assets/index";
@@ -44,27 +45,36 @@ class ClothBanner extends Component {
               <img alt="" className={styles.girl} src={ clothMan_1 }/>
               <div className={styles.float}>
                 <div className={styles.boxShade}>
-                  <div className={styles.box}>
-                    <p className={ styles.price}>MUGUET<label><i>¥ </i>198</label></p>
-                    <p className={styles.des}>手绘欧根纱绿野仙踪唯美仙女新款连衣裙</p>
-                  </div>
+                  <Link to={{
+                    pathname: '/detail/id=' + manShowData[0].id,
+                    state: {
+                      data: manShowData[0]
+                    }
+                  }}>
+                    <div className={styles.box}>
+                      <p className={ styles.price}>{manShowData[0].brand}<label><i>¥ </i>{manShowData[0].price}</label></p>
+                      <p className={styles.des}>{manShowData[0].title}</p>
+                    </div>
+                  </Link>
                 </div>
                 <div className={styles.lineShade}><img alt="" src={ clothFloat }/></div>
               </div>
-              {/*<div className={styles.float}>*/}
-              {/*<div><p className={ styles.price}>MUGUET<label><i>¥ </i>198</label></p>*/}
-              {/*<p className={styles.des}>手绘欧根纱绿野仙踪唯美仙女新款连衣裙</p></div>*/}
-              {/*<img alt="" src={ clothFloat }/>*/}
-              {/*</div>*/}
             </div>
             <div className="swiper-slide">
               <img alt="" className={styles.girl} src={ clothMan_2 }/>
               <div className={styles.float}>
                 <div className={styles.boxShade}>
-                  <div className={styles.box}>
-                    <p className={ styles.price}>MUGUET<label><i>¥ </i>198</label></p>
-                    <p className={styles.des}>手绘欧根纱绿野仙踪唯美仙女新款连衣裙</p>
-                  </div>
+                  <Link to={{
+                    pathname: '/detail/id=' + manShowData[1].id,
+                    state: {
+                      data: manShowData[1]
+                    }
+                  }}>
+                    <div className={styles.box}>
+                      <p className={ styles.price}>{manShowData[1].brand}<label><i>¥ </i>{manShowData[1].price}</label></p>
+                      <p className={styles.des}>{manShowData[1].title}</p>
+                    </div>
+                  </Link>
                 </div>
                 <div className={styles.lineShade}><img alt="" src={ clothFloat }/></div>
               </div>
@@ -73,10 +83,17 @@ class ClothBanner extends Component {
               <img alt="" className={styles.girl} src={ clothMan_3 }/>
               <div className={styles.float}>
                 <div className={styles.boxShade}>
-                  <div className={styles.box}>
-                    <p className={ styles.price}>MUGUET<label><i>¥ </i>198</label></p>
-                    <p className={styles.des}>手绘欧根纱绿野仙踪唯美仙女新款连衣裙</p>
-                  </div>
+                  <Link to={{
+                    pathname: '/detail/id=' + manShowData[2].id,
+                    state: {
+                      data: manShowData[2]
+                    }
+                  }}>
+                    <div className={styles.box}>
+                      <p className={ styles.price}>{manShowData[2].brand}<label><i>¥ </i>{manShowData[2].price}</label></p>
+                      <p className={styles.des}>{manShowData[2].title}</p>
+                    </div>
+                  </Link>
                 </div>
                 <div className={styles.lineShade}><img alt="" src={ clothFloat }/></div>
               </div>

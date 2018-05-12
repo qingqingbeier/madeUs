@@ -276,7 +276,7 @@ class TallyOrder extends Component {
               <table>
                 <tr>
                   <td>共<i> {balancePro.length} </i>件商品，商品总金额：</td>
-                  <td className={styles.price}>¥ {sumPrice}</td>
+                  <td className={styles.price}>¥ {sumPrice.toFixed(2)}</td>
                 </tr>
                 <tr>
                   <td>总运费：</td>
@@ -284,12 +284,12 @@ class TallyOrder extends Component {
                 </tr>
                 <tr>
                   <td>应该付总额：</td>
-                  <td className={styles.price}>¥ {sumPrice === 0 ? 0 : sumPrice + 10}</td>
+                  <td className={styles.price}>¥ {(sumPrice === 0 ? 0 : sumPrice + 10).toFixed(2)}</td>
                 </tr>
               </table>
             </div>
             <div className={styles.buyButton}>
-              <p>总计: <span> <i>¥ </i>{sumPrice === 0 ? 0 : sumPrice + 10}</span></p>
+              <p>总计: <span> <i>¥ </i>{(sumPrice === 0 ? 0 : sumPrice + 10).toFixed(2)}</span></p>
               <button>立即付款</button>
             </div>
           </div>

@@ -15,7 +15,7 @@ import banner_01 from "../assets/collocBanner_01.png";
 import banner_02 from "../assets/collocBanner_02.png";
 import { suitData } from '../mock/data';
 import Swiper from 'swiper';
-
+import TOOL from '../utils/tools.js'
 const TabPane = Tabs.TabPane;
 
 class Collocation extends Component{
@@ -97,7 +97,7 @@ class Collocation extends Component{
                         <div className={styles.overlay}>
                             <h2>{elem.name}</h2>
                             <span className={styles.info} >
-                              <a data-toggle="modal" data-target="#modal4">加入购物车
+                              <a data-toggle="modal" data-target="#modal4" onClick={TOOL.addCartAni}>加入购物车
                               </a>
                             </span>
                         </div>

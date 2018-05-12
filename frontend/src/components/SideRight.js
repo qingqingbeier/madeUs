@@ -271,7 +271,7 @@ class SideRight extends Component {
                     <div>
                       <span>共 <i className={styles.number}>{this.props.shopCart.cartData.length}</i> 件商品</span>
                       <span className={styles.price}>
-                        <i>¥ </i> {this.props.shopCart.cartData.reduce((accumulator, currentValue) => accumulator + currentValue.price, 0)}
+                        <i>¥ </i> {Math.round(this.props.shopCart.cartData.reduce((accumulator, currentValue) => accumulator + currentValue.price, 0) * 100) / 100}
                       </span>
                     </div>
                     <button onClick={() => this.goBuy()}>去结算</button>

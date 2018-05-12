@@ -14,26 +14,6 @@ import BrandShop from '../components/BrandShop';
 import ClothBanner from '../components/clothBanner/ClothBanner';
 import SideRight from '../components/SideRight';
 import { clothMallData, brandShopData } from '../mock/data';
-// import $ from 'filterizr';
-
-// class Filterizr {
-//   constructor() {
-//     console.log($)
-//     this.menu = $("#navItems");
-//     this.filterizr = $(".filtr-container");
-//     this.filterizrMenu();
-//     this.filterizrSetup();
-//   }
-//   filterizrMenu() {
-//     this.menu.on('click', 'li', function() {
-//       $(this).addClass("filtr-active").siblings().removeClass("filtr-active");
-//     });
-//   }
-//   filterizrSetup() {
-//     var filterizd = $(this).filterizr();
-//   }
-// }
-
 
 class ClothingMall extends Component {
 
