@@ -146,7 +146,7 @@ class SideRight extends Component {
       return (
         <div className={styles.account}>
           <div className={styles.headPort}>
-            <img alt="头像" src={yay}/>
+            <img alt="头像" src={headPort}/>
           </div>
           <div className={styles.section}>
             用户名: <a>{userInfo.user}</a>
@@ -161,7 +161,7 @@ class SideRight extends Component {
       return (
         <div className={styles.account}>
           <div className={styles.headPort}>
-            <img alt="头像" src={headPort}/>
+            <img alt="头像" src={yay}/>
           </div>
           <div className={styles.section}>
             你好，请<a href="javascript:;" onClick={() => this.showLogin()}> 登录 </a>或<a href="javascript:;" onClick={() => this.showRigister()}> 注册 </a>

@@ -14,7 +14,6 @@ import BrandShop from '../components/BrandShop';
 import { faceData, eyesData, lipsData, otherData, brandShopData } from '../mock/data';
 
 function Cosmetics() {
-
   return (
     <div>
       <Header nowActiveKey="key5"/>

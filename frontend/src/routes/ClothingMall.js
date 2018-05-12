@@ -40,7 +40,7 @@ class ClothingMall extends Component {
   componentDidMount(){
 
   }
-    
+
   render(){
     return (
       <div className={styles.wrap}>
@@ -108,21 +108,13 @@ class ClothingMall extends Component {
               })
             }
           </div>
-          <img alt="" className={styles.title} src={clothTitle_3}/>
-          <div className={styles.brandShop}>
-            <BrandShop brandShopData = {brandShopData[0]}/>
-            <BrandShop brandShopData = {brandShopData[1]}/>
-            <BrandShop brandShopData = {brandShopData[2]}/>
-            <BrandShop brandShopData = {brandShopData[3]}/>
-            <BrandShop brandShopData = {brandShopData[4]}/>
-            <BrandShop brandShopData = {brandShopData[5]}/>
-          </div>
+          {/*<img alt="" className={styles.title} src={clothTitle_3}/>*/}
         </div>
         <Footer/>
       </div>
     );
   }
-  
+
 }
 
 ClothingMall.propTypes = {
