@@ -1,14 +1,14 @@
 .wrap {
   position: relative;
   text-align: center;
-  z-index:3;
+  z-index: 3;
 
   .girl {
     width: 30%;
+    cursor: pointer;
   }
 
-  //新增/////////////////////////////////
-  .float{
+  .float {
     position: absolute;
     z-index: 2;
     text-align: left;
@@ -19,33 +19,51 @@
     top: 55%;
     left: 51%;
 
-    &::after,&::before{
+    &::after, &::before {
       content: " ";
       border-radius: 100%;
-      height: 0.8vw;
       width: 0.8vw;
-      border:1px solid #63AF77;
+      height: 0.8vw;
+      border: 1px solid #63AF77;
       display: block;
     }
-    &::before{
+    &::before {
       animation: before_spread 1s 0s linear infinite;
     }
-    &::after{
+    &::after {
       animation: after_spread 1s 0.5s linear infinite;
       transform: translateY(-0.8vw);
     }
 
-    &:hover{
-      .lineShade{
+    @keyframes before_spread {
+      0% {
+      }
+      100% {
+        opacity: 0;
+        transform: scale(3, 3);
+      }
+    }
+
+    @keyframes after_spread {
+      0% {
+      }
+      100% {
+        opacity: 0;
+        transform: translateY(-0.8vw) scale(3, 3);
+      }
+    }
+
+    &:hover {
+      .lineShade {
         width: 24vw;
       }
-      .boxShade{
+      .boxShade {
         height: 60px;
       }
 
     }
 
-    .lineShade{
+    .lineShade {
       position: absolute;
       left: -0.26vw;
       bottom: -0.26vw;
@@ -58,7 +76,7 @@
       }
     }
 
-    .boxShade{
+    .boxShade {
       position: absolute;
       bottom: 7.8vw;
       left: 7.8vw;
@@ -67,7 +85,7 @@
       overflow-y: hidden;
       transition: height 0.2s linear 0.3s;
 
-      .box{
+      .box {
         cursor: pointer;
         width: 100%;
         color: #63AF77;
@@ -93,49 +111,6 @@
       }
     }
   }
-
-  ///////////////////////////////////////////
-
-  .floatp {
-    position: absolute;
-    text-align: left;
-    width: 24%;
-    height: 24%;
-    top: 30%;
-    left: 53%;
-
-    img {
-      width: 100%;
-    }
-
-    div {
-      width: 60%;
-      float: right;
-      margin-bottom: 5px;
-      margin-right: 4%;
-      color: #63AF77;
-      font-size: 14px;
-      background-color: #fff;
-
-      .price {
-        display: block;
-        background-color: #63AF77;
-        color: #fff;
-        font-size: 14px;
-        padding-left: 5px;
-        padding-right: 5px;
-
-        label {
-          font-size: 15px;
-          float: right;
-        }
-      }
-
-      .des {
-        padding: 5px;
-      }
-    }
-  }
 }
 
 .swiper_pagination {
@@ -143,28 +118,74 @@
     background-color: #52ad6a;
   }
 }
-:global(.swiper-button-prev){
+
+:global(.swiper-button-prev) {
   margin-left: 10vw
 }
-:global(.swiper-button-next){
+
+:global(.swiper-button-next) {
   margin-right: 10vw
 }
 
-@keyframes before_spread
-{
-  0% {
-  }
-  100%{
-    opacity: 0;
-    transform: scale(3,3);
-  }
-}
-@keyframes after_spread
-{
-  0% {
-  }
-  100%{
-    opacity: 0;
-    transform:translateY(-0.8vw) scale(3,3);
+@media screen and  (max-width: 768px) {
+  .wrap {
+    .girl {
+      width: 60%;
+    }
+
+    .float {
+      width: 1.8vw;
+      height: 1.8vw;
+
+      .boxShade {
+        display: none;
+      }
+
+      .lineShade {
+        display: none;
+      }
+
+      &::after, &::before {
+        content: " ";
+        border-radius: 100%;
+        width: 1.8vw;
+        height: 1.8vw;
+        border: 1px solid #63AF77;
+        display: block;
+      }
+      &::before {
+        animation: before_spread 1s 0s linear infinite;
+      }
+      &::after {
+        animation: after_spread 1s 0.5s linear infinite;
+        transform: translateY(-1.8vw);
+      }
+
+      @keyframes before_spread {
+        0% {
+        }
+        100% {
+          opacity: 0;
+          transform: scale(3, 3);
+        }
+      }
+
+      @keyframes after_spread {
+        0% {
+        }
+        100% {
+          opacity: 0;
+          transform: translateY(-1.8vw) scale(3, 3);
+        }
+      }
+    }
+
+    :global(.swiper-button-prev) {
+      margin-left: 0
+    }
+
+    :global(.swiper-button-next) {
+      margin-right: 0
+    }
   }
 }

@@ -1,12 +1,6 @@
 .wrap {
   background-color: #e6f3df;
   position: relative;
-  :globel(.swiper-button-next){
-    margin-right: 20%;
-  }
-  :globel(.swiper-button-prev){
-    margin-left: 20%;
-  }
 }
 
 .top {
@@ -81,6 +75,18 @@
 }
 
 @media screen and (max-width: 768px) {
+  .wrap {
+    .top {
+      overflow: hidden;
+
+      .topImage {
+        width: 150%;
+        margin-left: -25%;
+      }
+    }
+
+  }
+
   .content {
     width: 94%;
 

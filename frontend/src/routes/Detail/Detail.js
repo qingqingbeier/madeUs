@@ -100,7 +100,7 @@ class Detail extends Component {
                 <p><strong>{ data.price }</strong>
                   <del>¥ { data.originalPrice }</del>
                 </p>
-                <p><label>满减</label><span>{ data.activity}</span></p>
+                <p><label>赠送</label><span>{ data.activity}</span></p>
               </div>
               <ul className={styles.option}>
                 <li className={styles.freight}>
@@ -114,8 +114,8 @@ class Detail extends Component {
                   {data.colour.map((ele, index) => {
                       return (
                         <div className={this.state.colour === index ? styles.item + " " + styles.active : styles.item}
-                             onClick={() => this.colourCheck(1)}>
-                          <img alt="" src={ele.img}/>
+                             onClick={() => this.colourCheck(index)}>
+                          <img alt="" src={data.image}/>
                           <span>{ ele.col }</span>
                         </div>
                       )

@@ -256,7 +256,7 @@ const faceData = [
     detailImg: face_01_detail,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -275,7 +275,7 @@ const faceData = [
       imported: "否",
     },
   },
-  { 
+  {
     id: "0002",
     image: face_02,
     name: "艾医生樱花水光气垫",
@@ -285,7 +285,7 @@ const faceData = [
     detailImg: face_02_detail,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -314,7 +314,7 @@ const faceData = [
     detailImg: face_03_detail,
     belongTo: "geli",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -343,7 +343,7 @@ const faceData = [
     detailImg: face_04_detail,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -373,7 +373,7 @@ const faceData = [
     detailImg: face_05_detail,
     belongTo: "geli",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -402,7 +402,7 @@ const faceData = [
     detailImg: face_06_detail,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -431,7 +431,7 @@ const faceData = [
     detailImg: face_07_detail,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -460,7 +460,7 @@ const faceData = [
     detailImg: face_08_detail,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -489,7 +489,7 @@ const faceData = [
     detailImg: face_09_detail,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -518,7 +518,7 @@ const faceData = [
     detailImg: face_10_detail,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -547,7 +547,7 @@ const faceData = [
     detailImg: face_11_detail,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -576,7 +576,7 @@ const faceData = [
     detailImg: face_12_detail,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -608,7 +608,7 @@ const eyesData = [
     detailImg: eyes_01_detail,
     belongTo: "jiemao",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -637,7 +637,7 @@ const eyesData = [
     detailImg: eyes_02_detail,
     belongTo: "jiemao",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -667,7 +667,7 @@ const eyesData = [
     detailImg: eyes_03_detail,
     belongTo: "yanying",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -696,7 +696,7 @@ const eyesData = [
     detailImg: eyes_04_detail,
     belongTo: "jiemao",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -725,7 +725,7 @@ const eyesData = [
     detailImg: eyes_05_detail,
     belongTo: "yanying",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -754,7 +754,7 @@ const eyesData = [
     detailImg: eyes_06_detail,
     belongTo: "yanying",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -783,7 +783,7 @@ const eyesData = [
     detailImg: eyes_07_detail,
     belongTo: "yanying",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -812,7 +812,7 @@ const eyesData = [
     detailImg: eyes_08_detail,
     belongTo: "yanying",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -841,7 +841,7 @@ const eyesData = [
     detailImg: eyes_09_detail,
     belongTo: "yanying",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -870,7 +870,7 @@ const eyesData = [
     detailImg: eyes_10_detail,
     belongTo: "yanying",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -899,7 +899,7 @@ const eyesData = [
     detailImg: eyes_11_detail,
     belongTo: "yanying",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -928,7 +928,7 @@ const eyesData = [
     detailImg: eyes_12_detail,
     belongTo: "yanying",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -959,7 +959,7 @@ const lipsData = [
     belongTo: "kouhong",
     title: "中国•玛丽黛佳(Marie Dalgar)唇釉贪心妆（原色印象水酷唇釉）0.8ml*8",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {
@@ -990,7 +990,7 @@ const lipsData = [
     detailImg: lips_02_detail,
     belongTo: "kouhong",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -1019,7 +1019,7 @@ const lipsData = [
     detailImg: lips_03_detail,
     belongTo: "kouhong",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -1048,7 +1048,7 @@ const lipsData = [
     detailImg: lips_04_detail,
     belongTo: "kouhong",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -1077,7 +1077,7 @@ const lipsData = [
     detailImg: lips_05_detail,
     belongTo: "kouhong",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -1106,7 +1106,7 @@ const lipsData = [
     detailImg: lips_06_detail,
     belongTo: "kouhong",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -1135,7 +1135,7 @@ const lipsData = [
     detailImg: lips_07_detail,
     belongTo: "kouhong",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -1164,7 +1164,7 @@ const lipsData = [
     detailImg: lips_08_detail,
     belongTo: "kouhong",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -1193,7 +1193,7 @@ const lipsData = [
     detailImg: lips_09_detail,
     belongTo: "kouhong",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -1222,7 +1222,7 @@ const lipsData = [
     detailImg: lips_10_detail,
     belongTo: "kouhong",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -1251,7 +1251,7 @@ const lipsData = [
     detailImg: lips_11_detail,
     belongTo: "kouhong",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -1280,7 +1280,7 @@ const lipsData = [
     detailImg: lips_12_detail,
     belongTo: "kouhong",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -1312,7 +1312,7 @@ const otherData = [
     detailImg: other_01_detail,
     belongTo: "qita",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -1341,7 +1341,7 @@ const otherData = [
     detailImg: other_02_detail,
     belongTo: "qita",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -1370,7 +1370,7 @@ const otherData = [
     detailImg: other_03_detail,
     belongTo: "saihong",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -1399,7 +1399,7 @@ const otherData = [
     detailImg: other_04_detail,
     belongTo: "saihong",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -1428,7 +1428,7 @@ const otherData = [
     detailImg: other_05_detail,
     belongTo: "saihong",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -1457,7 +1457,7 @@ const otherData = [
     detailImg: other_06_detail,
     belongTo: "saihong",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -1486,7 +1486,7 @@ const otherData = [
     detailImg: other_07_detail,
     belongTo: "saihong",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -1515,7 +1515,7 @@ const otherData = [
     detailImg: other_08_detail,
     belongTo: "saihong",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -1544,7 +1544,7 @@ const otherData = [
     detailImg: other_09_detail,
     belongTo: "saihong",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -1573,7 +1573,7 @@ const otherData = [
     detailImg: other_10_detail,
     belongTo: "qita",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -1602,7 +1602,7 @@ const otherData = [
     detailImg: other_11_detail,
     belongTo: "qita",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -1631,7 +1631,7 @@ const otherData = [
     detailImg: other_12_detail,
     belongTo: "qita",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -1655,18 +1655,18 @@ const otherData = [
 const clothData = [
   {
     id: "0013",
-    image: cloth_01,
-    tag: "入夏要显白",
+    image: cloth_05,
+    tag: "人气网红T",
   },
   {
     id: "0014",
     image: cloth_02,
-    tag: "魅力斩男搭",
+    tag: "入夏要显白",
   },
   {
     id: "0015",
-    image: cloth_03,
-    tag: "甜美裙装",
+    image: cloth_01,
+    tag: "碎花约会裙",
   },
   {
     id: "0016",
@@ -1675,8 +1675,8 @@ const clothData = [
   },
   {
     id: "0017",
-    image: cloth_05,
-    tag: "人气网红T",
+    image: cloth_03,
+    tag: "甜美连衣裙",
   },
   {
     image: cloth_06,
@@ -1695,7 +1695,7 @@ const clothMallData = [
     detailImg: clothMall_01,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -1725,7 +1725,7 @@ const clothMallData = [
     detailImg: clothMall_02,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -1754,7 +1754,7 @@ const clothMallData = [
     detailImg: clothMall_03,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -1783,7 +1783,7 @@ const clothMallData = [
     detailImg: clothMall_04,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -1812,7 +1812,7 @@ const clothMallData = [
     detailImg: clothMall_05,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -1841,7 +1841,7 @@ const clothMallData = [
     detailImg: clothMall_06,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -1870,7 +1870,7 @@ const clothMallData = [
     detailImg: clothMall_07,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -1899,7 +1899,7 @@ const clothMallData = [
     detailImg: clothMall_08,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -1928,7 +1928,7 @@ const clothMallData = [
     detailImg: clothMall_09,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -1957,7 +1957,7 @@ const clothMallData = [
     detailImg: clothMall_10,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -1986,7 +1986,7 @@ const clothMallData = [
     detailImg: clothMall_11,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -2015,7 +2015,7 @@ const clothMallData = [
     detailImg: clothMall_12,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -2044,7 +2044,7 @@ const clothMallData = [
     detailImg: clothMall_13,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -2073,7 +2073,7 @@ const clothMallData = [
     detailImg: clothMall_14,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -2102,7 +2102,7 @@ const clothMallData = [
     detailImg: clothMall_15,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -2131,7 +2131,7 @@ const clothMallData = [
     detailImg: clothMall_16,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -2160,7 +2160,7 @@ const clothMallData = [
     detailImg: clothMall_17,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -2189,7 +2189,7 @@ const clothMallData = [
     detailImg: clothMall_18,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -2218,7 +2218,7 @@ const clothMallData = [
     detailImg: clothMall_19,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -2247,7 +2247,7 @@ const clothMallData = [
     detailImg: clothMall_20,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -2276,7 +2276,7 @@ const clothMallData = [
     detailImg: clothMall_21,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -2305,7 +2305,7 @@ const clothMallData = [
     detailImg: clothMall_22,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -2334,7 +2334,7 @@ const clothMallData = [
     detailImg: clothMall_23,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -2363,7 +2363,7 @@ const clothMallData = [
     detailImg: clothMall_24,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -2392,7 +2392,7 @@ const clothMallData = [
     detailImg: clothMall_25,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -2421,7 +2421,7 @@ const clothMallData = [
     detailImg: clothMall_26,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -2450,7 +2450,7 @@ const clothMallData = [
     detailImg: clothMall_27,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -2479,7 +2479,7 @@ const clothMallData = [
     detailImg: clothMall_28,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -2508,7 +2508,7 @@ const clothMallData = [
     detailImg: clothMall_29,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -2537,7 +2537,7 @@ const clothMallData = [
     detailImg: clothMall_30,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -2566,7 +2566,7 @@ const clothMallData = [
     detailImg: clothMall_31,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -2595,7 +2595,7 @@ const clothMallData = [
     detailImg: clothMall_32,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -2624,7 +2624,7 @@ const clothMallData = [
     detailImg: clothMall_33,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -2653,7 +2653,7 @@ const clothMallData = [
     detailImg: clothMall_34,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -2682,7 +2682,7 @@ const clothMallData = [
     detailImg: clothMall_35,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -2711,7 +2711,7 @@ const clothMallData = [
     detailImg: clothMall_36,
     belongTo: "bb",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -2784,7 +2784,7 @@ const videoData = [
       detailImg:  pro_01,
       belongTo: "bb",
       subTitle: "买就送唇釉3支装 领券立减20",
-      activity: "满298元减80元,上不封顶",
+      activity: "满298元赠送水乳小样",
       freight: "10",
       colour: [
         {col: "01亮肤色"},
@@ -2815,7 +2815,7 @@ const videoData = [
       detailImg:  pro_02,
       belongTo: "bb",
       subTitle: "买就送唇釉3支装 领券立减20",
-      activity: "满298元减80元,上不封顶",
+      activity: "满298元赠送水乳小样",
       freight: "10",
       colour: [
         {col: "01亮肤色"},
@@ -2846,7 +2846,7 @@ const videoData = [
       detailImg:  pro_03,
       belongTo: "bb",
       subTitle: "买就送唇釉3支装 领券立减20",
-      activity: "满298元减80元,上不封顶",
+      activity: "满298元赠送水乳小样",
       freight: "10",
       colour: [
         {col: "01亮肤色"},
@@ -2877,7 +2877,7 @@ const videoData = [
       detailImg:  pro_04,
       belongTo: "bb",
       subTitle: "买就送唇釉3支装 领券立减20",
-      activity: "满298元减80元,上不封顶",
+      activity: "满298元赠送水乳小样",
       freight: "10",
       colour: [
         {col: "01亮肤色"},
@@ -2908,7 +2908,7 @@ const videoData = [
       detailImg:  pro_05,
       belongTo: "bb",
       subTitle: "买就送唇釉3支装 领券立减20",
-      activity: "满298元减80元,上不封顶",
+      activity: "满298元赠送水乳小样",
       freight: "10",
       colour: [
         {col: "01亮肤色"},
@@ -2939,7 +2939,7 @@ const videoData = [
       detailImg:  pro_06,
       belongTo: "bb",
       subTitle: "买就送唇釉3支装 领券立减20",
-      activity: "满298元减80元,上不封顶",
+      activity: "满298元赠送水乳小样",
       freight: "10",
       colour: [
         {col: "01亮肤色"},
@@ -2975,7 +2975,7 @@ const videoData = [
       detailImg:  pro_07,
       belongTo: "bb",
       subTitle: "买就送唇釉3支装 领券立减20",
-      activity: "满298元减80元,上不封顶",
+      activity: "满298元赠送水乳小样",
       freight: "10",
       colour: [
         {col: "01亮肤色"},
@@ -3006,7 +3006,7 @@ const videoData = [
       detailImg:  pro_08,
       belongTo: "bb",
       subTitle: "买就送唇釉3支装 领券立减20",
-      activity: "满298元减80元,上不封顶",
+      activity: "满298元赠送水乳小样",
       freight: "10",
       colour: [
         {col: "01亮肤色"},
@@ -3037,7 +3037,7 @@ const videoData = [
       detailImg:  pro_09,
       belongTo: "bb",
       subTitle: "买就送唇釉3支装 领券立减20",
-      activity: "满298元减80元,上不封顶",
+      activity: "满298元赠送水乳小样",
       freight: "10",
       colour: [
         {col: "01亮肤色"},
@@ -3068,7 +3068,7 @@ const videoData = [
       detailImg:  pro_10,
       belongTo: "bb",
       subTitle: "买就送唇釉3支装 领券立减20",
-      activity: "满298元减80元,上不封顶",
+      activity: "满298元赠送水乳小样",
       freight: "10",
       colour: [
         {col: "01亮肤色"},
@@ -3104,7 +3104,7 @@ const videoData = [
       detailImg:  pro_13,
       belongTo: "bb",
       subTitle: "买就送唇釉3支装 领券立减20",
-      activity: "满298元减80元,上不封顶",
+      activity: "满298元赠送水乳小样",
       freight: "10",
       colour: [
         {col: "01亮肤色"},
@@ -3135,7 +3135,7 @@ const videoData = [
       detailImg:  pro_14,
       belongTo: "bb",
       subTitle: "买就送唇釉3支装 领券立减20",
-      activity: "满298元减80元,上不封顶",
+      activity: "满298元赠送水乳小样",
       freight: "10",
       colour: [
         {col: "01亮肤色"},
@@ -3166,7 +3166,7 @@ const videoData = [
       detailImg:  pro_15,
       belongTo: "bb",
       subTitle: "买就送唇釉3支装 领券立减20",
-      activity: "满298元减80元,上不封顶",
+      activity: "满298元赠送水乳小样",
       freight: "10",
       colour: [
         {col: "01亮肤色"},
@@ -3197,7 +3197,7 @@ const videoData = [
       detailImg:  pro_16,
       belongTo: "bb",
       subTitle: "买就送唇釉3支装 领券立减20",
-      activity: "满298元减80元,上不封顶",
+      activity: "满298元赠送水乳小样",
       freight: "10",
       colour: [
         {col: "01亮肤色"},
@@ -3490,7 +3490,7 @@ const brandShopData = [
         belongTo: "hufu",
         id: "0001",
         subTitle: "买就送唇釉3支装 领券立减20",
-        activity: "满298元减80元,上不封顶",
+        activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
           {col: "01亮肤色"},
@@ -3519,7 +3519,7 @@ const brandShopData = [
         belongTo: "sanfen",
         id: "0001",
         subTitle: "买就送唇釉3支装 领券立减20",
-        activity: "满298元减80元,上不封顶",
+        activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
           {col: "01亮肤色"},
@@ -3548,7 +3548,7 @@ const brandShopData = [
         belongTo: "geli",
         id: "0001",
         subTitle: "买就送唇釉3支装 领券立减20",
-        activity: "满298元减80元,上不封顶",
+        activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
           {col: "01亮肤色"},
@@ -3577,7 +3577,7 @@ const brandShopData = [
         belongTo: "qita",
         id: "0001",
         subTitle: "买就送唇釉3支装 领券立减20",
-        activity: "满298元减80元,上不封顶",
+        activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
           {col: "01亮肤色"},
@@ -3606,7 +3606,7 @@ const brandShopData = [
         belongTo: "geli",
         id: "0001",
         subTitle: "买就送唇釉3支装 领券立减20",
-        activity: "满298元减80元,上不封顶",
+        activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
           {col: "01亮肤色"},
@@ -3635,7 +3635,7 @@ const brandShopData = [
         belongTo: "kouhong",
         id: "0001",
         subTitle: "买就送唇釉3支装 领券立减20",
-        activity: "满298元减80元,上不封顶",
+        activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
           {col: "01亮肤色"},
@@ -3673,7 +3673,7 @@ const brandShopData = [
         belongTo: "hufu",
         id: "0001",
         subTitle: "买就送唇釉3支装 领券立减20",
-        activity: "满298元减80元,上不封顶",
+        activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
           {col: "01亮肤色"},
@@ -3702,7 +3702,7 @@ const brandShopData = [
         belongTo: "hufu",
         id: "0001",
         subTitle: "买就送唇釉3支装 领券立减20",
-        activity: "满298元减80元,上不封顶",
+        activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
           {col: "01亮肤色"},
@@ -3731,7 +3731,7 @@ const brandShopData = [
         belongTo: "hufu",
         id: "0001",
         subTitle: "买就送唇釉3支装 领券立减20",
-        activity: "满298元减80元,上不封顶",
+        activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
           {col: "01亮肤色"},
@@ -3760,7 +3760,7 @@ const brandShopData = [
         belongTo: "geli",
         id: "0001",
         subTitle: "买就送唇釉3支装 领券立减20",
-        activity: "满298元减80元,上不封顶",
+        activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
           {col: "01亮肤色"},
@@ -3789,7 +3789,7 @@ const brandShopData = [
         belongTo: "qita",
         id: "0001",
         subTitle: "买就送唇釉3支装 领券立减20",
-        activity: "满298元减80元,上不封顶",
+        activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
           {col: "01亮肤色"},
@@ -3818,7 +3818,7 @@ const brandShopData = [
         belongTo: "hufu",
         id: "0001",
         subTitle: "买就送唇釉3支装 领券立减20",
-        activity: "满298元减80元,上不封顶",
+        activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
           {col: "01亮肤色"},
@@ -3856,7 +3856,7 @@ const brandShopData = [
         belongTo: "geli",
         id: "0001",
         subTitle: "买就送唇釉3支装 领券立减20",
-        activity: "满298元减80元,上不封顶",
+        activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
           {col: "01亮肤色"},
@@ -3885,7 +3885,7 @@ const brandShopData = [
         belongTo: "hufu",
         id: "0001",
         subTitle: "买就送唇釉3支装 领券立减20",
-        activity: "满298元减80元,上不封顶",
+        activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
           {col: "01亮肤色"},
@@ -3914,7 +3914,7 @@ const brandShopData = [
         belongTo: "hufu",
         id: "0001",
         subTitle: "买就送唇釉3支装 领券立减20",
-        activity: "满298元减80元,上不封顶",
+        activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
           {col: "01亮肤色"},
@@ -3943,7 +3943,7 @@ const brandShopData = [
         belongTo: "hufu",
         id: "0001",
         subTitle: "买就送唇釉3支装 领券立减20",
-        activity: "满298元减80元,上不封顶",
+        activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
           {col: "01亮肤色"},
@@ -3972,7 +3972,7 @@ const brandShopData = [
         belongTo: "qita",
         id: "0001",
         subTitle: "买就送唇釉3支装 领券立减20",
-        activity: "满298元减80元,上不封顶",
+        activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
           {col: "01亮肤色"},
@@ -4001,7 +4001,7 @@ const brandShopData = [
         belongTo: "qita",
         id: "0001",
         subTitle: "买就送唇釉3支装 领券立减20",
-        activity: "满298元减80元,上不封顶",
+        activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
           {col: "01亮肤色"},
@@ -4039,7 +4039,7 @@ const brandShopData = [
         belongTo: "qita",
         id: "0001",
         subTitle: "买就送唇釉3支装 领券立减20",
-        activity: "满298元减80元,上不封顶",
+        activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
           {col: "01亮肤色"},
@@ -4068,7 +4068,7 @@ const brandShopData = [
         belongTo: "hufu",
         id: "0001",
         subTitle: "买就送唇釉3支装 领券立减20",
-        activity: "满298元减80元,上不封顶",
+        activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
           {col: "01亮肤色"},
@@ -4097,7 +4097,7 @@ const brandShopData = [
         belongTo: "hufu",
         id: "0001",
         subTitle: "买就送唇釉3支装 领券立减20",
-        activity: "满298元减80元,上不封顶",
+        activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
           {col: "01亮肤色"},
@@ -4126,7 +4126,7 @@ const brandShopData = [
         belongTo: "geli",
         id: "0001",
         subTitle: "买就送唇釉3支装 领券立减20",
-        activity: "满298元减80元,上不封顶",
+        activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
           {col: "01亮肤色"},
@@ -4155,7 +4155,7 @@ const brandShopData = [
         belongTo: "hufu",
         id: "0001",
         subTitle: "买就送唇釉3支装 领券立减20",
-        activity: "满298元减80元,上不封顶",
+        activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
           {col: "01亮肤色"},
@@ -4184,7 +4184,7 @@ const brandShopData = [
         belongTo: "qita",
         id: "0001",
         subTitle: "买就送唇釉3支装 领券立减20",
-        activity: "满298元减80元,上不封顶",
+        activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
           {col: "01亮肤色"},
@@ -4222,7 +4222,7 @@ const brandShopData = [
         belongTo: "hufu",
         id: "0001",
         subTitle: "买就送唇釉3支装 领券立减20",
-        activity: "满298元减80元,上不封顶",
+        activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
           {col: "01亮肤色"},
@@ -4251,7 +4251,7 @@ const brandShopData = [
         belongTo: "qita",
         id: "0001",
         subTitle: "买就送唇釉3支装 领券立减20",
-        activity: "满298元减80元,上不封顶",
+        activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
           {col: "01亮肤色"},
@@ -4289,7 +4289,7 @@ const brandShopData = [
         belongTo: "hufu",
         id: "0001",
         subTitle: "买就送唇釉3支装 领券立减20",
-        activity: "满298元减80元,上不封顶",
+        activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
           {col: "01亮肤色"},
@@ -4318,7 +4318,7 @@ const brandShopData = [
         belongTo: "qita",
         id: "0001",
         subTitle: "买就送唇釉3支装 领券立减20",
-        activity: "满298元减80元,上不封顶",
+        activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
           {col: "01亮肤色"},
@@ -4353,7 +4353,7 @@ const manShowData = [
     detailImg: man_1,
     id: "0001",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -4383,7 +4383,7 @@ const manShowData = [
     detailImg: man_2,
     id: "0001",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},
@@ -4413,7 +4413,7 @@ const manShowData = [
     detailImg: man_3,
     id: "0001",
     subTitle: "买就送唇釉3支装 领券立减20",
-    activity: "满298元减80元,上不封顶",
+    activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
       {col: "01亮肤色"},

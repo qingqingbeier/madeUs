@@ -151,7 +151,9 @@ class IndexPage extends Component {
           </div>
           <div className={styles.clothing} id="clothing">
             <div className={styles.image}>
-              <img alt="" src={redManWears}/>
+              <Link to = "./collocation">
+                <img alt="" src={redManWears}/>
+              </Link>
             </div>
             <div className={styles.subject}>
               <Clothing activeNum={"1"} clothData={clothData[0]}/>

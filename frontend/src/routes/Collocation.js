@@ -86,7 +86,7 @@ class Collocation extends Component{
             </TabPane>
             <TabPane tab="入夏要显白" key="2">Content of Tab Pane 2</TabPane>
             <TabPane tab="碎花约会裙" key="3">Content of Tab Pane 3</TabPane>
-            <TabPane tab="展示大长腿" key="4">Content of Tab Pane 3</TabPane>
+            <TabPane tab="秒变大长腿" key="4">Content of Tab Pane 3</TabPane>
             <TabPane tab="甜美连衣裙" key="5">
               <div className={styles.wrap}>
                 {
@@ -107,9 +107,9 @@ class Collocation extends Component{
                 }
               </div>
             </TabPane>
-            <TabPane tab="魅力斩男搭" key="6">Content of Tab Pane 3</TabPane>
+            <TabPane tab="女神出游搭" key="6">Content of Tab Pane 3</TabPane>
             <TabPane tab="夏季少女衬衫" key="7">Content of Tab Pane 2</TabPane>
-            <TabPane tab="女神出游搭" key="8">Content of Tab Pane 3</TabPane>
+            <TabPane tab="女魅力斩男搭" key="8">Content of Tab Pane 3</TabPane>
             <TabPane tab="小个省心搭" key="9">Content of Tab Pane 3</TabPane>
           </Tabs>
         </div>
