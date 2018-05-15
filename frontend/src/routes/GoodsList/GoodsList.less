@@ -1,7 +1,7 @@
 .breadcrumb {
   width: 80%;
   margin: 20px auto;
-  color: #222;
+  color: rgba(0, 0, 0, 0.65);
 
   :global(.ant-breadcrumb) {
     span {
@@ -24,4 +24,15 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .breadcrumb {
+    width: 90%;
+    margin: 10px auto 0;
+  }
+
+  .content {
+    width: 100%;
+  }
 }

@@ -10,13 +10,13 @@ import Footer from '../../components/Footer';
 import Goods from '../../components/Goods';
 import { faceData, lipsData, otherData, eyesData, brandShopData } from "../../mock/data.js";
 import { Breadcrumb, Menu, Dropdown, Icon} from 'antd';
-const sumArrData = faceData.concat(lipsData,otherData,eyesData,brandShopData[0],brandShopData[1],brandShopData[2],brandShopData[3],brandShopData[4],brandShopData[5])
+const sumArrData = faceData.concat(lipsData,otherData,eyesData,brandShopData[0].goods,brandShopData[1].goods,brandShopData[2].goods,brandShopData[3].goods,brandShopData[4].goods,brandShopData[5].goods);
 
 class GoodsList extends Component{
 
   constructor(props) {
     super(props);
-    const { source, type } = this.props.location.state||{}
+    const { source, type } = this.props.location.state||{};
     this.homeMenu = (
       <Menu onClick={(type)=>this.onClickMenu(type,source)}>
         <Menu.Item key="face">
@@ -80,7 +80,7 @@ class GoodsList extends Component{
         </Menu.Item>
       </Menu>
     );
-    this.Menu = this.getMenu(source)
+    this.Menu = this.getMenu(source);
     this.state = {
       nowGoodsList:this.getData(source,type)
     };

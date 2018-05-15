@@ -57,7 +57,7 @@ class Collocation extends Component{
 
   render () {
     return (
-      <div>
+      <div className={styles.wrap}>
         <Header nowActiveKey="key3"/>
         <SideRight/>
         <div className={styles.banner}>
