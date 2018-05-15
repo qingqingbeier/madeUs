@@ -4,6 +4,7 @@
 
 import React, {Component} from 'react';
 import { connect } from 'dva';
+import { Link } from 'dva/router'
 import { Tabs } from 'antd';
 import 'antd/dist/antd.css';
 import styles from './Collocation.less';
@@ -54,6 +55,15 @@ class Collocation extends Component{
       nowActiveKey:"key"+activeKey
     })
   }
+  addToCart(e,goodsData) {
+    TOOL.addCartAni(e);
+    this.props.dispatch({
+      type: "shopCart/addToCart",
+      payload: {
+        goodsData: goodsData
+      }
+    })
+  }
 
   render () {
     return (
@@ -71,46 +81,36 @@ class Collocation extends Component{
         </div>
         <div id="list" className={styles.content} data-active={this.state.nowActiveKey}>
           <Tabs defaultActiveKey={this.state.activeNum} onChange={_=>this.callback(_)}>
-            <TabPane tab="人气网红T" key="1">
-              <div className={styles.wrap}>
-                {
-                  suitData.map((elem,index)=>{
-                    return (
-                      <div key={index} className={styles.item}>
-                        <img alt="" src={elem.image}/>
-                      </div>
-                    )
-                  })
-                }
-              </div>
-            </TabPane>
-            <TabPane tab="入夏要显白" key="2">Content of Tab Pane 2</TabPane>
-            <TabPane tab="碎花约会裙" key="3">Content of Tab Pane 3</TabPane>
-            <TabPane tab="秒变大长腿" key="4">Content of Tab Pane 3</TabPane>
-            <TabPane tab="甜美连衣裙" key="5">
-              <div className={styles.wrap}>
-                {
-                  suitData.map((elem,index)=>{
-                    return (
-                      <div key={index} className={"hover "+styles.item}>
-                        <img className={styles.img_responsive} src={elem.image} alt="" />
-                        <div className={styles.overlay}>
-                            <h2>{elem.name}</h2>
-                            <span className={styles.info} >
-                              <a data-toggle="modal" data-target="#modal4" onClick={TOOL.addCartAni}>加入购物车
-                              </a>
-                            </span>
+            {["人气网红T","入夏要显白","碎花约会裙","秒变大长腿","甜美连衣裙","女神出游搭","夏季少女衬衫","魅力斩男搭","小个省心搭"].map((elem,index) => {
+              return <TabPane tab={elem} key={index+1}>
+                <div className={styles.wrap}>
+                  {
+                    suitData.filter((goods) => {
+                      return goods.style.indexOf(elem)!==-1;
+                    }).map((item,index)=>{
+                      return (
+                        <div key={index} className={"hover "+styles.item} >
+                          <img className={styles.img_responsive} src={item.image} alt="" />
+                          <div className={styles.overlay}>
+                              <Link to={{
+                                pathname: '/detail/id=' + item.id,
+                                state: {
+                                  data: item
+                                }
+                              }} style={{display:'block',position:'absolute',top:'115px',zIndex:555,height:'45px',width:'100%'}}></Link>
+                              <h2>{item.name}</h2>
+                              <span className={styles.info} >
+                                <a data-toggle="modal" data-target="#modal4" onClick={(e) => this.addToCart(e,item)}>加入购物车
+                                </a>
+                              </span>
+                          </div>
                         </div>
-                      </div>
-                    )
-                  })
-                }
-              </div>
-            </TabPane>
-            <TabPane tab="女神出游搭" key="6">Content of Tab Pane 3</TabPane>
-            <TabPane tab="夏季少女衬衫" key="7">Content of Tab Pane 2</TabPane>
-            <TabPane tab="女魅力斩男搭" key="8">Content of Tab Pane 3</TabPane>
-            <TabPane tab="小个省心搭" key="9">Content of Tab Pane 3</TabPane>
+                      )
+                    })
+                  }
+                </div>
+              </TabPane>;
+            })}
           </Tabs>
         </div>
         <Footer/>
