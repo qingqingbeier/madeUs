@@ -1,3 +1,7 @@
+.wrap {
+  min-height: 100vh;
+}
+
 .banner {
   width: 100%;
   overflow-x: hidden;
@@ -17,7 +21,7 @@
     justify-content: space-between;
 
     .item {
-      max-width: 30%;
+      max-width: 31%;
       border-radius: 8px;
       margin: 3px;
       overflow: hidden;
@@ -114,6 +118,8 @@
     width: 100%;
 
     .wrap {
+      width: 96%;
+      margin:  0 auto;
 
       .item {
         img {
@@ -136,14 +142,17 @@
 div[class*="ant-tabs-nav-container"],
 div[class*="ant-tabs-nav-scroll"],
 div[class*="ant-tabs-nav"]{
-  overflow: visible!important;
+  //overflow: visible!important;
+  padding-left: 10px;
+  padding-right: 10px;
 }
+
 span[class*="ant-tabs-tab-arrow-show"]{
-  background-color: #FFF;
-  height: 102%!important;
+  width: 18px !important;
 }
+
 span[class*="ant-tabs-tab-next"]{
-  right: 0;
+ width: 18px !important;
 }
 
 div[class='ant-tabs-bar']{
@@ -207,6 +216,8 @@ div[class^='ant-tabs-nav'] {
     background-color: #e4e1bd;
   }
 }
+
+//^意为以此类名开头的div,*是含有
 
  div[class^='ant-tabs-ink-bar'] {
    width: 0;
