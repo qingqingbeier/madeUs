@@ -20,63 +20,63 @@ class GoodsList extends Component{
     this.homeMenu = (
       <Menu onClick={(type)=>this.onClickMenu(type,source)}>
         <Menu.Item key="face">
-          <a href="javascript:;">底妆</a>
+          <a href="javascript:">底妆</a>
         </Menu.Item>
         <Menu.Item key="eyes">
-          <a href="javascript:;">眼妆</a>
+          <a href="javascript:">眼妆</a>
         </Menu.Item>
         <Menu.Item key="lips">
-          <a href="javascript:;">唇妆</a>
+          <a href="javascript:">唇妆</a>
         </Menu.Item>
         <Menu.Item key="other">
-          <a href="javascript:;">其他</a>
+          <a href="javascript:">其他</a>
         </Menu.Item>
       </Menu>
     );
     this.remenMenu = (
       <Menu onClick={(type)=>this.onClickMenu(type,source)}>
         <Menu.Item key="bb">
-          <a href="javascript:;">BB霜</a>
+          <a href="javascript:">BB霜</a>
         </Menu.Item>
         <Menu.Item key="geli">
-          <a href="javascript:;">隔离霜</a>
+          <a href="javascript:">隔离霜</a>
         </Menu.Item>
         <Menu.Item key="jiemao">
-          <a href="javascript:;">睫毛膏</a>
+          <a href="javascript:">睫毛膏</a>
         </Menu.Item>
         <Menu.Item key="kouhong">
-          <a href="javascript:;">口红</a>
+          <a href="javascript:">口红</a>
         </Menu.Item>
         <Menu.Item key="saihong">
-          <a href="javascript:;">腮红</a>
+          <a href="javascript:">腮红</a>
         </Menu.Item>
         <Menu.Item key="yanying">
-          <a href="javascript:;">眼影</a>
+          <a href="javascript:">眼影</a>
         </Menu.Item>
         <Menu.Item key="qita">
-          <a href="javascript:;">其他</a>
+          <a href="javascript:">其他</a>
         </Menu.Item>
       </Menu>
     );
     this.brandMenu = (
       <Menu onClick={(type)=>this.onClickMenu(type,source)}>
         <Menu.Item key={0}>
-          <a href="javascript:;">悦诗风吟</a>
+          <a href="javascript:">悦诗风吟</a>
         </Menu.Item>
         <Menu.Item key={1}>
-          <a href="javascript:;">阿芙</a>
+          <a href="javascript:">阿芙</a>
         </Menu.Item>
         <Menu.Item key={2}>
-          <a href="javascript:;">兰芝</a>
+          <a href="javascript:">兰芝</a>
         </Menu.Item>
         <Menu.Item key={3}>
-          <a href="javascript:;">自然堂</a>
+          <a href="javascript:">自然堂</a>
         </Menu.Item>
         <Menu.Item key={4}>
-          <a href="javascript:;">美肤宝</a>
+          <a href="javascript:">美肤宝</a>
         </Menu.Item>
         <Menu.Item key={5}>
-          <a href="javascript:;">一叶子</a>
+          <a href="javascript:">一叶子</a>
         </Menu.Item>
       </Menu>
     );
