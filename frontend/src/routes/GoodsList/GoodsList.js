@@ -3,6 +3,7 @@
  */
 import React, {Component} from 'react';
 import { connect } from 'dva';
+import { Link } from 'dva/router'
 import styles from './GoodsList.less';
 import  Header from '../../components/Header';
 import SideRight from "../../components/SideRight";
@@ -128,13 +129,34 @@ class GoodsList extends Component{
   }
 
   render () {
+    const { source, type } = this.props.location.state||{}
     return (
       <div className={styles.normal}>
         <SideRight/>
         <Header nowActiveKey="key8"/>
         <div className={styles.breadcrumb}>
           <Breadcrumb>
-            <Breadcrumb.Item><a href="">首页</a></Breadcrumb.Item>
+            <Breadcrumb.Item><Link to="/">首页</Link></Breadcrumb.Item>
+            {source?<Breadcrumb.Item>
+              {source==="homePage"?<Link to={{
+                pathname: '/',
+                state: {
+                  maodian: "youxuan"
+                }
+              }}>今日优选</Link>:""}
+              {source==="remen"?<Link to={{
+                pathname: '/cosmetics',
+                state: {
+                  maodian: "remen"
+                }
+              }}>热门分类</Link>:""}
+              {source==="brand"?<Link to={{
+                pathname: '/cosmetics',
+                state: {
+                  maodian: "juhui"
+                }
+              }}>品牌巨惠</Link>:""}
+            </Breadcrumb.Item>:""}
             <Breadcrumb.Item>
               <Dropdown overlay={this.Menu}>
                 <a className="ant-dropdown-link" href="javascript:;">

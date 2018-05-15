@@ -52,7 +52,8 @@ import indexBanner4 from './indexBanner4.png'
 import indexBanner5 from './indexBanner5.png'
 import indexBanner6 from './indexBanner6.png'
 import makeUpKitBg from './makeUpKitBg.png'
-
+import QRCode from './QRCode.png'
+import zhifuBg from './zhifu.png'
 export {
   indexBanner1,
   indexBanner2,
@@ -108,4 +109,6 @@ export {
   headPort,
   yay,
   makeUpKitBg,
+  QRCode,
+  zhifuBg
 }

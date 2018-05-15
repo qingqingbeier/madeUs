@@ -85,7 +85,7 @@ class IndexPage extends Component {
           </ul>
           {/*<img src={index_banner}/>*/}
         </div>
-        <div className={styles.content}>
+        <div id="youxuan" className={styles.content}>
           <div className={styles.prefer} id="prefer">
             <img alt="" src={titlePreferred} className={styles.title}/>
             <div className={styles.face}>

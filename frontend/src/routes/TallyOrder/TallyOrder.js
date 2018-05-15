@@ -9,11 +9,11 @@ import img from "../../assets/man_3.png";
 import SideRight from "../../components/SideRight";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import {Checkbox, Input, InputNumber, notification, Select} from "antd";
+import { Modal, Checkbox, Input, InputNumber, notification, Select} from "antd";
 import city from "../../utils/city.js";
+import { QRCode, zhifuBg} from '../../assets'
 const Option = Select.Option;
 const {TextArea} = Input;
-
 
 class TallyOrder extends Component {
 
@@ -32,6 +32,7 @@ class TallyOrder extends Component {
       province: city,
       city: [],
       area: [],
+      fukuanVisible:false
     };
   }
 
@@ -290,7 +291,22 @@ class TallyOrder extends Component {
             </div>
             <div className={styles.buyButton}>
               <p>总计: <span> <i>¥ </i>{(sumPrice === 0 ? 0 : sumPrice + 10).toFixed(2)}</span></p>
-              <button>立即付款</button>
+              <button onClick={()=>this.setState({fukuanVisible:true})}>立即付款</button>
+              <Modal
+                width={1220}
+                closable={false}
+                footer = {null}
+                visible={this.state.fukuanVisible}
+                onCancel={()=>this.setState({fukuanVisible:false})}>
+                <div className={styles.zhifu}>
+                  <div className={styles.jine}>
+                    <span>实付金额：</span>
+                    <span>¥ {(sumPrice === 0 ? 0 : sumPrice + 10).toFixed(2)}</span>
+                  </div>
+                  <img className={styles.QRCode} src={QRCode} alt="付款二维码"/>
+                  <img height="" src={zhifuBg} alt="付款二维码"/>
+                </div>
+              </Modal>
             </div>
           </div>
         </div>

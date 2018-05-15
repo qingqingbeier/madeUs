@@ -27,15 +27,27 @@ class Goods extends Component {
     })
   }
 
-  addActiveStyle(e) {
+  addActiveStyle(e,goodsData) {
     const button = e.target.offsetParent
     const isCollect = button.getAttribute('data-isCollect')
     if(isCollect==="yes"){
       message.warn('已移除收藏',1)
       button.setAttribute("data-isCollect","no")
+      this.props.dispatch({
+        type: "shopCart/delCollect",
+        payload: {
+          goodsData: goodsData
+        }
+      })
     }else{
       message.success('收藏成功',1)
       button.setAttribute("data-isCollect","yes")
+      this.props.dispatch({
+        type: "shopCart/addToCollect",
+        payload: {
+          goodsData: goodsData
+        }
+      })
     }
   }
 
@@ -59,8 +71,8 @@ class Goods extends Component {
             <del className={styles.originalPrice}> ¥{goodsData.originalPrice}</del>
           </span>
           <button className={styles.buy} data-isCollect="no">
-            <Icon type="heart-o" style={{color: '#EF2751', fontSize: '16px'}} onClick = {(e) => this.addActiveStyle(e)}/>
-            <Icon type="heart" style={{color: '#EF2751', fontSize: '16px'}} onClick = {(e) => this.addActiveStyle(e)}/>
+            <Icon type="heart-o" style={{color: '#EF2751', fontSize: '16px'}} onClick = {(e) => this.addActiveStyle(e,goodsData)}/>
+            <Icon type="heart" style={{color: '#EF2751', fontSize: '16px'}} onClick = {(e) => this.addActiveStyle(e,goodsData)}/>
              <Icon type="shopping-cart" style={{color: '#EF2751', fontSize: '20px'}} onClick={(e) => this.addToCart(e,goodsData)}/>
           </button>
         </div>

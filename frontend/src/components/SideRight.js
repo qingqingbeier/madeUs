@@ -22,6 +22,7 @@ class SideRight extends Component {
     super(props);
     this.state = {
       showCart: false,
+      showCollect:false,
       loginShow: false,
       registerShow:false,
       loginOutBtnLoading: false,
@@ -37,10 +38,33 @@ class SideRight extends Component {
       },
     })
   }
+  delCollect(goodsData) {
+    this.props.dispatch({
+      type: 'shopCart/delCollect',
+      payload: {
+        goodsData: goodsData
+      },
+    })
+  }
 
   showCart() {
+    if(this.state.showCollect&&!this.state.showCart){
+      this.setState({
+        showCollect:false
+      })
+    }
     this.setState({
       showCart: !this.state.showCart
+    })
+  }
+  showCollect(){
+    if(!this.state.showCollect&&this.state.showCart){
+      this.setState({
+        showCart:false
+      })
+    }
+    this.setState({
+      showCollect:!this.state.showCollect
     })
   }
 
@@ -168,7 +192,7 @@ class SideRight extends Component {
           </div>
           <div className={styles.buttonWrap}>
             <Button>我的订单</Button>
-            <Button>我的收藏</Button>
+            <Button onClick={()=>this.showCollect()}>我的收藏</Button>
           </div>
         </div>
       )
@@ -215,7 +239,7 @@ class SideRight extends Component {
               <li>
                 <Tooltip placement="left" title={text2}><a><Icon type="pay-circle-o"/></a></Tooltip>
               </li>
-              <li>
+              <li onClick={()=>this.showCollect()}>
                 <Tooltip placement="left" title={text3}><a><Icon type="heart-o"/></a></Tooltip>
               </li>
               <li>
@@ -276,6 +300,34 @@ class SideRight extends Component {
                     </div>
                     <button onClick={() => this.goBuy()}>去结算</button>
                   </div>
+                </div>
+              }
+            </div>
+            <div
+              className={this.state.showCollect ? styles.hideShopCart + " " + styles.showShopCart : styles.hideShopCart}>
+              <div className={styles.cartHeader}>
+                <h1>收藏夹</h1>
+              </div>
+              {this.props.shopCart.collectData.length === 0
+                ? <p>你还什么都没有收藏</p>
+                : <div className={styles.cartProductList}>
+                  {this.props.shopCart.collectData.map((ele, index) => {
+                    return (
+                      <div key={index} data-index={index} className={styles.itemList}>
+                        <img src={ele.image} alt=""/>
+                        <h2>{ele.name}</h2>
+                        <p className={styles.price}><i>¥</i>{ele.price}</p>
+                        <span
+                          className={styles.delProduct}
+                          onClick={() => {
+                            this.delCollect(ele)
+                          }}>
+                        <Icon type="close-circle-o"/>
+                      </span>
+                      </div>
+                    )
+                  })
+                  }
                 </div>
               }
             </div>
