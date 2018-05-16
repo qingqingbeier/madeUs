@@ -23,7 +23,7 @@ class NormalRegisterForm extends React.Component {
       if (!err) {
         const hide = message.loading('注册中...', 0);
         setTimeout(()=>{
-          let rigisterUser = JSON.parse(window.localStorage.registeredUsers)
+          let rigisterUser = JSON.parse(window.localStorage.registeredUsers||'[]')
           rigisterUser.push({
             userName:values.userName,
             password:values.password
