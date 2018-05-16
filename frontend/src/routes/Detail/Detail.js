@@ -1,7 +1,6 @@
 /**
  * Created by 黄晶晶 on 2018-04-24.
  */
-
 import React, {Component} from "react";
 import {connect} from "dva";
 import styles from "./Detail.less";
@@ -51,7 +50,7 @@ class Detail extends Component {
   }
 
   addToCart(e,videoData){
-    TOOL.addCartAni(e)
+    TOOL.addCartAni(e);
     this.props.dispatch({
       type:"shopCart/addToCart",
       payload:{

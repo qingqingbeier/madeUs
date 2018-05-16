@@ -446,10 +446,10 @@ const createData =(option) => [{
   'activity': "满298元赠送水乳小样",
   'freight': "10",
   'colour': [
-    { 'col': "01亮肤色" },
-    { 'col': "02自然色" },
+    { 'col': "1号色" },
+    { 'col': "2号色" },
   ],
-  'size': "20g",
+  'size': "普通",
   'parameter': {
     'brandName': "MARIE DALGAR/玛丽黛佳",
     'proName': "MARIE DALGAR/玛丽黛佳 无感大师底妆水域亮肤气垫霜",

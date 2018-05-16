@@ -1,7 +1,6 @@
 /**
  * Created by 黄晶晶 on 2018-04-13.
  */
-
 import React, {Component} from 'react';
 import { connect } from 'dva';
 import { Link } from 'dva/router'
@@ -23,8 +22,7 @@ class Collocation extends Component{
 
   constructor(props) {
     super(props);
-
-    const { activeNum } = this.props.location.state||{}
+    const { activeNum } = this.props.location.state||{};
     this.state = {
       nowActiveKey:"key5",
       activeNum: activeNum||"5"
@@ -41,20 +39,21 @@ class Collocation extends Component{
   componentDidMount(){
     var elem = this.refs.swiperContainer;
     this.swiper = new Swiper(elem, {
-      // mousewheel: true,
       autoplay:true,
       loop:true
     });
-    const { activeNum } = this.props.location.state||{}
+    const { activeNum } = this.props.location.state||{};
     if(activeNum){
       this.scrollToAnchor('list')
     }
   }
+
   callback(activeKey){
     this.setState({
       nowActiveKey:"key"+activeKey
     })
   }
+
   addToCart(e,goodsData) {
     TOOL.addCartAni(e);
     this.props.dispatch({
@@ -75,7 +74,6 @@ class Collocation extends Component{
             <div className="swiper-wrapper">
               <div className="swiper-slide"><img alt="" src={banner_01}/></div>
               <div className="swiper-slide"><img alt="" src={banner_02}/></div>
-              {/*<div className="swiper-slide"><img alt="" src={banner_03}/></div>*/}
             </div>
           </div>
         </div>
@@ -97,7 +95,8 @@ class Collocation extends Component{
                                 state: {
                                   data: item
                                 }
-                              }} style={{display:'block',position:'absolute',top:'115px',zIndex:555,height:'45px',width:'100%'}}></Link>
+                              }} style={{display:'block',position:'absolute',top:'115px',zIndex:555,height:'45px',width:'100%'}}>
+                              </Link>
                               <h2>{item.name}</h2>
                               <span className={styles.info} >
                                 <a data-toggle="modal" data-target="#modal4" onClick={(e) => this.addToCart(e,item)}>加入购物车
