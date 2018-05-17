@@ -24,7 +24,6 @@ class Cosmetics extends Component {
   componentDidMount(){
     const { maodian } = this.props.location.state||{}
     if(maodian){
-      console.log(maodian)
       this.scrollToAnchor(maodian)
     }
   }

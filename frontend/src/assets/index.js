@@ -54,6 +54,9 @@ import indexBanner6 from './indexBanner6.png'
 import makeUpKitBg from './makeUpKitBg.png'
 import QRCode from './QRCode.png'
 import zhifuBg from './zhifu.png'
+import Alipay from './Alipay.png'
+import RichScan from './RichScan.png'
+
 export {
   indexBanner1,
   indexBanner2,
@@ -110,5 +113,7 @@ export {
   yay,
   makeUpKitBg,
   QRCode,
-  zhifuBg
+  zhifuBg,
+  Alipay,
+  RichScan
 }

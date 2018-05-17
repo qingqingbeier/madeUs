@@ -13,7 +13,7 @@ const BrandShop = ({brandShopData,index}) => {
         pathname: '/goodsList',
         state: {
           source:"brand",
-          type: index
+          type: index,
         }
       }}>
         <div className={styles.image}>

@@ -1,7 +1,7 @@
 .wrap {
   background-color: #DEE2E5;
-  min-width: 100vh;
   padding-bottom: 20px;
+  min-height: 95vh;
 
   //.header {
   //  width: 100%;
@@ -41,6 +41,8 @@
 
       .myAdr {
         display: flex;
+        flex-wrap: wrap;
+
         .box {
           width: 200px;
           height: 140px;
@@ -144,7 +146,6 @@
 
               img {
                 width: 50px;
-                height: 60px;
                 float: left;
                 margin-right: 20px;
               }
@@ -204,27 +205,100 @@
 }
 
 
-.zhifu{
+.payment{
   position: relative;
-  .QRCode{
+
+  .payMoney{
     position: absolute;
-    height: 350px;
-    top: 90px;
-    left: 120px;
+    right: 0;
+
+    span:first-child{
+      color: #222;
+      font-size: 14px;
+    }
+    span:last-child{
+      color: #F64F76;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+
+  .QRCode{
+    margin: 10px auto;
+    padding-top: 40px;
+    text-align: center;
+    background: url(../../assets/Alipay.png) no-repeat;
+
+    img {
+      width: 70%;
+    }
+
+    .reminder {
+      margin: 0 auto;
+      width: 30%;
+      background: url(../../assets/RichScan.png) no-repeat;
+      padding-left: 30px;
+    }
   }
 }
-.jine{
-  background-color: #FFF;
-  position: absolute;
-  top: 38px;
-  right: 45px;
-  span:first-child{
-    color: #333;
-    font-size: 15px;
-  }
-  span:last-child{
-    color: #F64F76;
-    font-size: 18px;
-    font-weight: bold;
+
+@media screen and (max-width: 768px) {
+  .wrap {
+    .content {
+      width: 100%;
+      margin: 0;
+
+      .myAdr {
+        //flex-direction: column;
+      }
+
+      .shopList,
+      .goodsList,
+      .address,
+      .buyButton {
+        padding: 15px;
+      }
+
+      .goodsList {
+        padding: 10px;
+
+        table {
+          width: 100%;
+
+          tr {
+
+            th {
+              padding: 10px 0 10px 8px;
+            }
+
+            td {
+              padding: 10px 0 10px 8px;
+
+              &.checkbox {
+                min-width: 15px;
+                max-width: 20px;
+              }
+
+              &.goods {
+
+                img {
+                  width: 50px;
+                  float: left;
+                  margin-right: 10px;
+                }
+
+                .text {
+                  padding-top: 5px;
+
+                  h2 {
+                    display: none;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }

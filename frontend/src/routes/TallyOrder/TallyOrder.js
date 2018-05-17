@@ -1,7 +1,6 @@
 /**
  * Created by 黄晶晶 on 2018-05-03.
  */
-
 import React, {Component} from "react";
 import {connect} from "dva";
 import styles from "./TallyOrder.less";
@@ -11,7 +10,7 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import { Modal, Checkbox, Input, InputNumber, notification, Select} from "antd";
 import city from "../../utils/city.js";
-import { QRCode, zhifuBg} from '../../assets'
+import { QRCode, zhifuBg, Alipay} from '../../assets'
 const Option = Select.Option;
 const {TextArea} = Input;
 
@@ -292,21 +291,26 @@ class TallyOrder extends Component {
             <div className={styles.buyButton}>
               <p>总计: <span> <i>¥ </i>{(sumPrice === 0 ? 0 : sumPrice + 10).toFixed(2)}</span></p>
               <button onClick={()=>this.setState({fukuanVisible:true})}>立即付款</button>
-              <Modal
-                width={1220}
-                closable={false}
-                footer = {null}
-                visible={this.state.fukuanVisible}
-                onCancel={()=>this.setState({fukuanVisible:false})}>
-                <div className={styles.zhifu}>
-                  <div className={styles.jine}>
-                    <span>实付金额：</span>
-                    <span>¥ {(sumPrice === 0 ? 0 : sumPrice + 10).toFixed(2)}</span>
-                  </div>
-                  <img className={styles.QRCode} src={QRCode} alt="付款二维码"/>
-                  <img height="" src={zhifuBg} alt="付款二维码"/>
-                </div>
-              </Modal>
+              {/*<Modal*/}
+                {/*// width={1220}*/}
+                {/*closable={false}*/}
+                {/*footer = {null}*/}
+                {/*visible={this.state.fukuanVisible}*/}
+                {/*onCancel={()=>this.setState({fukuanVisible:false})}>*/}
+                {/*<div className={styles.payment}>*/}
+                  {/*<div className={styles.payMoney}>*/}
+                    {/*<span>实付金额：</span>*/}
+                    {/*<span>¥ {(sumPrice === 0 ? 0 : sumPrice + 10).toFixed(2)}</span>*/}
+                  {/*</div>*/}
+                  {/*<div className={styles.QRCode}>*/}
+                    {/*<img src={QRCode} alt="付款二维码"/>*/}
+                    {/*<div className={styles.reminder}>*/}
+                      {/*<p>打开手机支付宝</p>*/}
+                      {/*<p>点击扫一扫付款</p>*/}
+                    {/*</div>*/}
+                  {/*</div>*/}
+                {/*</div>*/}
+              {/*</Modal>*/}
             </div>
           </div>
         </div>

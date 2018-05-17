@@ -6,11 +6,25 @@
   z-index: 2;
 }
 
-.swiper_container {
+.containerBig {
+  display: block;
   height: 100vh;
 }
 
-@media screen and (max-width: 768px) {
+.containerSml {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .containerBig {
+    display: none;
+  }
+
+  .containerSml {
+    display: block;
+    min-height: 100vh;
+  }
+
   :global(.swiper-slide) {
     height: auto !important;
   }

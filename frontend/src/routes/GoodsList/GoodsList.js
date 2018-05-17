@@ -83,13 +83,54 @@ class GoodsList extends Component{
     );
     this.Menu = this.getMenu(source);
     this.state = {
-      nowGoodsList:this.getData(source,type)
+      nowGoodsList:this.getData(source,type),
+      text:"请选择分类"
     };
   }
 
-  onClickMenu(type='face',source='homePage'){
+  getTitle(nowTitle) {
+    switch (nowTitle) {
+      case "face":
+        return "底妆";
+      case "eyes":
+        return "眼妆";
+      case "lips":
+        return "唇妆";
+      case "other":
+        return "其他";
+      case "bb":
+        return "BB霜";
+      case "geli":
+        return "隔离霜";
+      case "jiemao":
+        return "睫毛膏";
+      case "kouhong":
+        return "口红";
+      case "saihong":
+        return "腮红";
+      case "yanying":
+        return "眼影";
+      case "qita":
+        return "其他";
+      case "0":
+        return "悦诗风吟";
+      case "1":
+        return "阿芙";
+      case "2":
+        return "兰芝";
+      case "3":
+        return "自然堂";
+      case "4":
+        return "美肤宝";
+      case "5":
+        return "一叶子";
+    }
+  }
+
+  onClickMenu(type, source = 'homePage') {
     this.setState({
-      nowGoodsList:this.getData(source,type.key)
+      nowGoodsList:this.getData(source,type.key),
+      text:this.getTitle(type.key)
     })
   }
 
@@ -135,32 +176,61 @@ class GoodsList extends Component{
         <SideRight/>
         <Header nowActiveKey="key8"/>
         <div className={styles.breadcrumb}>
-          <Breadcrumb>
-            <Breadcrumb.Item><Link to="/">首页</Link></Breadcrumb.Item>
-            {source?<Breadcrumb.Item>
-              {source==="homePage"?<Link to={{
-                pathname: '/',
-                state: {
-                  maodian: "youxuan"
+          <Breadcrumb trigger={['click']}>
+            {source ?
+              <Breadcrumb.Item>
+                {source === "homePage" ?
+                  <Link to="/">
+                    首页
+                  </Link> : ""}
+                {source === "remen" ?
+                  <Link to="/cosmetics">
+                    美妆商城
+                  </Link> : ""}
+                {source === "brand" ?
+                  <Link to="/cosmetics">
+                    美妆商城
+                  </Link> : ""}
+              </Breadcrumb.Item> : ""
+            }
+            {source ?
+              <Breadcrumb.Item>
+                {source === "homePage" ?
+                  <Link to={{
+                    pathname: '/',
+                    state: {
+                      maodian: "youxuan"
+                    }
+                  }}>
+                    今日优选
+                  </Link> : ""
                 }
-              }}>今日优选</Link>:""}
-              {source==="remen"?<Link to={{
-                pathname: '/cosmetics',
-                state: {
-                  maodian: "remen"
+                {source === "remen" ?
+                  <Link to={{
+                    pathname: '/cosmetics',
+                    state: {
+                      maodian: "remen"
+                    }
+                  }}>
+                    热门分类
+                  </Link> : ""
                 }
-              }}>热门分类</Link>:""}
-              {source==="brand"?<Link to={{
-                pathname: '/cosmetics',
-                state: {
-                  maodian: "juhui"
+                {source === "brand" ?
+                  <Link to={{
+                    pathname: '/cosmetics',
+                    state: {
+                      maodian: "juhui"
+                    }
+                  }}>
+                    品牌巨惠
+                  </Link> : ""
                 }
-              }}>品牌巨惠</Link>:""}
-            </Breadcrumb.Item>:""}
+              </Breadcrumb.Item> : ""
+            }
             <Breadcrumb.Item>
               <Dropdown overlay={this.Menu}>
                 <a className="ant-dropdown-link" href="javascript:;">
-                  选择类型<Icon type="down" />
+                  {this.state.text}<Icon type="down" />
                 </a>
               </Dropdown>
             </Breadcrumb.Item>
