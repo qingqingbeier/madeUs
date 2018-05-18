@@ -228,8 +228,8 @@ class GoodsList extends Component{
               </Breadcrumb.Item> : ""
             }
             <Breadcrumb.Item>
-              <Dropdown overlay={this.Menu}>
-                <a className="ant-dropdown-link" href="javascript:;">
+              <Dropdown overlay={this.Menu} trigger="click">
+                <a className="ant-dropdown-link" href="javascript:">
                   {this.state.text}<Icon type="down" />
                 </a>
               </Dropdown>
@@ -243,6 +243,10 @@ class GoodsList extends Component{
                 <Goods key={index} goodsData={elem}/>
               )
             })
+          }
+          {
+            Array.prototype.slice.call(new Uint8Array(3-this.state.nowGoodsList.length%3)).map(_=><div
+            style={{flex:'1 1 26%',margin: '10px',padding: '12px 10px 8px'}}> </div>)
           }
         </div>
         <Footer/>

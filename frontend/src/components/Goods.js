@@ -28,11 +28,11 @@ class Goods extends Component {
   }
 
   addActiveStyle(e,goodsData) {
-    const button = e.target.offsetParent
-    const isCollect = button.getAttribute('data-isCollect')
+    const button = e.target.offsetParent;
+    const isCollect = button.getAttribute('data-isCollect');
     if(isCollect==="yes"){
-      message.warn('已移除收藏',1)
-      button.setAttribute("data-isCollect","no")
+      message.warn('已移除收藏',1);
+      button.setAttribute("data-isCollect","no");
       this.props.dispatch({
         type: "shopCart/delCollect",
         payload: {
@@ -40,8 +40,8 @@ class Goods extends Component {
         }
       })
     }else{
-      message.success('收藏成功',1)
-      button.setAttribute("data-isCollect","yes")
+      message.success('收藏成功',1);
+      button.setAttribute("data-isCollect","yes");
       this.props.dispatch({
         type: "shopCart/addToCollect",
         payload: {

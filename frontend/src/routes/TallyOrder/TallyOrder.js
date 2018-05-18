@@ -55,7 +55,7 @@ class TallyOrder extends Component {
   }
 
   checkboxOnChange(index, e) {
-    let newArr = this.state.chooseProducts.slice();
+    let newArr = this.state.chooseProducts.slice(); //复制一个数组
     newArr[index].checked = e.target.checked;
     this.setState({
       chooseProducts: newArr

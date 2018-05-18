@@ -66,7 +66,7 @@
         background-color: transparent;
         opacity: 0;
         filter: alpha(opacity=0);
-        transform:scale(0) translateX(-50%) translateY(-50%);
+        transform:scale(0) translateX(-50%) translateY(-50%);//2D转换
         transition: all 0.4s ease-in-out;
         font-weight: normal;
         position: absolute;
@@ -111,12 +111,20 @@
       }
     }
   }
+
+  div[class*="ant-tabs-nav-container"],
+  div[class*="ant-tabs-nav-scroll"],
+  div[class*="ant-tabs-nav"]{
+    overflow: visible!important;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .content {
     width: 100%;
-
+    align-content: flex-start;
     .wrap {
       width: 96%;
       margin:  0 auto;
@@ -137,14 +145,6 @@
       margin-right: 5px !important;
     }
   }
-}
-
-div[class*="ant-tabs-nav-container"],
-div[class*="ant-tabs-nav-scroll"],
-div[class*="ant-tabs-nav"]{
-  overflow: visible!important;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 span[class*="ant-tabs-tab-arrow-show"]{
@@ -309,6 +309,3 @@ div[data-active='key9']{
     }
   }
 }
-
-
-
