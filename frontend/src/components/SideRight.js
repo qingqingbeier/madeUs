@@ -38,6 +38,7 @@ class SideRight extends Component {
       },
     })
   }
+
   delCollect(goodsData) {
     this.props.dispatch({
       type: 'shopCart/delCollect',
@@ -57,6 +58,7 @@ class SideRight extends Component {
       showCart: !this.state.showCart
     })
   }
+
   showCollect(){
     if(!this.state.showCollect&&this.state.showCart){
       this.setState({
@@ -74,6 +76,7 @@ class SideRight extends Component {
     })
   }
 
+  //点击登录按钮过后
   login(data, loginLoading, showMessage) {
     this.props.dispatch({
       type: 'user/login',
@@ -86,30 +89,24 @@ class SideRight extends Component {
       this.hideLogin()
     })
   }
+
   rigister(data, loginLoading, showMessage) {
-    this.props.dispatch({
-      type: 'user/login',
-      payload: {
-        ...data
-      },
-    }).then((data) => {
-      loginLoading();
-      showMessage(data);
-      this.hideLogin()
-    })
   }
 
   loginOut() {
     this.setState({
       loginOutBtnLoading: true
     });
+
     setTimeout(() => {
       notification.open({
         message: "退出成功",
         description: "您已退出登录",
         duration: 3
       });
+
       this.props.dispatch({type: 'user/logout'});
+
       this.setState({loginOutBtnLoading: false})
     }, 2000)
   }
@@ -124,18 +121,21 @@ class SideRight extends Component {
       registerShow: false
     })
   }
+
   goRegister(){
     this.setState({
       registerShow: true,
       loginShow:false
     })
   }
+
   goLogin(){
     this.setState({
       registerShow: false,
       loginShow:true
     })
   }
+
   showLogin() {
     this.setState({
       loginShow: true
@@ -158,7 +158,8 @@ class SideRight extends Component {
       });
       return;
     }
-    window.localStorage[window.localStorage.userName + "Buy"] = window.localStorage[window.localStorage.userName + "Cart"]
+
+    window.localStorage[window.localStorage.userName + "Buy"] = window.localStorage[window.localStorage.userName + "Cart"];
     this.props.history.push({
       pathname: "/tallyOrder"
     })
@@ -188,7 +189,7 @@ class SideRight extends Component {
             <img alt="头像" src={yay}/>
           </div>
           <div className={styles.section}>
-            你好，请<a href="javascript:;" onClick={() => this.showLogin()}> 登录 </a>或<a href="javascript:;" onClick={() => this.showRigister()}> 注册 </a>
+            你好，请<a href="javascript:" onClick={() => this.showLogin()}> 登录 </a>或<a href="javascript:" onClick={() => this.showRigister()}> 注册 </a>
           </div>
           <div className={styles.buttonWrap}>
             <Button>我的订单</Button>
@@ -210,10 +211,12 @@ class SideRight extends Component {
       login: this.login.bind(this),
       goRegister: this.goRegister.bind(this),
     };
+
     let RigisterPro = {
       rigister: this.rigister.bind(this),
       goLogin: this.goLogin.bind(this),
     };
+
     return (
       <div>
         <div className={styles.extendIcon} onClick={() => this.showContent()}>
@@ -224,7 +227,7 @@ class SideRight extends Component {
             : <div className={styles.wrap}>
             <ul className={styles.content}>
               <li>
-                <Tooltip placement="left" title={() => this.userCenter(this.props.user)}>
+                <Tooltip placement="left" title={() => this.userCenter(this.props.user)} trigger={innerWidth > 768? "hover" : "click" }>
                   <a><Icon type="user"/></a>
                 </Tooltip>
               </li>
@@ -237,13 +240,13 @@ class SideRight extends Component {
                 </Badge>
               </li>
               <li>
-                <Tooltip placement="left" title={text2}><a><Icon type="pay-circle-o"/></a></Tooltip>
+                <Tooltip placement="left" title={text2} trigger={innerWidth > 768? "hover" : "click" }><a><Icon type="pay-circle-o"/></a></Tooltip>
               </li>
               <li onClick={()=>this.showCollect()}>
-                <Tooltip placement="left" title={text3}><a><Icon type="heart-o"/></a></Tooltip>
+                <Tooltip placement="left" title={text3} trigger={innerWidth > 768? "hover" : "click" }><a><Icon type="heart-o"/></a></Tooltip>
               </li>
               <li>
-                <Tooltip placement="left" title={text4}><a><Icon type="clock-circle-o"/></a></Tooltip>
+                <Tooltip placement="left" title={text4} trigger={innerWidth > 768? "hover" : "click" }><a><Icon type="clock-circle-o"/></a></Tooltip>
               </li>
             </ul>
             <div className={styles.goTop} onClick={() => {
@@ -259,6 +262,7 @@ class SideRight extends Component {
               visible={this.state.loginShow}>
               <Login  {...LoginPro}/>
             </Modal>
+
             <Modal
               closable={false}
               footer={null}
@@ -266,6 +270,7 @@ class SideRight extends Component {
               visible={this.state.registerShow}>
               <Rigister  {...RigisterPro}/>
             </Modal>
+
             <div
               className={this.state.showCart ? styles.hideShopCart + " " + styles.showShopCart : styles.hideShopCart}>
               <div className={styles.cartHeader}>

@@ -4,15 +4,14 @@ import { Form, Icon, Input, Button } from 'antd';
 import { message, notification } from 'antd'
 const FormItem = Form.Item;
 
-let Stopwatch
+let Stopwatch;
 
 class NormalRegisterForm extends React.Component {
 
   constructor(props) {
     super(props);
-  
     this.state = {
-      second:5,
+      second:30,
       showCountdown:false
     };
   }
@@ -23,38 +22,37 @@ class NormalRegisterForm extends React.Component {
       if (!err) {
         const hide = message.loading('注册中...', 0);
         setTimeout(()=>{
-          let rigisterUser = JSON.parse(window.localStorage.registeredUsers||'[]')
+          let rigisterUser = JSON.parse(window.localStorage.registeredUsers||'[]');
           rigisterUser.push({
             userName:values.userName,
             password:values.password
-          })
-          window.localStorage.registeredUsers = JSON.stringify(rigisterUser)
-          hide()
+          });
+          window.localStorage.registeredUsers = JSON.stringify(rigisterUser);
+          hide();
           notification['success']({
             message: "注册成功",
             duration: 2
-          })
+          });
           this.props.goLogin()
         },1000)
       }
     });
-  }
+  };
 
   confirmPwd = () =>{
-    console.log("s")
-  }
+  };
 
   captcha(){
     this.setState({
       showCountdown:true
-    })
-    clearInterval(Stopwatch)
+    });
+    clearInterval(Stopwatch);
     Stopwatch = setInterval(()=>{
       this.setState({
         second:this.state.second-1
       },()=>{
         if(this.state.second===0){
-          clearInterval(Stopwatch)
+          clearInterval(Stopwatch);
           this.setState({
             showCountdown:false
           })
@@ -88,6 +86,7 @@ class NormalRegisterForm extends React.Component {
               <Button onClick = {()=>this.captcha()} disabled={this.state.showCountdown}>
               {this.state.showCountdown?`剩余${this.state.second}秒`:"收取验证码"}</Button>
             </FormItem>
+
             <FormItem>
               {getFieldDecorator('userName', {
                 rules: [{ required: true, message: '请输入帐号' }],
@@ -95,6 +94,7 @@ class NormalRegisterForm extends React.Component {
                 <Input prefix={<Icon type="user" style={{ fontSize: 13 }} />} placeholder="请输入用户名" />
               )}
             </FormItem>
+
             <FormItem>
               {getFieldDecorator('password', {
                 rules: [{ required: true, message: '请输入密码' }],
@@ -102,15 +102,17 @@ class NormalRegisterForm extends React.Component {
                 <Input prefix={<Icon type="lock" style={{ fontSize: 13 }} />} type="password" placeholder="请输入密码" />
               )}
             </FormItem>
+
             <FormItem>
               {getFieldDecorator('confirmpwd', {
                 rules: [{ required: true, message: '请再次输入密码' }],
               })(
-                <Input onBlur={()=>{this.confirmPwd()}} 
-                  prefix={<Icon type="lock" style={{ fontSize: 13 }} />} 
+                <Input onBlur={()=>{this.confirmPwd()}}
+                  prefix={<Icon type="lock" style={{ fontSize: 13 }} />}
                   type="password" placeholder="请再次输入密码" />
               )}
             </FormItem>
+
             <FormItem>
               <Button type="primary" onClick={()=>this.handleSubmit()} className={styles.submitbtn}>立即注册</Button>
             </FormItem>

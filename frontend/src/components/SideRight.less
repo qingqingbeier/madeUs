@@ -145,6 +145,7 @@
       width: 100%;
       height: 100px;
       margin-top: 20px;
+      margin-bottom: 100px;
 
       & > div {
         display: flex;
@@ -230,6 +231,7 @@
 
 .extendIcon {
   position: fixed;
+  display: block;
   top: 15px;
   left: 10px;
   z-index: 12;
@@ -268,5 +270,9 @@
 
   :global(.ant-tooltip) {
     left: 36px !important;
+  }
+
+  .extendIcon {
+    display: block;
   }
 }

@@ -8,9 +8,10 @@ import img from "../../assets/man_3.png";
 import SideRight from "../../components/SideRight";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import { Modal, Checkbox, Input, InputNumber, notification, Select} from "antd";
+import {Checkbox, Input, InputNumber, Modal, notification, Select} from "antd";
 import city from "../../utils/city.js";
-import { QRCode, zhifuBg, Alipay} from '../../assets'
+import {QRCode} from "../../assets";
+
 const Option = Select.Option;
 const {TextArea} = Input;
 
@@ -18,7 +19,7 @@ class TallyOrder extends Component {
 
   constructor(props) {
     super(props);
-    let chooseProducts = JSON.parse(window.localStorage[window.localStorage.userName + "Buy"] || '[]')
+    let chooseProducts = JSON.parse(window.localStorage[window.localStorage.userName + "Buy"] || '[]');
     this.state = {
       addressIndex: 0,
       addAddress: 0,
@@ -31,7 +32,7 @@ class TallyOrder extends Component {
       province: city,
       city: [],
       area: [],
-      fukuanVisible:false
+      fukuanVisible: false
     };
   }
 
@@ -92,13 +93,16 @@ class TallyOrder extends Component {
 
     let addressArr = this.state.address.slice();
     addressArr.push({userName, phone, address, detailAdd});
+
     this.setState({
       address: addressArr
     });
+
     notification.success({
       message: "添加成功",
       duration: 2
     });
+
     window.localStorage[window.localStorage.userName + "Address"] = JSON.stringify(addressArr);
     this.addAddress()
   }
@@ -114,6 +118,7 @@ class TallyOrder extends Component {
     let balancePro = this.state.chooseProducts.filter(function (ele) {
       return ele.checked
     });
+
     let sumPrice = balancePro.reduce((accumulator, currentValue) => {
       return accumulator + currentValue.price * currentValue.count
     }, 0);
@@ -124,17 +129,18 @@ class TallyOrder extends Component {
         width: 120
       }
     };
+
     return (
       <div className={styles.normal}>
         <SideRight/>
         <div className={styles.wrap}>
           <div className={styles.header}>
             {/*<div className={styles.progress}>*/}
-              {/*<Steps size="small">*/}
-                {/*<Step title="第一步" />*/}
-                {/*<Step title="第二步" />*/}
-                {/*<Step title="第三步" />*/}
-              {/*</Steps>*/}
+            {/*<Steps size="small">*/}
+            {/*<Step title="第一步" />*/}
+            {/*<Step title="第二步" />*/}
+            {/*<Step title="第三步" />*/}
+            {/*</Steps>*/}
             {/*</div>*/}
             <Header/>
           </div>
@@ -174,60 +180,61 @@ class TallyOrder extends Component {
                 </div>
                 <button className={styles.btn} onClick={() => this.addAddress()}>＋使用新地址</button>
                 {
-                  !this.state.addAddress ? "" : <table className={styles.formWrap}>
-                    <tr>
-                      <td className={styles.name}>省市区：</td>
-                      <td>
-                        <Select {...SelectProps} onChange={(value) => this.selProvince(value)}>
-                          {
-                            this.state.province.map((elem, index) => {
-                              return <Option value={elem.name}>{elem.name}</Option>;
-                            })
-                          }
-                        </Select>&nbsp;
-                        <Select {...SelectProps} onChange={(value) => this.selCity(value)}>
-                          {
-                            this.state.city.map((elem, index) => {
-                              return <Option value={elem.name}>{elem.name}</Option>;
-                            })
-                          }
-                        </Select>&nbsp;
-                        <Select {...SelectProps} onChange={(value) => this.selArea(value)}>
-                          {
-                            this.state.area.map((elem, index) => {
-                              return <Option value={elem.name}>{elem.name}</Option>;
-                            })
-                          }
-                        </Select>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className={styles.name}>邮政编码：</td>
-                      <td><Input size="small" style={{width: 200}} placeholder="请输入6位数字"/></td>
-                    </tr>
-                    <tr>
-                      <td className={styles.name}>街道地址：</td>
-                      <td>
-                        <TextArea ref="detailAdd" rows={4}/>
-                        <p>街道地址最少5个字，最多30个字</p>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className={styles.name}>收货人姓名：</td>
-                      <td><Input ref="userName" size="small" style={{width: 200}} placeholder="请输入您的姓名"/></td>
-                    </tr>
-                    <tr>
-                      <td className={styles.name}>手机号码：</td>
-                      <td><Input ref="phone" size="small" style={{width: 200}} placeholder="请输入11位手机号"/></td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>
-                        <button onClick={() => this.saveAddress()}>确认地址</button>
-                        <button className={styles.cancel} onClick={() => this.addAddress()}>取消</button>
-                      </td>
-                    </tr>
-                  </table>
+                  !this.state.addAddress ? "" :
+                    <table className={styles.formWrap}>
+                      <tr>
+                        <td className={styles.name}>省市区：</td>
+                        <td>
+                          <Select {...SelectProps} onChange={(value) => this.selProvince(value)}>
+                            {
+                              this.state.province.map((elem, index) => {
+                                return <Option value={elem.name}>{elem.name}</Option>;
+                              })
+                            }
+                          </Select>&nbsp;
+                          <Select {...SelectProps} onChange={(value) => this.selCity(value)}>
+                            {
+                              this.state.city.map((elem, index) => {
+                                return <Option value={elem.name}>{elem.name}</Option>;
+                              })
+                            }
+                          </Select>&nbsp;
+                          <Select {...SelectProps} onChange={(value) => this.selArea(value)}>
+                            {
+                              this.state.area.map((elem, index) => {
+                                return <Option value={elem.name}>{elem.name}</Option>;
+                              })
+                            }
+                          </Select>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className={styles.name}>邮政编码：</td>
+                        <td><Input size="small" style={{width: 200}} placeholder="请输入6位数字"/></td>
+                      </tr>
+                      <tr>
+                        <td className={styles.name}>街道地址：</td>
+                        <td>
+                          <TextArea ref="detailAdd" rows={4}/>
+                          <p>街道地址最少5个字，最多30个字</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className={styles.name}>收货人姓名：</td>
+                        <td><Input ref="userName" size="small" style={{width: 200}} placeholder="请输入您的姓名"/></td>
+                      </tr>
+                      <tr>
+                        <td className={styles.name}>手机号码：</td>
+                        <td><Input ref="phone" size="small" style={{width: 200}} placeholder="请输入11位手机号"/></td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>
+                          <button onClick={() => this.saveAddress()}>确认地址</button>
+                          <button className={styles.cancel} onClick={() => this.addAddress()}>取消</button>
+                        </td>
+                      </tr>
+                    </table>
                 }
               </div>
             </div>
@@ -290,27 +297,27 @@ class TallyOrder extends Component {
             </div>
             <div className={styles.buyButton}>
               <p>总计: <span> <i>¥ </i>{(sumPrice === 0 ? 0 : sumPrice + 10).toFixed(2)}</span></p>
-              <button onClick={()=>this.setState({fukuanVisible:true})}>立即付款</button>
-              {/*<Modal*/}
-                {/*// width={1220}*/}
-                {/*closable={false}*/}
-                {/*footer = {null}*/}
-                {/*visible={this.state.fukuanVisible}*/}
-                {/*onCancel={()=>this.setState({fukuanVisible:false})}>*/}
-                {/*<div className={styles.payment}>*/}
-                  {/*<div className={styles.payMoney}>*/}
-                    {/*<span>实付金额：</span>*/}
-                    {/*<span>¥ {(sumPrice === 0 ? 0 : sumPrice + 10).toFixed(2)}</span>*/}
-                  {/*</div>*/}
-                  {/*<div className={styles.QRCode}>*/}
-                    {/*<img src={QRCode} alt="付款二维码"/>*/}
-                    {/*<div className={styles.reminder}>*/}
-                      {/*<p>打开手机支付宝</p>*/}
-                      {/*<p>点击扫一扫付款</p>*/}
-                    {/*</div>*/}
-                  {/*</div>*/}
-                {/*</div>*/}
-              {/*</Modal>*/}
+              <button onClick={() => this.setState({fukuanVisible: true})}>立即付款</button>
+              <Modal
+                // width={1220}
+                closable={false}
+                footer={null}
+                visible={this.state.fukuanVisible}
+                onCancel={() => this.setState({fukuanVisible: false})}>
+                <div className={styles.payment}>
+                  <div className={styles.payMoney}>
+                    <span>实付金额：</span>
+                    <span>¥ {(sumPrice === 0 ? 0 : sumPrice + 10).toFixed(2)}</span>
+                  </div>
+                  <div className={styles.QRCode}>
+                    <img src={QRCode} alt="付款二维码"/>
+                    <div className={styles.reminder}>
+                      <p>打开手机支付宝</p>
+                      <p>点击扫一扫付款</p>
+                    </div>
+                  </div>
+                </div>
+              </Modal>
             </div>
           </div>
         </div>

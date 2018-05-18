@@ -22,7 +22,7 @@ class Cosmetics extends Component {
     }
   }
   componentDidMount(){
-    const { maodian } = this.props.location.state||{}
+    const { maodian } = this.props.location.state||{};
     if(maodian){
       this.scrollToAnchor(maodian)
     }

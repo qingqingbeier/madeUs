@@ -1,9 +1,13 @@
+/**
+ * Created by 黄晶晶 on 2018-04-29.
+ */
+
 import React from 'react';
 import styles from './Login.css'
 import { Form, Icon, Input, Button } from 'antd';
 import { message, notification } from 'antd'
-const FormItem = Form.Item;
 
+const FormItem = Form.Item;
 
 class NormalLoginForm extends React.Component {
 
@@ -33,7 +37,8 @@ class NormalLoginForm extends React.Component {
         },1000)
       }
     });
-  }
+  };
+
   render() {
     const { getFieldDecorator } = this.props.form;
     return (

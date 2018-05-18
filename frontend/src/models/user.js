@@ -15,29 +15,34 @@ export default {
     },
   },
 
-  effects: { 
+  effects: {
     * login({ payload}, { call, put }) { // eslint-disable-line
-      const data = yield call(login, parse(payload))
+      const data = yield call(login, parse(payload));
       if (data) {
-        if(data.success){
-          window.localStorage.userName = payload.userName
+        if(data.success) {
+          window.localStorage.userName = payload.userName;
+
           yield put({
             type: 'changeState',
             payload: {
               isLogin:window.localStorage.userName?true:false,
               user:payload.userName
             },
-          })
-          let shopCart = []
+          });
+
+          let shopCart = [];
+
           if(window.localStorage.noLoginCart){
-            const noLoginCart = JSON.parse(window.localStorage.noLoginCart)
-            shopCart = shopCart.concat(noLoginCart)
+            const noLoginCart = JSON.parse(window.localStorage.noLoginCart);
+            shopCart = shopCart.concat(noLoginCart);
             window.localStorage.noLoginCart = ""
           }
+
           if(window.localStorage[payload.userName+"Cart"]){
-            const selfCart = JSON.parse(window.localStorage[payload.userName+"Cart"])
+            const selfCart = JSON.parse(window.localStorage[payload.userName+"Cart"]);
             shopCart = shopCart.concat(selfCart)
           }
+
           if(shopCart.length>0){
             yield put({
               type: 'shopCart/upShopCart',
@@ -46,18 +51,20 @@ export default {
               },
             })
           }
+
           window.localStorage[window.localStorage.userName+"Cart"] = JSON.stringify(shopCart)
         }
         return data
       }
     },
-    * logout({ payload }, { call, put }) { 
+
+    * logout({ payload }, { call, put }) {
       yield put({
         type: 'shopCart/upShopCart',
         payload: {
           cartData:[]
         },
-      })
+      });
       yield put({type: 'logoutRe'})
     }
   },
@@ -67,8 +74,8 @@ export default {
       return {...state, ...action.payload };
     },
     logoutRe(state, action){
-      window.localStorage.userName=""
-      return {...state, 
+      window.localStorage.userName="";
+      return {...state,
         user:"",
         isLogin:false
       };

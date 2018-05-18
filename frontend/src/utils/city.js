@@ -4019,41 +4019,41 @@ let DICT = {
   820200: '离岛',
   990000: '海外',
   990100: '海外',
-}
+};
 
 // id pid/parentId name children
 const tree = (list) => {
-  let mapped = {}
-  let item
+  let mapped = {};
+  let item;
   for (let i = 0; i < list.length; i += 1) {
-    item = list[i]
-    if (!item || !item.id) continue
+    item = list[i];
+    if (!item || !item.id) continue;
     mapped[item.id] = item
   }
 
-  let result = []
+  let result = [];
   for (let ii = 0; ii < list.length; ii += 1) {
-    item = list[ii]
+    item = list[ii];
 
-    if (!item) continue
+    if (!item) continue;
     /* jshint -W041 */
     if (item.pid === undefined && item.parentId === undefined) {
-      result.push(item)
+      result.push(item);
       continue
     }
-    let parent = mapped[item.pid] || mapped[item.parentId]
-    if (!parent) continue
-    if (!parent.children) parent.children = []
+    let parent = mapped[item.pid] || mapped[item.parentId];
+    if (!parent) continue;
+    if (!parent.children) parent.children = [];
     parent.children.push(item)
   }
   return result
-}
+};
 
 let DICT_FIXED = (function () {
-  let fixed = []
+  let fixed = [];
   for (let id in DICT) {
     if ({}.hasOwnProperty.call(DICT, id)) {
-      let pid
+      let pid;
       if (id.slice(2, 6) !== '0000') {
         pid = id.slice(4, 6) === '00' ? (`${id.slice(0, 2)}0000`) :
           `${id.slice(0, 4)}00`
@@ -4068,6 +4068,6 @@ let DICT_FIXED = (function () {
     }
   }
   return tree(fixed)
-}())
+}());
 
-module.exports = DICT_FIXED
+module.exports = DICT_FIXED;

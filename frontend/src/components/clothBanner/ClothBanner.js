@@ -75,7 +75,6 @@ class ClothBanner extends Component {
                       </p>
                       <p className={styles.des}>{manShowData[1].title}</p>
                     </div>
-
                   </div>
                   <div className={styles.lineShade}><img alt="" src={ clothFloat }/></div>
                 </div>

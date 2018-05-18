@@ -68,7 +68,7 @@ class Detail extends Component {
       });
       return;
     }
-    window.localStorage[window.localStorage.userName+"Buy"] = JSON.stringify([buyData])
+    window.localStorage[window.localStorage.userName+"Buy"] = JSON.stringify([buyData]);
     this.props.history.push({
       pathname:"/tallyOrder"
     })
@@ -99,7 +99,7 @@ class Detail extends Component {
                 <p><strong>{ data.price }</strong>
                   <del>¥ { data.originalPrice }</del>
                 </p>
-                <p><label>赠送</label><span>{ data.activity}</span></p>
+                <p><label>活动</label><span>{ data.activity}</span></p>
               </div>
               <ul className={styles.option}>
                 <li className={styles.freight}>

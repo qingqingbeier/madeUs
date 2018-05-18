@@ -204,27 +204,26 @@
   }
 }
 
-
-.payment{
+.payment {
   position: relative;
 
-  .payMoney{
+  .payMoney {
     position: absolute;
     right: 0;
 
-    span:first-child{
+    span:first-child {
       color: #222;
       font-size: 14px;
     }
-    span:last-child{
+    span:last-child {
       color: #F64F76;
       font-size: 18px;
       font-weight: bold;
     }
   }
 
-  .QRCode{
-    margin: 10px auto;
+  .QRCode {
+    margin: 0 auto 6px;
     padding-top: 40px;
     text-align: center;
     background: url(../../assets/Alipay.png) no-repeat;
@@ -298,6 +297,17 @@
             }
           }
         }
+      }
+    }
+  }
+  :global(.ant-modal-body) {
+    padding: 10px;
+  }
+
+  .payment {
+    .QRCode {
+      .reminder {
+        width: 50%;
       }
     }
   }

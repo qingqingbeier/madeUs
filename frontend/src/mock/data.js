@@ -255,7 +255,7 @@ const faceData = [
     originalPrice: 299,
     detailImg: face_01_detail,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -284,7 +284,7 @@ const faceData = [
     originalPrice: 199,
     detailImg: face_02_detail,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -313,7 +313,7 @@ const faceData = [
     originalPrice: 180,
     detailImg: face_03_detail,
     belongTo: "geli",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -342,7 +342,7 @@ const faceData = [
     originalPrice: 198,
     detailImg: face_04_detail,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -372,7 +372,7 @@ const faceData = [
     originalPrice: 53,
     detailImg: face_05_detail,
     belongTo: "geli",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -401,7 +401,7 @@ const faceData = [
     originalPrice: 149,
     detailImg: face_06_detail,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -430,7 +430,7 @@ const faceData = [
     originalPrice: 142.8,
     detailImg: face_07_detail,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -459,7 +459,7 @@ const faceData = [
     originalPrice: 129,
     detailImg: face_08_detail,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -488,7 +488,7 @@ const faceData = [
     originalPrice: 400,
     detailImg: face_09_detail,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -517,7 +517,7 @@ const faceData = [
     originalPrice: 127,
     detailImg: face_10_detail,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -546,7 +546,7 @@ const faceData = [
     originalPrice: 276,
     detailImg: face_11_detail,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -575,7 +575,7 @@ const faceData = [
     originalPrice: 359,
     detailImg: face_12_detail,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -607,7 +607,7 @@ const eyesData = [
     originalPrice: 149,
     detailImg: eyes_01_detail,
     belongTo: "jiemao",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -636,7 +636,7 @@ const eyesData = [
     originalPrice: 198,
     detailImg: eyes_02_detail,
     belongTo: "jiemao",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -666,7 +666,7 @@ const eyesData = [
     originalPrice: 340,
     detailImg: eyes_03_detail,
     belongTo: "yanying",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -695,7 +695,7 @@ const eyesData = [
     originalPrice: 98,
     detailImg: eyes_04_detail,
     belongTo: "jiemao",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -724,7 +724,7 @@ const eyesData = [
     originalPrice: 119,
     detailImg: eyes_05_detail,
     belongTo: "yanying",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -753,7 +753,7 @@ const eyesData = [
     originalPrice: 85,
     detailImg: eyes_06_detail,
     belongTo: "yanying",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -782,7 +782,7 @@ const eyesData = [
     originalPrice: 97,
     detailImg: eyes_07_detail,
     belongTo: "yanying",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -811,7 +811,7 @@ const eyesData = [
     originalPrice: 99,
     detailImg: eyes_08_detail,
     belongTo: "yanying",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -840,7 +840,7 @@ const eyesData = [
     originalPrice: 188,
     detailImg: eyes_09_detail,
     belongTo: "yanying",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -869,7 +869,7 @@ const eyesData = [
     originalPrice: 60,
     detailImg: eyes_10_detail,
     belongTo: "yanying",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -898,7 +898,7 @@ const eyesData = [
     originalPrice: 192,
     detailImg: eyes_11_detail,
     belongTo: "yanying",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -927,7 +927,7 @@ const eyesData = [
     originalPrice: 148,
     detailImg: eyes_12_detail,
     belongTo: "yanying",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -959,7 +959,7 @@ const lipsData = [
     originalPrice: 149,
     belongTo: "kouhong",
     title: "中国•玛丽黛佳(Marie Dalgar)唇釉贪心妆（原色印象水酷唇釉）0.8ml*8",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -990,7 +990,7 @@ const lipsData = [
     originalPrice: 69,
     detailImg: lips_02_detail,
     belongTo: "kouhong",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -1019,7 +1019,7 @@ const lipsData = [
     originalPrice: 299,
     detailImg: lips_03_detail,
     belongTo: "kouhong",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -1048,7 +1048,7 @@ const lipsData = [
     originalPrice: 59,
     detailImg: lips_04_detail,
     belongTo: "kouhong",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -1077,7 +1077,7 @@ const lipsData = [
     originalPrice: 76,
     detailImg: lips_05_detail,
     belongTo: "kouhong",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -1106,7 +1106,7 @@ const lipsData = [
     originalPrice: 310,
     detailImg: lips_06_detail,
     belongTo: "kouhong",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -1135,7 +1135,7 @@ const lipsData = [
     originalPrice: 89,
     detailImg: lips_07_detail,
     belongTo: "kouhong",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -1164,7 +1164,7 @@ const lipsData = [
     originalPrice: 149,
     detailImg: lips_08_detail,
     belongTo: "kouhong",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -1193,7 +1193,7 @@ const lipsData = [
     originalPrice: 269,
     detailImg: lips_09_detail,
     belongTo: "kouhong",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -1222,7 +1222,7 @@ const lipsData = [
     originalPrice: 320,
     detailImg: lips_10_detail,
     belongTo: "kouhong",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -1251,7 +1251,7 @@ const lipsData = [
     originalPrice: 340,
     detailImg: lips_11_detail,
     belongTo: "kouhong",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -1280,7 +1280,7 @@ const lipsData = [
     originalPrice: 109,
     detailImg: lips_12_detail,
     belongTo: "kouhong",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -1312,7 +1312,7 @@ const otherData = [
     originalPrice: 169,
     detailImg: other_01_detail,
     belongTo: "qita",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -1341,7 +1341,7 @@ const otherData = [
     originalPrice: 28,
     detailImg: other_02_detail,
     belongTo: "qita",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -1370,7 +1370,7 @@ const otherData = [
     originalPrice: 89,
     detailImg: other_03_detail,
     belongTo: "saihong",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -1399,7 +1399,7 @@ const otherData = [
     originalPrice: 67,
     detailImg: other_04_detail,
     belongTo: "saihong",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -1428,7 +1428,7 @@ const otherData = [
     originalPrice: 248,
     detailImg: other_05_detail,
     belongTo: "saihong",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -1457,7 +1457,7 @@ const otherData = [
     originalPrice: 55,
     detailImg: other_06_detail,
     belongTo: "saihong",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -1486,7 +1486,7 @@ const otherData = [
     originalPrice: 219.9,
     detailImg: other_07_detail,
     belongTo: "saihong",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -1515,7 +1515,7 @@ const otherData = [
     originalPrice: 123,
     detailImg: other_08_detail,
     belongTo: "saihong",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -1544,7 +1544,7 @@ const otherData = [
     originalPrice: 130,
     detailImg: other_09_detail,
     belongTo: "saihong",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -1573,7 +1573,7 @@ const otherData = [
     originalPrice: 158,
     detailImg: other_10_detail,
     belongTo: "qita",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -1602,7 +1602,7 @@ const otherData = [
     originalPrice: 39.9,
     detailImg: other_11_detail,
     belongTo: "qita",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -1631,7 +1631,7 @@ const otherData = [
     originalPrice: 108,
     detailImg: other_12_detail,
     belongTo: "qita",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "满298元赠送水乳小样",
     freight: "10",
     colour: [
@@ -1695,7 +1695,7 @@ const clothMallData = [
     title: "文墨优雅网纱拼接钉花连衣裙女短裙蓬蓬裙公主裙",
     detailImg: clothMall_01,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -1725,7 +1725,7 @@ const clothMallData = [
     title: "EST＋II/艺诗2018夏新品韩版收腰气质连衣裙褶皱欧根纱休闲连衣裙",
     detailImg: clothMall_02,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -1754,7 +1754,7 @@ const clothMallData = [
     title: "裙子女2018夏季新款气质修身一步裙冷淡风矮个子雪纺职业连衣裙OL",
     detailImg: clothMall_03,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -1783,7 +1783,7 @@ const clothMallData = [
     title: "雪纺连衣裙女夏2018新款200斤胖仙女大码女装遮肚子藏肉裙子减龄",
     detailImg: clothMall_04,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -1812,7 +1812,7 @@ const clothMallData = [
     title: "linjou玲玖2018夏季新品高腰显瘦漏肩网纱仙女裙蕾丝吊带连衣裙女",
     detailImg: clothMall_05,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -1841,7 +1841,7 @@ const clothMallData = [
     title: "安妮陈高腰包臀裙一步裙女夏季新款韩版百搭格纹中裙鱼尾半身裙子",
     detailImg: clothMall_06,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -1870,7 +1870,7 @@ const clothMallData = [
     title: "linjou玲玖2018夏新少女心仙女裙绣花钉珠网纱套装裙吊带连衣裙女",
     detailImg: clothMall_07,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -1899,7 +1899,7 @@ const clothMallData = [
     title: "夏天该要有的裙子 舒爽亚麻 金属环装饰收腰连衣裙",
     detailImg: clothMall_08,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -1928,7 +1928,7 @@ const clothMallData = [
     title: "韩都衣舍2018夏装新款女装冷淡风温柔裙子学生仙女连衣裙DU8301樱",
     detailImg: clothMall_09,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -1957,7 +1957,7 @@ const clothMallData = [
     title: "韩都衣舍2018夏装新款韩版女装拼接荷叶边仙女裙连衣裙OR7743槿",
     detailImg: clothMall_10,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -1986,7 +1986,7 @@ const clothMallData = [
     title: "安妮陈夏季衬衫连衣裙2018新款女装中长款收腰小清新格子衬衣裙子",
     detailImg: clothMall_11,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -2015,7 +2015,7 @@ const clothMallData = [
     title: "阔色2018夏新款韩版女短袖裙子中长款V领吊带A字连衣裙两件套预售",
     detailImg: clothMall_12,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -2044,7 +2044,7 @@ const clothMallData = [
     title: "春2018新款冷淡风裙子学生复古少女心温柔收腰超仙女连衣裙极简夏",
     detailImg: clothMall_13,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -2073,7 +2073,7 @@ const clothMallData = [
     title: "阔色2018夏季新款韩版女黑色雪纺裙子高腰中长款不规则半身裙预售",
     detailImg: clothMall_14,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -2102,7 +2102,7 @@ const clothMallData = [
     title: "小香风衬衫连衣裙女装夏2018新款潮小个子高腰显瘦冷淡风极简裙子",
     detailImg: clothMall_15,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -2131,7 +2131,7 @@ const clothMallData = [
     title: "欧洲站夏装女2018新款 欧货潮短袖裙子气质显瘦中长款牛仔连衣裙",
     detailImg: clothMall_16,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -2160,7 +2160,7 @@ const clothMallData = [
     title: "大码连衣裙夏胖mm最爱中长款遮肚洋气雪纺刺绣 胖妹妹仙女裙200斤",
     detailImg: clothMall_17,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -2189,7 +2189,7 @@ const clothMallData = [
     title: "夏装2018新款露背裙子仙女裙收腰露肩V领水溶白色蕾丝连衣裙夏女",
     detailImg: clothMall_18,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -2218,7 +2218,7 @@ const clothMallData = [
     title: "连衣裙女夏季2018新款气质长款冷淡风裙子学生衬衫裙ins超火长裙",
     detailImg: clothMall_19,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -2247,7 +2247,7 @@ const clothMallData = [
     title: "2018夏季新款超仙冷淡风收腰温柔裙子中长款网纱ins超火的连衣裙",
     detailImg: clothMall_20,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -2276,7 +2276,7 @@ const clothMallData = [
     title: "雪纺连衣裙女夏中长款2018新款港味修身v领裙子气质显瘦纯色长裙",
     detailImg: clothMall_21,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -2305,7 +2305,7 @@ const clothMallData = [
     title: "ins无袖连衣裙女夏2018新款韩版系带收腰显瘦冷淡风裙子复古A5160",
     detailImg: clothMall_22,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -2334,7 +2334,7 @@ const clothMallData = [
     title: "cmmmlll蛋糕裙半身裙2018春新款女仙女网纱雪纺蓝色长裙子纱裙夏",
     detailImg: clothMall_23,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -2363,7 +2363,7 @@ const clothMallData = [
     title: "欧洲站春夏装女2018新款欧货潮 韩版修身收腰长裙子冷淡风连衣裙",
     detailImg: clothMall_24,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -2392,7 +2392,7 @@ const clothMallData = [
     title: "仙女裙2018春装新款女装pphome冷淡风温柔复古夏季超仙网纱连衣裙",
     detailImg: clothMall_25,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -2421,7 +2421,7 @@ const clothMallData = [
     title: "长裙女春装2018新款两件套韩版显瘦冷淡风裙子高腰雪纺连衣裙女夏",
     detailImg: clothMall_26,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -2450,7 +2450,7 @@ const clothMallData = [
     title: "夏装2018新款女露肩条纹连衣裙女夏季两件套女套装裙子初恋裙学生",
     detailImg: clothMall_27,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -2479,7 +2479,7 @@ const clothMallData = [
     title: "冷淡风一字肩露肩a字吊带连衣裙女夏装2018新款短裙子女显瘦5177",
     detailImg: clothMall_28,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -2508,7 +2508,7 @@ const clothMallData = [
     title: "碎花连衣裙女长裙夏季小清新南瓜谷2018新款韩版吊带雪纺印花裙子",
     detailImg: clothMall_29,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -2537,7 +2537,7 @@ const clothMallData = [
     title: "2018夏季新款女装黑色牛仔开叉半身裙不规则小心机ins超火的裙子",
     detailImg: clothMall_30,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -2566,7 +2566,7 @@ const clothMallData = [
     title: "蕾丝连衣裙女装中长款夏季2018新款夏装修身春季气质长裙雪纺裙子",
     detailImg: clothMall_31,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -2595,7 +2595,7 @@ const clothMallData = [
     title: "小镇姗姗 清茶与风 网纱裙子女2018新款小清新半身裙夏纱裙女夏",
     detailImg: clothMall_32,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -2624,7 +2624,7 @@ const clothMallData = [
     title: "秋水伊人2018夏装新款女装裹式中腰修身系带印花半身裙女裙子",
     detailImg: clothMall_33,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -2653,7 +2653,7 @@ const clothMallData = [
     title: "Amii港味sukol连衣裙2018春夏新款运动polo裙修身短袖A字中长裙子",
     detailImg: clothMall_34,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -2682,7 +2682,7 @@ const clothMallData = [
     title: "蕾丝连衣裙 夏装2018新款女小个子白色高腰修身显瘦a字款韩版裙子",
     detailImg: clothMall_35,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -2711,7 +2711,7 @@ const clothMallData = [
     title: "Amii极简休闲运动连衣裙短袖2018春夏装新款女装中长直筒T恤裙子",
     detailImg: clothMall_36,
     belongTo: "bb",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -2784,7 +2784,7 @@ const videoData = [
       originalPrice: 299,
       detailImg:  pro_01,
       belongTo: "bb",
-      subTitle: "买就送唇釉3支装 领券立减20",
+      subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
       activity: "满298元赠送水乳小样",
       freight: "10",
       colour: [
@@ -2815,7 +2815,7 @@ const videoData = [
       originalPrice: 299,
       detailImg:  pro_02,
       belongTo: "bb",
-      subTitle: "买就送唇釉3支装 领券立减20",
+      subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
       activity: "满298元赠送水乳小样",
       freight: "10",
       colour: [
@@ -2846,7 +2846,7 @@ const videoData = [
       originalPrice: 299,
       detailImg:  pro_03,
       belongTo: "bb",
-      subTitle: "买就送唇釉3支装 领券立减20",
+      subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
       activity: "满298元赠送水乳小样",
       freight: "10",
       colour: [
@@ -2877,7 +2877,7 @@ const videoData = [
       originalPrice: 299,
       detailImg:  pro_04,
       belongTo: "bb",
-      subTitle: "买就送唇釉3支装 领券立减20",
+      subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
       activity: "满298元赠送水乳小样",
       freight: "10",
       colour: [
@@ -2908,7 +2908,7 @@ const videoData = [
       originalPrice: 299,
       detailImg:  pro_05,
       belongTo: "bb",
-      subTitle: "买就送唇釉3支装 领券立减20",
+      subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
       activity: "满298元赠送水乳小样",
       freight: "10",
       colour: [
@@ -2939,7 +2939,7 @@ const videoData = [
       originalPrice: 299,
       detailImg:  pro_06,
       belongTo: "bb",
-      subTitle: "买就送唇釉3支装 领券立减20",
+      subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
       activity: "满298元赠送水乳小样",
       freight: "10",
       colour: [
@@ -2975,7 +2975,7 @@ const videoData = [
       originalPrice: 299,
       detailImg:  pro_07,
       belongTo: "bb",
-      subTitle: "买就送唇釉3支装 领券立减20",
+      subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
       activity: "满298元赠送水乳小样",
       freight: "10",
       colour: [
@@ -3006,7 +3006,7 @@ const videoData = [
       originalPrice: 299,
       detailImg:  pro_08,
       belongTo: "bb",
-      subTitle: "买就送唇釉3支装 领券立减20",
+      subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
       activity: "满298元赠送水乳小样",
       freight: "10",
       colour: [
@@ -3037,7 +3037,7 @@ const videoData = [
       originalPrice: 299,
       detailImg:  pro_09,
       belongTo: "bb",
-      subTitle: "买就送唇釉3支装 领券立减20",
+      subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
       activity: "满298元赠送水乳小样",
       freight: "10",
       colour: [
@@ -3068,7 +3068,7 @@ const videoData = [
       originalPrice: 299,
       detailImg:  pro_10,
       belongTo: "bb",
-      subTitle: "买就送唇釉3支装 领券立减20",
+      subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
       activity: "满298元赠送水乳小样",
       freight: "10",
       colour: [
@@ -3104,7 +3104,7 @@ const videoData = [
       originalPrice: 299,
       detailImg:  pro_13,
       belongTo: "bb",
-      subTitle: "买就送唇釉3支装 领券立减20",
+      subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
       activity: "满298元赠送水乳小样",
       freight: "10",
       colour: [
@@ -3135,7 +3135,7 @@ const videoData = [
       originalPrice: 299,
       detailImg:  pro_14,
       belongTo: "bb",
-      subTitle: "买就送唇釉3支装 领券立减20",
+      subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
       activity: "满298元赠送水乳小样",
       freight: "10",
       colour: [
@@ -3166,7 +3166,7 @@ const videoData = [
       originalPrice: 299,
       detailImg:  pro_15,
       belongTo: "bb",
-      subTitle: "买就送唇釉3支装 领券立减20",
+      subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
       activity: "满298元赠送水乳小样",
       freight: "10",
       colour: [
@@ -3197,7 +3197,7 @@ const videoData = [
       originalPrice: 299,
       detailImg:  pro_16,
       belongTo: "bb",
-      subTitle: "买就送唇釉3支装 领券立减20",
+      subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
       activity: "满298元赠送水乳小样",
       freight: "10",
       colour: [
@@ -3231,7 +3231,7 @@ const suitData = [
     originalPrice: 127.15,
     detailImg: suit_01_detail,
     id: "0003",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -3261,7 +3261,7 @@ const suitData = [
     originalPrice: 116,
     detailImg: suit_02_detail,
     id: "0003",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -3291,7 +3291,7 @@ const suitData = [
     originalPrice: 142,
     detailImg: suit_09_detail,
     id: "0003",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -3321,7 +3321,7 @@ const suitData = [
     originalPrice: 127.15,
     detailImg: suit_04_detail,
     id: "0003",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -3351,7 +3351,7 @@ const suitData = [
     originalPrice: 127.15,
     detailImg: suit_06_detail,
     id: "0003",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -3381,7 +3381,7 @@ const suitData = [
     originalPrice: 171,
     detailImg: suit_07_detail,
     id: "0003",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -3411,7 +3411,7 @@ const suitData = [
     originalPrice: 142,
     detailImg: suit_08_detail,
     id: "0003",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -3441,7 +3441,7 @@ const suitData = [
     originalPrice: 142,
     detailImg: suit_10_detail,
     id: "0003",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -3471,7 +3471,7 @@ const suitData = [
     originalPrice: 127.15,
     detailImg: suit_05_detail,
     id: "0003",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -3501,7 +3501,7 @@ const suitData = [
     originalPrice: 192,
     detailImg: suit_03_detail,
     id: "0003",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -3531,7 +3531,7 @@ const suitData = [
     originalPrice: 142,
     detailImg: suit_11,
     id: "0003",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -3561,7 +3561,7 @@ const suitData = [
     originalPrice: 142,
     detailImg: suit_12,
     id: "0003",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -3591,7 +3591,7 @@ const suitData = [
     originalPrice: 142,
     detailImg: suit_13,
     id: "0003",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -3621,7 +3621,7 @@ const suitData = [
     originalPrice: 142,
     detailImg: suit_14,
     id: "0003",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -3651,7 +3651,7 @@ const suitData = [
     originalPrice: 142,
     detailImg: suit_15,
     id: "0003",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -3681,7 +3681,7 @@ const suitData = [
     originalPrice: 142,
     detailImg: suit_16,
     id: "0003",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -3711,7 +3711,7 @@ const suitData = [
     originalPrice: 142,
     detailImg: suit_17,
     id: "0003",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -3741,7 +3741,7 @@ const suitData = [
     originalPrice: 142,
     detailImg: suit_18,
     id: "0003",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -3771,7 +3771,7 @@ const suitData = [
     originalPrice: 142,
     detailImg: suit_19,
     id: "0003",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -3801,7 +3801,7 @@ const suitData = [
     originalPrice: 142,
     detailImg: suit_19,
     id: "0003",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -3831,7 +3831,7 @@ const suitData = [
     originalPrice: 142,
     detailImg: suit_19,
     id: "0003",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -3861,7 +3861,7 @@ const suitData = [
     originalPrice: 142,
     detailImg: suit_19,
     id: "0003",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -3891,7 +3891,7 @@ const suitData = [
     originalPrice: 142,
     detailImg: suit_19,
     id: "0003",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -3921,7 +3921,7 @@ const suitData = [
     originalPrice: 142,
     detailImg: suit_19,
     id: "0003",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -3951,7 +3951,7 @@ const suitData = [
     originalPrice: 142,
     detailImg: suit_19,
     id: "0003",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -3983,14 +3983,14 @@ const brandShopData = [
     goods: [
       {
         image: brandShop_1_img_01,
-        name: "innisfree韩国•悦诗风吟（innisfree）绿茶精萃平衡护肤二重套装(平衡柔肤水200ml+平衡柔肤露160ml+平衡柔肤水15ml+平衡柔肤露15ml+平衡面霜10ml）",
+        name: "innisfree韩国•悦诗风吟（innisfree）绿茶精萃平衡护肤二重套装",
         title: "韩国•悦诗风吟（innisfree）绿茶精萃平衡护肤二重套装(平衡柔肤水200ml+平衡柔肤露160ml+平衡柔肤水15ml+平衡柔肤露15ml+平衡面霜10ml）",
         price: 198,
         originalPrice: 230,
         detailImg: brandShop_1_img_01,
         belongTo: "hufu",
         id: "0001",
-        subTitle: "买就送唇釉3支装 领券立减20",
+        subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
         activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
@@ -4019,7 +4019,7 @@ const brandShopData = [
         detailImg: brandShop_1_img_02,
         belongTo: "sanfen",
         id: "0001",
-        subTitle: "买就送唇釉3支装 领券立减20",
+        subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
         activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
@@ -4048,7 +4048,7 @@ const brandShopData = [
         detailImg: brandShop_1_img_03,
         belongTo: "geli",
         id: "0001",
-        subTitle: "买就送唇釉3支装 领券立减20",
+        subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
         activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
@@ -4077,7 +4077,7 @@ const brandShopData = [
         detailImg: brandShop_1_img_04,
         belongTo: "qita",
         id: "0001",
-        subTitle: "买就送唇釉3支装 领券立减20",
+        subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
         activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
@@ -4106,7 +4106,7 @@ const brandShopData = [
         detailImg: brandShop_1_img_05,
         belongTo: "geli",
         id: "0001",
-        subTitle: "买就送唇釉3支装 领券立减20",
+        subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
         activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
@@ -4135,7 +4135,7 @@ const brandShopData = [
         detailImg: brandShop_1_img_06,
         belongTo: "kouhong",
         id: "0001",
-        subTitle: "买就送唇釉3支装 领券立减20",
+        subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
         activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
@@ -4173,7 +4173,7 @@ const brandShopData = [
         detailImg: brandShop_2_img_01,
         belongTo: "hufu",
         id: "0001",
-        subTitle: "买就送唇釉3支装 领券立减20",
+        subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
         activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
@@ -4202,7 +4202,7 @@ const brandShopData = [
         detailImg: brandShop_2_img_02,
         belongTo: "hufu",
         id: "0001",
-        subTitle: "买就送唇釉3支装 领券立减20",
+        subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
         activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
@@ -4231,7 +4231,7 @@ const brandShopData = [
         detailImg: brandShop_2_img_03,
         belongTo: "hufu",
         id: "0001",
-        subTitle: "买就送唇釉3支装 领券立减20",
+        subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
         activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
@@ -4260,7 +4260,7 @@ const brandShopData = [
         detailImg: brandShop_2_img_04,
         belongTo: "geli",
         id: "0001",
-        subTitle: "买就送唇釉3支装 领券立减20",
+        subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
         activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
@@ -4289,7 +4289,7 @@ const brandShopData = [
         detailImg: brandShop_2_img_05,
         belongTo: "qita",
         id: "0001",
-        subTitle: "买就送唇釉3支装 领券立减20",
+        subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
         activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
@@ -4318,7 +4318,7 @@ const brandShopData = [
         detailImg: brandShop_2_img_06,
         belongTo: "hufu",
         id: "0001",
-        subTitle: "买就送唇釉3支装 领券立减20",
+        subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
         activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
@@ -4344,7 +4344,7 @@ const brandShopData = [
     image: bandShop_3,
     name: "兰芝",
     description: "闪耀水漾美肌",
-    activity: "满 299 减 50",
+    activity: "全场 3.1 折起",
     logo: bandShopLogo_3,
     goods: [
       {
@@ -4356,7 +4356,7 @@ const brandShopData = [
         detailImg: brandShop_3_img_01,
         belongTo: "geli",
         id: "0001",
-        subTitle: "买就送唇釉3支装 领券立减20",
+        subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
         activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
@@ -4385,7 +4385,7 @@ const brandShopData = [
         detailImg: brandShop_3_img_02,
         belongTo: "hufu",
         id: "0001",
-        subTitle: "买就送唇釉3支装 领券立减20",
+        subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
         activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
@@ -4414,7 +4414,7 @@ const brandShopData = [
         detailImg: brandShop_3_img_03,
         belongTo: "hufu",
         id: "0001",
-        subTitle: "买就送唇釉3支装 领券立减20",
+        subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
         activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
@@ -4443,7 +4443,7 @@ const brandShopData = [
         detailImg: brandShop_3_img_04,
         belongTo: "hufu",
         id: "0001",
-        subTitle: "买就送唇釉3支装 领券立减20",
+        subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
         activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
@@ -4472,7 +4472,7 @@ const brandShopData = [
         detailImg: brandShop_3_img_05,
         belongTo: "qita",
         id: "0001",
-        subTitle: "买就送唇釉3支装 领券立减20",
+        subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
         activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
@@ -4501,7 +4501,7 @@ const brandShopData = [
         detailImg: brandShop_3_img_06,
         belongTo: "qita",
         id: "0001",
-        subTitle: "买就送唇釉3支装 领券立减20",
+        subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
         activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
@@ -4539,7 +4539,7 @@ const brandShopData = [
         detailImg: brandShop_4_img_01,
         belongTo: "qita",
         id: "0001",
-        subTitle: "买就送唇釉3支装 领券立减20",
+        subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
         activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
@@ -4568,7 +4568,7 @@ const brandShopData = [
         detailImg: brandShop_4_img_02,
         belongTo: "hufu",
         id: "0001",
-        subTitle: "买就送唇釉3支装 领券立减20",
+        subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
         activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
@@ -4597,7 +4597,7 @@ const brandShopData = [
         detailImg: brandShop_4_img_03,
         belongTo: "hufu",
         id: "0001",
-        subTitle: "买就送唇釉3支装 领券立减20",
+        subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
         activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
@@ -4626,7 +4626,7 @@ const brandShopData = [
         detailImg: brandShop_4_img_04,
         belongTo: "geli",
         id: "0001",
-        subTitle: "买就送唇釉3支装 领券立减20",
+        subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
         activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
@@ -4655,7 +4655,7 @@ const brandShopData = [
         detailImg: brandShop_4_img_05,
         belongTo: "hufu",
         id: "0001",
-        subTitle: "买就送唇釉3支装 领券立减20",
+        subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
         activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
@@ -4684,7 +4684,7 @@ const brandShopData = [
         detailImg: brandShop_4_img_06,
         belongTo: "qita",
         id: "0001",
-        subTitle: "买就送唇釉3支装 领券立减20",
+        subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
         activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
@@ -4710,7 +4710,7 @@ const brandShopData = [
     image: bandShop_5,
     name: "美肤宝",
     description: "东方养肤之道",
-    activity: "满 199 减 50",
+    activity: "全场低至 2.1 折",
     logo: bandShopLogo_5,
     goods: [
       {
@@ -4722,7 +4722,7 @@ const brandShopData = [
         detailImg: brandShop_4_img_05,
         belongTo: "hufu",
         id: "0001",
-        subTitle: "买就送唇釉3支装 领券立减20",
+        subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
         activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
@@ -4751,7 +4751,7 @@ const brandShopData = [
         detailImg: brandShop_4_img_06,
         belongTo: "qita",
         id: "0001",
-        subTitle: "买就送唇釉3支装 领券立减20",
+        subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
         activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
@@ -4789,7 +4789,7 @@ const brandShopData = [
         detailImg: brandShop_4_img_05,
         belongTo: "hufu",
         id: "0001",
-        subTitle: "买就送唇釉3支装 领券立减20",
+        subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
         activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
@@ -4818,7 +4818,7 @@ const brandShopData = [
         detailImg: brandShop_4_img_06,
         belongTo: "qita",
         id: "0001",
-        subTitle: "买就送唇釉3支装 领券立减20",
+        subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
         activity: "满298元赠送水乳小样",
         freight: "10",
         colour: [
@@ -4848,12 +4848,12 @@ const manShowData = [
     belongTo: "dress",
     name: "吊带×中长裙",
     brand: "MUGUET",
-    title: "韩都衣舍新款女装冷淡风温柔裙子仙女连衣裙",
+    title: "MUGUET新款女装冷淡风温柔裙子仙女连衣裙",
     price: 198,
     originalPrice: 368,
     detailImg: man_1,
     id: "0001",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -4883,7 +4883,7 @@ const manShowData = [
     originalPrice: 388,
     detailImg: man_2,
     id: "0001",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
@@ -4892,8 +4892,8 @@ const manShowData = [
     ],
     size: "均码",
     parameter: {
-      brandName: "玲玖",
-      proName: "玲玖2018高腰显瘦漏肩网纱仙女裙蕾丝吊带连衣裙女",
+      brandName: "MUGUET",
+      proName: "MUGUET2018高腰显瘦漏肩网纱仙女裙蕾丝吊带连衣裙女",
       effect: "美白,均匀肤色,遮瑕,保湿,提亮肤色",
       colour: "01亮肤(1+1) 02自然(1+1)",
       size: "20g",
@@ -4913,7 +4913,7 @@ const manShowData = [
     originalPrice: 299,
     detailImg: man_3,
     id: "0001",
-    subTitle: "买就送唇釉3支装 领券立减20",
+    subTitle: "买就送唇釉3支装 现货库存 拍下立即发货",
     activity: "前1000名下单即送小礼品",
     freight: "10",
     colour: [
